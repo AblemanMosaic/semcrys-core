@@ -1,0 +1,82 @@
+{
+  "authority_effect": "NONE",
+  "claim_boundary": {
+    "compression_side_channel_resistance": false,
+    "formal_security_proof": false,
+    "independent_cryptanalysis": false,
+    "position_claim_scope": "TESTED_FIXTURE_METRICS_NOT_UNIVERSAL_CONCEALMENT_PROOF",
+    "security_claim": "NONE",
+    "traffic_analysis_resistance": false
+  },
+  "court_root": "7aff9181a022078492a2e28c7cf497c83d6efb2e51b53251498227d5465ce27a",
+  "gates": {
+    "alias_identifier_base_rank_correlation_within_sample_adjusted_four_sigma": true,
+    "count_bucket_exact_inverse": true,
+    "count_bucket_hides_distinction_within_class": true,
+    "homophonic_alias_max_at_most_declared_limit": true,
+    "homophonic_exact_inverse": true,
+    "homophonic_per_base_frequency_spread_at_most_one": true,
+    "key_rotation_does_not_reencode_source": true,
+    "key_rotation_exact_inverse": true,
+    "lite_receipt_redacts_exact_source_metrics": true,
+    "ordered_control_has_detectable_bigram_structure": true,
+    "padded_position_bigram_mi_within_deterministic_null_bound": true,
+    "padding_filler_not_appended_as_tail": true,
+    "position_only_bigram_mi_within_deterministic_null_bound": true,
+    "position_only_exact_inverse": true,
+    "position_only_layout_is_explicit": true,
+    "position_only_preserves_exact_public_length": true,
+    "position_only_trigram_mi_within_deterministic_null_bound": true,
+    "protected_group_artifact_exact_inverse": true,
+    "protected_group_artifact_tamper_refused": true,
+    "protected_header_hides_source_length_and_digest": true,
+    "protected_receipt_redacts_exact_source_metrics": true,
+    "same_key_protected_artifacts_have_unlinkable_key_identifiers": true,
+    "same_plaintext_protected_state_randomized": true,
+    "same_plaintext_public_container_randomized": true,
+    "same_plaintext_public_event_body_randomized": true,
+    "sealed_moving_header_hides_unpadded_plaintext_size": true
+  },
+  "homophonic": {
+    "alias_count": 2500,
+    "alias_identifier_base_rank_correlation_class": "WITHIN_SAMPLE_ADJUSTED_FOUR_SIGMA",
+    "aliases": 2500,
+    "maximum_public_alias_frequency": 8,
+    "maximum_within_base_frequency_spread": 0,
+    "position_and_cooccurrence_concealed": false,
+    "public_events": 20000,
+    "rank_correlation_gate": "ABS_LT_MAX_0_03_OR_FOUR_OVER_SQRT_N_MINUS_ONE",
+    "source_events": 20000
+  },
+  "metadata_padding": {
+    "count_classes": [
+      {
+        "exact_inverse": true,
+        "public_event_count": 128,
+        "source_bytes": 73
+      },
+      {
+        "exact_inverse": true,
+        "public_event_count": 128,
+        "source_bytes": 94
+      }
+    ],
+    "length_class_still_visible": true
+  },
+  "position_projection": {
+    "bigram_gate": "CANDIDATE_MI_AT_OR_BELOW_MAX_OF_16_DETERMINISTIC_NULLS_PLUS_0_01_BITS",
+    "exact_length_still_visible_without_padding": true,
+    "fixture": "TWENTY_SYMBOL_ORDERED_CYCLE_20000_EVENTS",
+    "independent_of_padding": true,
+    "measured_claim": "ORDER_AND_COOCCURRENCE_WITHIN_TESTED_FIXTURE_AND_ATTACK_METRICS",
+    "trigram_gate": "CANDIDATE_MI_AT_OR_BELOW_MAX_OF_16_DETERMINISTIC_NULLS_PLUS_0_01_BITS"
+  },
+  "protected_artifact": {
+    "envelope_bytes": 4973,
+    "role": "GROUP_LEGEND_ARCHIVE",
+    "source_metadata_public": false
+  },
+  "schema": "semcrys.security-projection-court.v0.1",
+  "standing": "BUILDER_QUALIFICATION_NOT_INDEPENDENT_CRYPTOANALYSIS",
+  "status": "PASS"
+}

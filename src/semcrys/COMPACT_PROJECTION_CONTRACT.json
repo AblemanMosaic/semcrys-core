@@ -1,0 +1,15 @@
+{
+  "schema":"semcrys.compact-projection-contract.v0.1",
+  "standing":"CANDIDATE_ONLY",
+  "S":"Rich or compact folded projections over the same exact base and signal",
+  "CM1":{"rich_schema":"semcrys.legend.fold-projection.v0.1","compact_schema":"semcrys.legend.fold-projection.v0.2","exact_base_required":true,"inverse_requires_audit":false,"audit_requires_exact_dossier_root":true,"max_dossier_bytes":131072,"new_bundle_only":true},
+  "CM2":{"choice":"EXPLICIT_NOT_DEFAULT_OR_GLOBALLY_OPTIMAL","execution_cost":"COMPACT_PROJECTION_PLUS_CONTAINER_AND_MISSING_BASE","audit_cost":"ADD_MISSING_DOSSIER_ONCE","full_audit_bundle_may_grow":true},
+  "IC":{"compaction_operations":["VERIFY_RICH_PROJECTION","ROOT_SOURCE_PROVENANCE","BUILD_COMPACT_EXECUTION_PROJECTION","VERIFY_EXACT_RICH_RECONSTRUCTION","PUBLISH_NEW_BUNDLE"],"source_projection_root_required":true,"source_mutation":false},
+  "IR":{"body_codec":"UNCHANGED_SFP1","old_artifacts":"BYTE_PRESERVED_AND_READABLE","unsupported_old_reader":"REFUSES_V02_SCHEMA","evidence":"EXACT_RICH_RESTORATION_AND_INVERSE_PARITY"},
+  "audit_fields_moved":["ordering","calibration_roots","candidate_policy"],
+  "remaining_header_metadata":"front_cap retained for capacity inspection and archive recipe compatibility; not a claim of minimal theoretical encoding",
+  "prefix_workflow":"restore-rich -> prefix -> compact; a compact artifact alone cannot invent its source audit",
+  "archive_selection":"Execution delivery only; full audit-inclusive optimization is not yet integrated. Use fold delivery-cost for explicit audit acquisition accounting.",
+  "security_claim":"NONE",
+  "release":false
+}

@@ -1,0 +1,13 @@
+SemCrys
+
+This candidate application, its source, and accompanying documentation are
+licensed under the Apache License, Version 2.0, as selected by the project
+owner on 2026-08-30. See LICENSE for the complete terms.
+
+This package does not redistribute the experimental corpora, private legends,
+canonical CSIL/GTK data, external courthouse artifacts, or a Python runtime.
+Those materials are not relicensed by this notice.
+
+Candidate standing is an evidence/quality designation, not an additional
+restriction on the Apache License. No release or security certification is
+asserted. Hash manifests provide integrity checks, not publisher authentication.

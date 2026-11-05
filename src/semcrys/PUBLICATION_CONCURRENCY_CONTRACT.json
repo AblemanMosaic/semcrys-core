@@ -1,0 +1,23 @@
+{
+  "schema":"semcrys.publication-concurrency-contract.v0.1",
+  "standing":"CANDIDATE_ONLY",
+  "lock_scope":"RESOLVED_OUTPUT_PARENT",
+  "lock_file":".semcrys-publication.lock",
+  "lock_payload_bytes":0,
+  "lock_lifecycle":"PERSISTENT_INODE_KERNEL_HANDLE_RELEASE_ON_EXIT",
+  "contention":"REFUSE_WITHOUT_WAIT",
+  "scope":"COOPERATING_LOCAL_SEMCRYS_FILE_DIRECTORY_PUBLICATION_AND_EXPLICIT_RECOVERY",
+  "no_replace":"NATIVE_ATOMIC_RENAME_NOREPLACE",
+  "platforms":["WINDOWS_RENAME","LINUX_RENAMEAT2"],
+  "unsupported_native_primitive":"HELD_PUBLICATION_NOREPLACE_UNAVAILABLE",
+  "rollback_guard":"SAME_COMMITTED_FILE_ID_AND_ROOT",
+  "replace_guard":"RECHECK_PREPARED_TARGET_ROOT_BEFORE_COMMIT",
+  "parent_directory_or_lock_inode_replacement_supported":false,
+  "external_in_place_writes_supported":false,
+  "network_filesystem_guarantee":false,
+  "atomic_output_receipt_pair":false,
+  "power_failure_atomicity":false,
+  "transported_payload_effect":"NONE",
+  "security_claim":"NONE",
+  "authority_effect":"NONE"
+}

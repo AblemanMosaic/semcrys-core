@@ -1,0 +1,18 @@
+{
+  "authority_effect": "HUMAN_PUBLICATION_DECISION_RECORDED",
+  "decision": "AUTHORIZED_FOR_GITHUB_PUBLICATION",
+  "decision_date": "2026-11-05",
+  "decision_root": "a382ed9334f46a18dd957a90c5801741d048e48d0ff51fd34cdb0ca11fbf4ea0",
+  "formal_external_certification": "NOT_CLAIMED",
+  "independent_reproduction": "PENDING_SUCCESSOR_EXACT_ARTIFACT_REPLAY",
+  "predecessor_decision_root": "abe8551445328dc73aa00499b4a527db7d88dd6a656648817d315891e25fe53c",
+  "publication_target": "PUBLIC_GITHUB_REPOSITORY_AND_V0.1.0_RELEASE_REPLACEMENT",
+  "schema": "semcrys.publication-decision.v0.3",
+  "scope": [
+    "SOURCE_REPOSITORY",
+    "V0.1.0_RELEASE_ASSETS",
+    "ULTRA_RELEASE_ASSET",
+    "REVIEWER_EVIDENCE"
+  ],
+  "version": "0.1.0"
+}

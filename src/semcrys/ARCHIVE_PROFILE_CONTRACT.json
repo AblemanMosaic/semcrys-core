@@ -1,0 +1,14 @@
+{
+  "schema":"semcrys.archive-selection-profile.v0.1",
+  "standing":"CANDIDATE_ONLY",
+  "authority_effect":"NONE",
+  "sftir_compatibility":{"external_distribution_root":"017367bfcc45221ea1bd404a06ba6e2ee0f44068af905a1af12dda2974fedf21","control_references":["SFM:IDENTITY_PRESERVE","SFM:CONDITION_GUARD","SFM:SCOPE_BIND"],"new_primitive":false},
+  "S":{"dimensions":["EXACT_ORDERED_WORKLOAD","BASE","CALIBRATED_FRONT_SET","PLACEMENT","RECEIVER_STATE","OUTER_CODEC","REUSE_HORIZON","BYTE_OBJECTIVE"]},
+  "CM1":{"base":"ONE_EXACT_BINARY_BASE","fronts":"ONE_TO_EIGHT_EXACT_PROJECTIONS; ZERO_FRONT_REQUIRED","source":"ONE_TO_32_ORDERED_FILES; RAW_BASELINE_SUPPORTS_NON_UTF8","unavailable":"MISSING_RECEIVER_ROOT_IN_WARM_MODE_OR_NON_UTF8_TOKEN_PROFILE","realization_limit":512,"source_budget_bytes":67108864,"dependency_budget_bytes":1073741824,"horizon": "1_TO_32_IDENTICAL_WORKLOAD_REPETITIONS"},
+  "CM2":{"candidate_profiles":["RAW","LOCAL","PRESHARED_UNFOLDED","FOLDED_EMBEDDED","FOLDED_EXTERNAL"],"objective":"horizon * sum(exact_container_bytes) + missing_dependency_bytes_once","tie_break":"LEXICOGRAPHIC_STABLE_RECIPE_ID","global_optimality":false,"unseen_workload_prediction":false},
+  "IC":{"schema":"semcrys.archive-selection-instance.v0.1","binds":["SOURCES_IN_ORDER","BASE_AND_FRONT_ROOTS_AND_BYTES","RECEIVER_DECLARATION","HORIZON","CODEC","RESOURCE_LIMITS","CANDIDATE_SEQUENCE","OPERATION_SEQUENCE"]},
+  "IR":{"receipt":"semcrys.archive-realization.v0.1","effect":"MATERIALIZE_ONE_SELECTED_DELIVERY_AND_MISSING_DEPENDENCIES","inverse":"EVERY_CANDIDATE_CONTAINER_CHECKED","selected_replay":"EXACT_CONTAINER_AND_INSTANCE_ROOTS; DOES_NOT_REEXECUTE_OR_AUTHENTICATE_ALTERNATIVE_LEDGER"},
+  "cost_exclusions":["LOCAL_SELECTION_AND_REPLAY_RECEIPTS","OS_NETWORK_SESSION_FRAMING","UNMEASURED_FUTURE_DOCUMENTS"],
+  "security_claim":"NONE",
+  "release_ready":false
+}

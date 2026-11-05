@@ -1,0 +1,33 @@
+{
+  "schema":"semcrys.legacy-migration-contract.v0.1",
+  "standing":"CANDIDATE_ONLY",
+  "S":"Explicit historical text/packed decoding followed by current configured encoding",
+  "CM1":{
+    "formats":["SC_TEXT","SC_PACKED"],
+    "text_magic":"§SC1",
+    "text_header_versions":[1,2],
+    "packed_magic":"SCB1",
+    "packed_header_versions":[1],
+    "legend_resolution":"EXPLICIT_FILE_OR_EMBEDDED_NEVER_AMBIENT_DISCOVERY",
+    "text_registry":"EXPLICIT_LEGACY_GLY_V1",
+    "required":"EXACT_INPUT_SHA256_AND_LEGACY_DECODED_SOURCE_HASH",
+    "max_source_bytes":67108864,
+    "max_metadata_bytes":67108864,
+    "max_decoded_bytes":134217728,
+    "max_entries":1000000,
+    "max_code_scalars":64,
+    "max_value_bytes":16777216
+  },
+  "CM2":"CALLER_CHOOSES_CURRENT_PROFILE_AND_OUTER_CODEC; NO_OPTIMALITY_CLAIM",
+  "IC":"ROOT_SOURCE_AND_ALL_EXPLICIT_LEGACY_DEPENDENCIES_BEFORE_DECODE",
+  "IR":"PRIVATE_SNAPSHOT_STRICT_PARSE_STREAM_DECODE_HASH_VERIFY_CURRENT_ENCODE_AND_INVERSE",
+  "identity_boundary":"DECODED_BYTES_PRESERVED; OLD_CODES_NOT_CANONICAL_CSIL_OR_AUTOMATIC_NEW_LEGEND_IDS",
+  "source_mutation":false,
+  "sidecar_auto_discovery":false,
+  "held":["MEMBER_ARCHIVES","UNKNOWN_HEADERS_OR_WRAPPERS","ENCRYPTED_OR_SEALED_WRAPPERS","IMPLICIT_REGISTRY_SELECTION"],
+  "metadata_materialization":"BOUNDED_JSON; BODY_STREAMED",
+  "cryptographic_claim":"NONE",
+  "admission_effect":"NONE",
+  "authority_effect":"NONE",
+  "release_ready":false
+}

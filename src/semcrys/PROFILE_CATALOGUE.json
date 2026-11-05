@@ -1,0 +1,895 @@
+{
+  "application_release_ready": false,
+  "application_version": "0.1.0rc1",
+  "archaic_profiles": {
+    "canonical_csil_claim": false,
+    "commands": [
+      "archaic profiles",
+      "archaic plan"
+    ],
+    "composition_boundaries": {
+      "BATCH_METALEGEND": "SEPARATE_MULTI_DOCUMENT_OPERATION",
+      "BODY_FRACTIONATION": "SEPARATE_SECOND_PASS_OPERATION",
+      "CROSS_DOCUMENT_BLOBS": "RESEARCH_ONLY_NOT_EQUIVALENT_TO_METALEGEND",
+      "LEGEND_RECURSION": "NOT_AUTOMATIC"
+    },
+    "meaning_modes": {
+      "GCNL_SENSE": "HELD_INJECTABLE_RESOLVER_NOT_PACKAGED",
+      "SURFACE": "EXECUTABLE"
+    },
+    "projections": {
+      "GLYPH": "EXACT_TEMPLATE_REGISTRY_SYMBOL_PROJECTION",
+      "INTEGER": "HUMAN_INSPECTABLE_DECIMAL_IDS_AND_HEX_LITERALS",
+      "PACKED": "BYTE_EFFICIENT_LOCAL_EVENT_IDS"
+    },
+    "realization": "CURRENT_ORDINARY_ENCODE_WITH_RETAINED_RECEIPT",
+    "registry_root": "3e02818ba3e23f0b8261acb5c8f618429255ce3fa7cb22cc46e4e21e307ff9b5",
+    "release_effect": "NONE",
+    "roles": {
+      "GUILD_PRESHARED": {
+        "legend_state": "EXACT_PRESHARED_GUILD_OR_DOMAIN_STACK",
+        "maximum_external_legends": 1023,
+        "minimum_external_legends": 1,
+        "profile": "T:PRESHARED_TOKEN"
+      },
+      "HYBRID_GUILD_LONGITUDINAL": {
+        "legend_state": "PRESHARED_BASE_PLUS_ADOPTED_DELTAS_PLUS_EMBEDDED_NEW_DELTA",
+        "maximum_external_legends": 1023,
+        "minimum_external_legends": 2,
+        "profile": "A:LONGITUDINAL_TOKEN_DELTA"
+      },
+      "PENPAL_LONGITUDINAL": {
+        "legend_state": "ORDERED_SHARED_HISTORY_PLUS_EMBEDDED_NEW_DELTA",
+        "maximum_external_legends": 1023,
+        "minimum_external_legends": 1,
+        "profile": "A:LONGITUDINAL_TOKEN_DELTA"
+      },
+      "SELF_CONTAINED_MANUAL": {
+        "legend_state": "NO_PRIOR_SHARED_STATE; LOCAL_LEGEND_EMBEDDED",
+        "maximum_external_legends": 0,
+        "minimum_external_legends": 0,
+        "profile": "C:SELF_CONTAINED_TOKEN"
+      }
+    },
+    "schema": "semcrys-a.profile-registry.v0.1",
+    "security_claim": "NONE",
+    "sftir": {
+      "addresses": [
+        "SFM:SCOPE_BIND",
+        "SFM:REFERENCE_RESOLVE",
+        "SFM:CURRENT_STATE_SELECT",
+        "SFM:IDENTITY_PRESERVE"
+      ],
+      "operator_registry_root": "9ec508560f3634d567f304172452fa6a4200b0297852f6d23873f9b6e24921dd",
+      "role": "EXTERNAL_CONTROL_SEMANTICS_NOT_BYTE_CODEC_OR_IDENTITY"
+    },
+    "shuffle_modes": {
+      "KEYED_LOCAL_ID_SHUFFLE": "HELD_CRYPTOGRAPHIC_ADAPTER_NOT_PACKAGED",
+      "NONE": "EXECUTABLE"
+    },
+    "standing": "CANDIDATE_ONLY"
+  },
+  "archive_selection": {
+    "available": true,
+    "commands": [
+      "archive select",
+      "archive encode-selected",
+      "fold prefix"
+    ],
+    "future_reuse_prediction": false,
+    "global_optimality": false,
+    "horizons": "1_TO_32_IDENTICAL_WORKLOAD_REPEATS",
+    "max_fronts": 8,
+    "max_realizations": 512,
+    "max_sources": 32,
+    "objective": "EXACT_CONTAINER_BYTES_TIMES_HORIZON_PLUS_MISSING_DEPENDENCIES_ONCE",
+    "one_delivery_plus_dependencies_materialized": true,
+    "scope": "EXACT_ORDERED_WORKLOAD_AND_LISTED_FRONTS",
+    "zero_front_required": true
+  },
+  "artifact_tools": [
+    "LEGEND_BUILD",
+    "LEGEND_VERIFY",
+    "LEGEND_EXTRACT",
+    "LEGEND_V01_TO_V02_MIGRATION",
+    "LEGEND_ORDERED_V01_IMPORT",
+    "GLYPH_REGISTRY_BUILD_AND_INSPECT",
+    "VERIFIED_GLYPH_BODY_EXPORT"
+  ],
+  "assembly_events": {
+    "automatic_size_win": false,
+    "available": true,
+    "body_id_order_preserved": true,
+    "canonical_csil_identity": false,
+    "commands": [
+      "assembly build",
+      "assembly inspect",
+      "assembly expand"
+    ],
+    "decoder_needs_rule_pack": false,
+    "decoder_needs_source_legend": false,
+    "glyph_fold_composition": "HELD_UNQUALIFIED",
+    "grammar_inference": false,
+    "instance_schema": "semcrys.instance-constitution.v0.6",
+    "max_depth": 32,
+    "max_expanded_value_bytes": 4096,
+    "profiles": [
+      "T:PRESHARED_TOKEN",
+      "A:LONGITUDINAL_TOKEN_DELTA"
+    ],
+    "projection": "PACKED",
+    "source": "EXPLICIT_RULE_PACK_AND_ORDERED_SURFACE_LEGEND",
+    "unit_mode": "ASSEMBLY_EVENTS_V1"
+  },
+  "batch_encoding": {
+    "automatic_delta_adoption": false,
+    "available": true,
+    "command": "batch-encode",
+    "default_legend_budget_bytes": 1073741824,
+    "default_source_budget_bytes": 1073741824,
+    "destination": "NEW_DIRECTORY_ONLY",
+    "max_documents": 256,
+    "group_legend": false
+  },
+  "codec_selection": {
+    "accounting": [
+      "COLD",
+      "WARM"
+    ],
+    "available": true,
+    "candidate_codec_configuration": "EXPLICIT_FOR_FROZEN_AND_SUCCESSOR_CELLS",
+    "commands": [
+      "codec select",
+      "codec encode-selected"
+    ],
+    "extended_composition": "GLYPH_FOLD_ASSEMBLY_HELD_UNQUALIFIED",
+    "future_prediction": false,
+    "global_optimality": false,
+    "implementation_identity": "APPLICATION_PAYLOAD_PYTHON_RUNTIME_AND_STDLIB_ADAPTERS",
+    "measures": "COMPLETE_CRYS_CONTAINER_AND_DECLARED_MISSING_LEGEND_DEPENDENCIES",
+    "projection": "PACKED",
+    "scope": "ONE_EXACT_SOURCE_AND_CONFIGURATION",
+    "verifies_each_inverse": true
+  },
+  "compact_local_assembly": {
+    "assembly_abi": "semcrys.assembly-events.v0.2",
+    "audit_receipt_cost": "SEPARATE_NOT_COUNTED_IN_CONTAINER",
+    "available": true,
+    "command": "assembly encode",
+    "default_encoding": "COMPACT",
+    "default_record_policy": "SHORTER",
+    "default_selection": "MIN_CONTAINER",
+    "external_decoder_dependencies": [],
+    "instance_schema": "semcrys.instance-constitution.v0.7",
+    "legacy_tagged_build_default_unchanged": true,
+    "max_source_bytes": 67108864,
+    "ordinary_tie_preferred": true,
+    "profile": "C:SELF_CONTAINED_TOKEN",
+    "selection_scope": "TWO_COMPLETE_SELF_CONTAINED_CONTAINERS",
+    "shared_compact_legends": true,
+    "unit_mode": "ASSEMBLY_EVENTS_COMPACT_V1"
+  },
+  "compact_projection": {
+    "archive_cost_scope": "EXECUTION_DEPENDENCIES_ONLY_NOT_AUDIT_DOSSIER",
+    "audit_delivery_policy": "EXPLICIT_EXECUTION_AND_AUDIT",
+    "audit_link": "EXACT_ROOT_EXTERNAL_DOSSIER",
+    "available": true,
+    "commands": [
+      "fold compact",
+      "fold audit",
+      "fold restore-rich",
+      "fold delivery-cost"
+    ],
+    "default_builder": "RICH_V01_UNCHANGED",
+    "inverse_requires_dossier": false,
+    "opt_in": true,
+    "prefix_policy": "RESTORE_RICH_THEN_PREFIX_THEN_COMPACT",
+    "schema": "semcrys.legend.fold-projection.v0.2",
+    "sender_authentication": false,
+    "source_audit_requires_dossier": true
+  },
+  "composite_file_resources": {
+    "commands": [
+      "fold build",
+      "fold prefix",
+      "fold extract",
+      "fold restore-rich",
+      "assembly build",
+      "assembly expand",
+      "assembly build-delta",
+      "assembly encode",
+      "assembly encode-longitudinal",
+      "select",
+      "encode-selected",
+      "archive select",
+      "legacy import",
+      "codec select",
+      "codec encode-selected",
+      "configuration select",
+      "configuration encode-selected"
+    ],
+    "default_bytes": 4294967296,
+    "directory_publication": false,
+    "fold_ranking": "RESERVED_MAIN_BTREE_COUNT_DESC_FIRST_SEEN_ASC",
+    "model": "COMPOSITE_RESOURCE_CONTRACT.json",
+    "nested_single_scope": true,
+    "original_dependency_paths_protected": true,
+    "publication_budgeted": true,
+    "ram_limit": false,
+    "standing": "CANDIDATE_ONLY",
+    "transported_bytes_changed": false,
+    "whole_application_limit": false
+  },
+  "configuration_selection": {
+    "accounting": [
+      "COLD",
+      "WARM"
+    ],
+    "available": true,
+    "codecs": "EXPLICIT_REQUESTABLE_SET_WITH_TYPED_UNAVAILABLE_CELLS",
+    "commands": [
+      "library build-stacks",
+      "configuration select",
+      "configuration encode-selected"
+    ],
+    "families": [
+      "UNION",
+      "ULTRA",
+      "DOMAIN",
+      "SPARSE_EXTENSION",
+      "LONGITUDINAL",
+      "HYBRID"
+    ],
+    "family_labels_are_semantic_proof": false,
+    "future_prediction": false,
+    "global_optimality": false,
+    "library_schema": "semcrys.legend-stack-library.v0.2",
+    "objective": "COMPLETE_CONTAINER_TIMES_EXACT_HORIZON_PLUS_UNIQUE_MISSING_ROOTS_ONCE",
+    "observations": [
+      "WALL_NS",
+      "CPU_NS",
+      "PYTHON_TRACEMALLOC_PEAK_NOT_RSS"
+    ],
+    "profiles": [
+      "C:RAW_BYTES",
+      "C:SELF_CONTAINED_TOKEN",
+      "T:PRESHARED_TOKEN",
+      "A:LONGITUDINAL_TOKEN_DELTA"
+    ],
+    "selection_schema": "semcrys.configuration-selection.v0.2",
+    "tie_break": "CANDIDATE_ID_NOT_TIMING",
+    "verifies_each_inverse": true
+  },
+  "directory_resources": {
+    "commands": [
+      "fold compact",
+      "batch-encode",
+      "archive encode-selected",
+      "group-legend pack",
+      "group-legend unpack"
+    ],
+    "concurrent_writers_supported": false,
+    "default_bytes": 4294967296,
+    "legacy_observation_receipts": "CONTEXT_AND_DOCUMENT_TIMINGS_AND_CONTAINING_ROOTS_VARY",
+    "local_resource_receipt": "LOCAL_RESOURCE_RECEIPT.json",
+    "model": "DIRECTORY_RESOURCE_CONTRACT.json",
+    "nested_single_scope": true,
+    "new_directory_only": true,
+    "payload_bytes_changed": false,
+    "power_failure_atomicity": false,
+    "publication_budgeted": true,
+    "python_api": "semcrys.directory_application.run",
+    "ram_limit": false,
+    "receipt_counts_itself": true,
+    "receipt_status": "PREPARED_NOT_COMMIT_ATTESTATION",
+    "recovery": {
+      "basis": "PRE_RESERVED_FULL_CAP_INCLUDED_IN_NATIVE_CAPACITY",
+      "capacity_bytes": 262144,
+      "commands": [
+        "recovery directory-inspect",
+        "recovery directory-quarantine"
+      ],
+      "concurrent_writers_supported": false,
+      "exact_output_and_expected_root_required": true,
+      "journal": "DIRECTORY_RECOVERY.json",
+      "max_files": 2048,
+      "group_legend_pack_unpack": true,
+      "legacy_metalegend_aliases": true,
+      "payload_copy_or_deletion": false,
+      "power_failure_atomicity": false,
+      "prepared_exception_retains_journal": true
+    },
+    "standing": "CANDIDATE_ONLY",
+    "whole_application_limit": false
+  },
+  "executable_profiles": [
+    {
+      "id": "C:RAW_BYTES",
+      "purpose": "Exact arbitrary-byte wrapping; optional explicit outer LZMA2/XZ"
+    },
+    {
+      "id": "C:SELF_CONTAINED_TOKEN",
+      "purpose": "UTF-8 token encoding with embedded local legend"
+    },
+    {
+      "id": "T:PRESHARED_TOKEN",
+      "purpose": "UTF-8 token encoding against exact external legend roots; uncovered units remain literals"
+    },
+    {
+      "id": "A:LONGITUDINAL_TOKEN_DELTA",
+      "purpose": "External append-only legend chain plus embedded TOTAL missing-unit delta"
+    }
+  ],
+  "execution_context": {
+    "available": true,
+    "cross_stack_lookup": "ORDERED_OFFSET_OVERLAY_WITH_DUPLICATE_REFUSAL",
+    "persistent_cache": false,
+    "policy": "EPHEMERAL_PROCESS_OWNED_SNAPSHOTS_FULL_HASH_GUARDS",
+    "publication": "STAGED_UNTIL_CONTEXT_EXIT_GUARDS_PASS",
+    "source_of_trust": "EXACT_PRIVATE_SNAPSHOT_AND_DERIVED_LOOKUP_HASHES_NOT_TIMESTAMPS"
+  },
+  "folded_front": {
+    "artifact": ".leg / semcrys.legend.fold-projection.v0.1",
+    "available": true,
+    "base": "ONE_EXACT_BINARY_LEGEND_UNCHANGED",
+    "batch_acquisition": "ONCE_PER_UNIQUE_MISSING_DEPENDENCY",
+    "builder": "fold build",
+    "calibration": "CALLER_DESIGNATED_NOT_INFERRED",
+    "canonical_identity": false,
+    "external_accounting_required": true,
+    "extractor": "fold extract",
+    "max_expanded_front_bytes": 16777216,
+    "max_front_entries": 65536,
+    "parameter": "--fold-front",
+    "placement": [
+      "EMBEDDED_CRITICAL_FRNT_EACH_CONTAINER",
+      "EXTERNAL_CRITICAL_FREF_EXACT_ROOT"
+    ],
+    "profile": "T:PRESHARED_TOKEN",
+    "projection": "PACKED",
+    "receiver_state": "EXPLICIT_ROOT_DECLARATIONS_NOT_ATTESTATION",
+    "scale_horizon_selector": false,
+    "zero_front": true
+  },
+  "glyph_limits": {
+    "glyphs": 65536,
+    "literal_bytes": 4096,
+    "maximum_code_width": 64,
+    "minimum_radix": 2,
+    "registry_bytes": 4194304
+  },
+  "gtk_analysis": {
+    "analysis_schema": "semcrys.gtk-analysis.v0.2",
+    "authority_effect": "NONE",
+    "canonical_mutation": false,
+    "capability_root": "331109b5f0794547fb9539977f552d681c478d7a5046c9f629ab05bbfbfb65a6",
+    "codec_integration": false,
+    "commands": [
+      "gtk capabilities",
+      "gtk analyze",
+      "gtk vocabulary",
+      "gtk verify-vocabulary"
+    ],
+    "custody": "SOURCE_SNAPSHOT_PLUS_EPHEMERAL_DISK_BACKED_VERIFIED_LEGEND_CONTEXT",
+    "decision_schema": "semcrys.gtk-resolution-decisions.v0.2",
+    "decision_scope": "TYPE_DEFAULTS_REUSABLE; OCCURRENCE_OVERRIDES_TOKENIZER_AND_SOURCE_BOUND",
+    "dossier_identity": "BOUND_TERM_CSIL_PLUS_EXACT_CANDIDATE_DOSSIER_ROOT",
+    "force_csil": {
+      "FLAG": "VISIBLE_REPORT",
+      "HOLD": "REFUSE_UNKNOWN_LEXICAL_UNIT",
+      "OFF": "SILENT_ANALYSIS_ONLY"
+    },
+    "identity": "GTK_BOUND_TERM_DISTINCT_FROM_LOCAL_TRANSPORT_ID_DISTINCT_FROM_MODEL_TOKEN_ID",
+    "legend_lookup": "EPHEMERAL_DISK_BACKED_VERIFIED_CONTEXT_NOT_ULTRA_DICTIONARY_MATERIALIZATION",
+    "model_tokenizer_integration": false,
+    "normalization": "PROPOSAL_ONLY_NOT_PACKAGED_IN_THIS_BUILD; NO_SOURCE_MUTATION",
+    "operations": [
+      "ANALYZE_READ_ONLY",
+      "EXPORT_EXPLICIT_VOCABULARY",
+      "VERIFY_VOCABULARY"
+    ],
+    "pathways": [
+      "NL",
+      "GCNL"
+    ],
+    "resolution": "REUSABLE_TYPE_DEFAULT_PLUS_TOKENIZER_AND_SOURCE_BOUND_OCCURRENCE_OVERRIDE",
+    "schema": "semcrys.gtk-adapter-capabilities.v0.1",
+    "security_claim": "NONE",
+    "sense_binding": [
+      "NONE",
+      "SENSE_KEYED"
+    ],
+    "standing": "CANDIDATE_ONLY",
+    "unresolved": {
+      "HOLD": "FAIL_CLOSED",
+      "SPINE": "EXPLICIT_GUESS_COUNTED_NOT_RESOLVED"
+    },
+    "wire_exposure": "MEASURED_FROM_EXACT_LEGEND_STACK_NOT_INFERRED_FROM_GTK_COVERAGE"
+  },
+  "legacy_migration": {
+    "ambient_sidecar_discovery": false,
+    "available": true,
+    "body_streamed": true,
+    "command": "legacy import",
+    "decoded_bytes_cap": 134217728,
+    "exact_decoded_bytes": true,
+    "expected_source_sha256_required": true,
+    "explicit_legacy_glyph_required_for_text": true,
+    "formats": [
+      "SC_TEXT",
+      "SC_PACKED"
+    ],
+    "held": [
+      "MEMBER_ARCHIVES",
+      "UNKNOWN_WRAPPERS",
+      "IMPLICIT_REGISTRY"
+    ],
+    "metadata_bytes_cap": 67108864,
+    "model": "LEGACY_MIGRATION_CONTRACT.json",
+    "old_artifact_mutation": false,
+    "old_local_ids_preserved": false,
+    "packed_version": 1,
+    "security_claim": "NONE",
+    "source_bytes_cap": 67108864,
+    "standing": "CANDIDATE_ONLY",
+    "text_versions": [
+      1,
+      2
+    ]
+  },
+  "legend_workflow_resources": {
+    "automatic_legend_adoption": false,
+    "commands": [
+      "legend build",
+      "legend migrate-v01",
+      "legend import-ordered-v01",
+      "legend extract",
+      "glyph build",
+      "glyph export",
+      "library build",
+      "library build-stacks"
+    ],
+    "default_bytes": 4294967296,
+    "legacy_json_migration_streaming": false,
+    "legend_bytes_changed": false,
+    "model": "LEGEND_RESOURCE_CONTRACT.json",
+    "nested_decode_shares_quota": true,
+    "ram_limit": false,
+    "realization_and_publication": true,
+    "standing": "CANDIDATE_ONLY",
+    "whole_application_limit": false
+  },
+  "longitudinal_assembly": {
+    "adoption": "EXPLICIT_EXTRACT_AND_CALLER_APPEND",
+    "available": true,
+    "commands": [
+      "assembly build-delta",
+      "assembly encode-longitudinal"
+    ],
+    "delta_rule_operands": "LOCAL_OR_INLINE_NOT_ANCESTOR_REFERENCE",
+    "max_combined_legend_bytes": 1073741824,
+    "max_parents": 1023,
+    "max_source_bytes": 67108864,
+    "new_opcode": false,
+    "parent_correspondence": "COMPLETE_EQUAL_LENGTH_CHAINS_WITH_EXACT_MEMBER_ORDERED_EXPANSIONS",
+    "profile": "A:LONGITUDINAL_TOKEN_DELTA",
+    "rebase": "EXPLICIT_SOURCE_AND_TARGET_PARENTS",
+    "selection": "MIN_COMPLETE_CONTAINER_ORDINARY_ON_TIE",
+    "shared_state_mutation": false
+  },
+  "measured_library_selection": {
+    "accounting": [
+      "COLD",
+      "WARM"
+    ],
+    "available": true,
+    "families": "UNION_ULTRA_DOMAIN_LABELS_NOT_COVERAGE_PROOF",
+    "max_source_bytes": 67108864,
+    "predictive_reuse_selector": false,
+    "receiver_state": "CALLER_ROOT_DECLARATION",
+    "scope": "EXACT_SOURCE_LISTED_BASE_LEGENDS_PACKED_PROJECTION"
+  },
+  "group_legend": {
+    "accounting": [
+      "COLD",
+      "WARM"
+    ],
+    "audit_cost": "SEPARATE_NOT_FREE",
+    "auxiliaries": {
+      "acquisition": "INCLUDED_IN_ARCHIVE_BYTES",
+      "archive_schema": "semcrys.metalegend-instance.v0.2",
+      "artifact_kinds": [
+        "GLYPH",
+        "FOLD"
+      ],
+      "bundle_schema": "semcrys.metalegend-bundle-instance.v0.2",
+      "command_flags": [
+        "--glyph",
+        "--fold-front"
+      ],
+      "max_aggregate_bytes": 67108864,
+      "max_count": 64,
+      "old_bytes_preserved_without_auxiliaries": true
+    },
+    "available": true,
+    "commands": [
+      "group-legend pack",
+      "group-legend unpack"
+    ],
+    "legacy_command_aliases": [
+      "metalegend pack",
+      "metalegend unpack"
+    ],
+    "container_literal_storage": "BOUNDED_FILE_SPANS_1_MIB",
+    "default_layout": "BODY_ONLY",
+    "external_glyph_fold_auxiliaries": "EXPLICIT_TYPED_EXACT_ROOTS_V02",
+    "layout": [
+      "BODY_ONLY",
+      "WHOLE_BUNDLE",
+      "AUTO"
+    ],
+    "map": "PER_LEGEND_ORDERED_LOCAL_IDS_TO_POOL_IDS",
+    "max_documents": 32,
+    "max_entries": 1000000,
+    "max_input_bytes": 67108864,
+    "max_restored_artifact_bytes": 134217728,
+    "nested_group_archives": "HELD_UNQUALIFIED",
+    "placement": [
+      "EMBEDDED",
+      "EXTERNAL",
+      "AUTO"
+    ],
+    "pool": "EXACT_LEGEND_RECORD_BYTES",
+    "preserves_original_container_bytes": true,
+    "preserves_original_legend_bytes": true,
+    "profile": "B:METALEGEND_ARCHIVE",
+    "receiver_roots": "EXACT_CALLER_DECLARED_POOL_ROOTS_NOT_AUTHENTICATED",
+    "record_pool": "DISK_BACKED_SQLITE_BYTE_ORDER",
+    "scratch_budget": {
+      "basis": "LOGICAL_LENGTH_PLUS_FULL_NATIVE_AND_JOURNAL_CAPACITY",
+      "default_bytes": 4294967296,
+      "filesystem_allocation_overhead_counted": false,
+      "journal_capacity_bytes": 262144,
+      "os_sandbox": false,
+      "parameter": "--max-scratch-bytes",
+      "pre_reservation": true,
+      "ram_limit": false,
+      "receipt_captured_at": "FINAL_INVENTORY_SELF_COUNTED_RECEIPT_AND_RESERVED_JOURNAL",
+      "receipt_counts_itself": true,
+      "scope": "DIRECTORY_REALIZATION_LOCAL_RECEIPTS_AND_PUBLICATION",
+      "transported_bytes_changed": false,
+      "unaccounted_sqlite_temp_plans": "REFUSE"
+    },
+    "security_claim": "NONE",
+    "shared_pool": "OPTIONAL_EXACT_SUPERSET_META_RECORDS_V1_LEGEND_NO_MUTATION",
+    "shared_semantic_identity": false,
+    "verbatim_control": true,
+    "warm_archive_cost": "CHARGE_UNDECLARED_EXTERNAL_POOL_ONCE; RETAIN_TOTAL_COLD_COST",
+    "whole_bundle": {
+      "available": true,
+      "inner": "EXACT_EMBEDDED_NONE_META_ARCHIVE",
+      "layout": "WHOLE_BUNDLE",
+      "outer": "LZMA2_XZ_PRESET6_ENTIRE_INNER_ARCHIVE",
+      "profile": "B:METALEGEND_BUNDLE",
+      "recursion": "REFUSED"
+    }
+  },
+  "recursive_metalegend": {
+    "available": true,
+    "commands": [
+      "metalegend build",
+      "metalegend inspect",
+      "metalegend lookup",
+      "metalegend prepare",
+      "metalegend restore",
+      "metalegend verify"
+    ],
+    "formats": [
+      "semcrys.seekable-metalegend.v0.1",
+      "semcrys.recursive-metalegend.v0.1"
+    ],
+    "suffix": ".mleg",
+    "profiles": [
+      "SEEKABLE_PREFIX_SUPERFRAMES_V1",
+      "RECURSIVE_PREFIX_RECIPE_V1"
+    ],
+    "logical_input": "ORDERED_LEGEND_RECORDS_NOT_OPAQUE_LEGEND_BYTES",
+    "recursion_depth": 1,
+    "nested_input": "REFUSED",
+    "exact_original_legend": true,
+    "semantic_identity_effect": "NONE",
+    "security_claim": "NONE",
+    "selection": "SEEKABLE_DEFAULT_WITH_EXPLICIT_WHOLE_STREAM_CONTROL; MIN_COMPLETE_RECIPE_REALIZATION_ACROSS_DECLARED_LZMA_PRESETS",
+    "cache": "ROOT_VERIFIED_FRAME_CACHE_AND_EXACT_FULL_LEGEND_PROMOTION"
+  },
+  "migration_workbench": {
+    "available": true,
+    "commands": [
+      "workbench status",
+      "workbench export"
+    ],
+    "disposition_counts": {
+      "HELD_PROPOSAL_ONLY_NO_SOURCE_MUTATION": 1,
+      "HELD_TYPED_UNAVAILABLE_NO_SECURITY_FALLBACK": 11,
+      "OPTIONAL_RESEARCH_PRESERVED_NOT_RELEASE_BLOCKING": 6,
+      "PARTIAL_SUCCESSOR_EXPLICIT_LEGACY_PARITY_NOT_CLAIMED": 29,
+      "QUALIFIED_CURRENT_CANDIDATE": 18,
+      "SUPERSEDED_BY_CURRENT_ROOTED_CONTRACT_LEGACY_PARITY_NOT_CLAIMED": 14
+    },
+    "release_ready": false,
+    "row_count": 79,
+    "schema": "semcrys.migration-status.v0.2",
+    "security_claim": "NONE",
+    "standing": "CANDIDATE_ONLY",
+    "status_root": "5f0cf4b5f7ac7f45cb4089890715b80e7bb4340f66f8df0ce55da8d99ad51720"
+  },
+  "non_claims": [
+    "COMPRESSION_OPTIMALITY",
+    "CRYPTOGRAPHIC_CONFIDENTIALITY",
+    "GCNL_SENSE_RESOLUTION",
+    "ADMISSION",
+    "PRODUCTION_ROUTING",
+    "RELEASE"
+  ],
+  "optimization_selection": "USER_SELECTED_NOT_GLOBALLY_OPTIMAL",
+  "ordered_legend_import": {
+    "available": true,
+    "command": "legend import-ordered-v01",
+    "expected_source_sha256_required": true,
+    "gcNL_identity_claim": false,
+    "input_schema": "semcrys.packed.legend.v0.1",
+    "output_schema": "semcrys.legend.binary.v0.2",
+    "preserves_local_id_order": true
+  },
+  "outer_codecs": {
+    "BZ2_1": {
+      "configuration_schema": "semcrys.instance-constitution.v0.9",
+      "level": 1,
+      "status": "EXECUTABLE"
+    },
+    "BZ2_9": {
+      "configuration_schema": "semcrys.instance-constitution.v0.9",
+      "level": 9,
+      "status": "EXECUTABLE"
+    },
+    "LZMA": {
+      "configuration_schema": "semcrys.instance-constitution.v0.2",
+      "mechanism": "LZMA2_XZ_PRESET_6",
+      "status": "EXECUTABLE_FROZEN"
+    },
+    "LZMA2_XZ_0": {
+      "configuration_schema": "semcrys.instance-constitution.v0.9",
+      "level": 0,
+      "status": "EXECUTABLE"
+    },
+    "LZMA2_XZ_6": {
+      "configuration_schema": "semcrys.instance-constitution.v0.9",
+      "level": 6,
+      "status": "EXECUTABLE"
+    },
+    "LZMA2_XZ_9": {
+      "configuration_schema": "semcrys.instance-constitution.v0.9",
+      "level": 9,
+      "status": "EXECUTABLE"
+    },
+    "NONE": {
+      "configuration_schema": "semcrys.instance-constitution.v0.2",
+      "status": "EXECUTABLE_FROZEN"
+    },
+    "ZSTD": {
+      "code": "HELD_OPTIONAL_CODEC_ADAPTER_NOT_PACKAGED",
+      "status": "TYPED_UNAVAILABLE"
+    },
+    "ZSTD_DICT": {
+      "code": "HELD_OPTIONAL_CODEC_ADAPTER_NOT_PACKAGED",
+      "status": "TYPED_UNAVAILABLE"
+    }
+  },
+  "post_v0_1_successor_opportunities": [
+    "REAL_UNION_ULTRA_DOMAIN_STACK_QUALITY_AND_SCALE_QUALIFICATION",
+    "VARIABLE_WIDTH_GLYPH_AND_FAMILY_ORDERING_QUALIFICATION",
+    "GTK_SENSE_KEYED_CODEC_REALIZATION_BOUND_GLYPH_AND_EXTERNAL_MODEL_TOKENIZER_QUALIFICATION",
+    "ASSEMBLY_ANCESTOR_OPERANDS_GLYPH_FOLD_COMPOSITION_AND_SCALE_QUALIFICATION",
+    "SECOND_PASS_COMBINED_MAXIMA_RSS_TRANSACTION_BUDGET_AND_SHARED_COMPOSED_PLACEMENT",
+    "GROUP_LEGEND_COMBINED_RESOURCE_SCALE_AND_RECURSIVE_METALEGEND_PROFILE_EVOLUTION",
+    "LEGACY_MEMBER_ARCHIVE_AND_OTHER_HISTORICAL_WRAPPERS",
+    "DELEGATED_AEAD_KEYED_SHUFFLE_AND_HOMOPHONY_ADAPTER_QUALIFICATION",
+    "ULTRA_SCALE_SPARSE_INDEX_PROFILE",
+    "CRASH_DURABILITY_AND_PLATFORM_MATRIX"
+  ],
+  "primary_application_resources": {
+    "commands": [
+      "encode",
+      "decode"
+    ],
+    "default_bytes": 4294967296,
+    "model": "APPLICATION_RESOURCE_CONTRACT.json",
+    "nested_decode_shares_quota": true,
+    "physical_allocation_limit": false,
+    "python_api": [
+      "semcrys.application.encode",
+      "semcrys.application.decode"
+    ],
+    "ram_limit": false,
+    "realization_and_publication": true,
+    "standing": "CANDIDATE_ONLY",
+    "transported_bytes_changed": false,
+    "whole_application_limit": false
+  },
+  "projections": {
+    "GLYPH": "Explicit token-ID projection for the three token profiles; exact TEMPLATE .gly registry embedded or external; optional LZMA2/XZ; literals escaped losslessly",
+    "INTEGER": "Canonical SIT1 decimal local IDs and lowercase-hex literals for three token profiles; exact inverse; inspection/interchange, not byte optimality or canonical CSIL",
+    "PACKED": "Default, all four profiles; unchanged v0.2 packed/raw configurations"
+  },
+  "publication_recovery": {
+    "automatic_startup_recovery": false,
+    "available": true,
+    "commands": [
+      "recovery inspect",
+      "recovery rollback"
+    ],
+    "concurrent_writers_supported": false,
+    "directory_publication": false,
+    "journal_capacity_bytes": 65536,
+    "power_failure_atomicity": false,
+    "rollback_authorization": "EXPLICIT_TARGETS_AND_EXPECTED_JOURNAL_ROOT",
+    "schema": "semcrys.publication-recovery-journal.v0.1",
+    "scope": "FILE_PUBLICATION_PROCESS_INTERRUPTION",
+    "security_claim": "NONE",
+    "standing": "CANDIDATE_ONLY"
+  },
+  "remaining_release_integration": [
+    "REPRODUCIBLE_PACKAGE_AND_ISOLATED_INSTALL_RECEIPT",
+    "INDEPENDENT_WHOLE_APPLICATION_ACCEPTANCE"
+  ],
+  "schema": "semcrys.application-profile-catalogue.v0.1",
+  "second_pass": {
+    "accounting": [
+      "COLD",
+      "WARM"
+    ],
+    "available": true,
+    "command": "second-pass",
+    "encoding_materializes_bounded_events": false,
+    "event_and_text_inverse_required": true,
+    "event_storage": "UINT32_FILE_SPOOLS",
+    "historical_xz_negative_preserved": true,
+    "hot_k": {
+      "default": 3,
+      "maximum": 1000000,
+      "minimum": 1,
+      "nondefault_schema": "semcrys.instance-constitution.v0.11"
+    },
+    "input": "PACKED_TOKEN_ORDINARY_OR_FORM_ASSEMBLY_LOCAL_PRESHARED_LONGITUDINAL",
+    "instance_schemas": [
+      "semcrys.instance-constitution.v0.8",
+      "semcrys.instance-constitution.v0.11"
+    ],
+    "literal_event_identity_preserved": true,
+    "max_entries": 1000000,
+    "max_events": 1000000,
+    "max_legend_bytes": 67108864,
+    "max_rounds": 400,
+    "max_source_bytes": 67108864,
+    "group_legend": false,
+    "output": "ONE_EMBEDDED_COMPOSED_LEGEND_OR_UNCHANGED_ORIGINAL",
+    "output_profile": "C:COMPOSED_SECOND_PASS",
+    "prior_artifact_deletion": false,
+    "scratch_budget": {
+      "basis": "LOGICAL_LENGTH_PLUS_FULL_NATIVE_CAPACITY",
+      "counter_ranking": "STREAMING_TOP_K_COUNT_DESC_FIRST_OCCURRENCE_ASC_NO_SQL_TEMP_SORT",
+      "default_bytes": 4294967296,
+      "filesystem_allocation_overhead_counted": false,
+      "os_sandbox": false,
+      "parameter": "--max-scratch-bytes",
+      "phase_composition": "MAX_TRANSFORM_AND_PUBLICATION_NOT_SUM",
+      "process_rss_limit": false,
+      "publication_accounting": "STAGED_OUTPUT_PLUS_EXACT_UTF8_LF_RECEIPT_PLUS_BACKUPS_PLUS_FULL_JOURNAL_CAP",
+      "publication_policy_source": "semcrys.publication_resources.POLICY",
+      "publication_receipt_and_backups_budgeted": true,
+      "python_transform_scope": "TRANSFORM_ONLY_NO_OUTER_TRANSACTION",
+      "recovery_journal_reserved_bytes": 65536,
+      "scope": "CLI_SECOND_PASS_TRANSFORM_THEN_STAGED_OUTPUT_RECEIPT_AND_BACKUPS",
+      "transported_bytes_changed": false
+    },
+    "security_claim": "NONE",
+    "selection": [
+      "MIN_DELIVERY",
+      "MIN_DISPERSION",
+      "IDENTITY",
+      "ALL",
+      "TOP3",
+      "TOPK"
+    ],
+    "sequential_output": {
+      "block_bytes": 65536,
+      "failure": "DISCARD_PENDING_REFUSE_PUBLICATION",
+      "pending_memory_bound": "65536_LOGICAL_BYTES_PER_WRITER_EXCLUDES_ALLOCATOR_AND_CALLER_INPUT",
+      "quota_guard": "UNCHANGED_RESERVE_BEFORE_EACH_BLOCK",
+      "sinks": [
+        "EVENT_SPOOL",
+        "COMPOSED_PACKED_BODY",
+        "ORDINARY_DECODE",
+        "COMPOSED_DECODE"
+      ],
+      "transported_bytes_changed": false
+    },
+    "standalone_aggregate_scratch_quota": true,
+    "terminal_payload_storage": "SQLITE_WITH_PAGE_CAP"
+  },
+  "security_claim": "NONE",
+  "security_projection": {
+    "contract": "SECURITY_PROJECTION_CONTRACT.json",
+    "implemented_lite_modes": [
+      "KEYED_PERMUTATION",
+      "BOUNDED_ALIAS",
+      "FREQUENCY_BALANCED_HOMOPHONIC",
+      "FULL_UNIQUE_MESSAGE_LEGEND"
+    ],
+    "padding_policies": [
+      "NONE",
+      "COUNT_BUCKET",
+      "SIZE_BUCKET",
+      "COUNT_AND_SIZE_BUCKET",
+      "FIXED_CLASS"
+    ],
+    "protected_artifact_envelope": "semcrys.protected-artifact.v0.1",
+    "resource_limits": {
+      "lite_max_padded_events": 8388608,
+      "lite_max_padded_moving_plaintext_bytes": 536870912,
+      "protected_artifact_max_padded_plaintext_bytes": 536870912
+    },
+    "security_claim": "NONE"
+  },
+  "standing": "CANDIDATE_ONLY",
+  "technical_release_candidate_source_ready": true,
+  "transport_control": {
+    "capability_surface_root": "d5f524d83df1c1b752d4d3832064320f78d07cac4164bf7814bc8d64cd4a6a1f",
+    "codecs": [
+      "CRYS_V02"
+    ],
+    "commands": [
+      "transport capabilities",
+      "transport negotiate",
+      "transport frame",
+      "transport verify-frame"
+    ],
+    "exact_root_held_custody_required": true,
+    "frame_schema": "semcrys.transport-frame.v0.2",
+    "frames": "ROOTED_SIDECAR_BINDING_PEERS_NEGOTIATION_BODY_PROFILE_IC_CHAIN_AND_PROJECTION_NOT_A_NETWORK_ENVELOPE",
+    "legend_resolution": "EXACT_ORDERED_ROOT_CHAIN_ONLY_FOR_EXECUTION",
+    "lineage": "REGISTERED_REFERENCE_METADATA_NEVER_SUBSTITUTES_FOR_HELD_EXACT_ROOT",
+    "lineage_substitution": false,
+    "max_control_bytes": 16777216,
+    "negotiation_schema": "semcrys.transport-negotiation.v0.2",
+    "network_stack": false,
+    "pathways": [
+      "EXTERNAL_CHANNEL",
+      "FILE_TRANSFER"
+    ],
+    "peer_capability_roots_bound": true,
+    "peer_schema": "semcrys.transport-peer-capabilities.v0.2",
+    "projections": [
+      "GLYPH",
+      "INTEGER",
+      "PACKED",
+      "RAW"
+    ],
+    "raw_projection_distinct": true,
+    "registry_reference_is_custody": false,
+    "relationship_state_mutation": false,
+    "requested_dimensions": "CALLER_EXPLICIT_PATHWAY_CODEC_PROJECTION_AND_ORDERED_CHAIN_OR_SELF_CONTAINED",
+    "schema": "semcrys.transport-capability-surface.v0.2",
+    "security_claim": "NONE",
+    "security_modes": {
+      "DELEGATED_AEAD": "HELD_DELEGATED_CRYPTOGRAPHIC_EXECUTION",
+      "FULL_TRANSPORT_HOMOPHONIC_KEYED_PROJECTION": "HELD_FULL_TRANSPORT_HOMOPHONIC_ADAPTER_NOT_PACKAGED",
+      "KEYED_LOCAL_ID_SHUFFLE": "HELD_KEYED_LOCAL_ID_SHUFFLE_ADAPTER",
+      "NATIVE_OPACITY": "EXECUTABLE_ONLY_WITH_NONEMPTY_EXACT_PRESHARED_CHAIN_NO_CONFIDENTIALITY_CLAIM",
+      "NONE": "EXECUTABLE_NO_CONFIDENTIALITY_CLAIM",
+      "PUBLIC_ADAPTIVE_PERMUTATION": "HELD_ADAPTIVE_PERMUTATION_NOT_PACKAGED",
+      "SEALED_LEGEND": "HELD_DELEGATED_CRYPTOGRAPHIC_EXECUTION"
+    },
+    "standing": "CANDIDATE_ONLY"
+  }
+}

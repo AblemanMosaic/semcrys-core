@@ -1,0 +1,41 @@
+{
+  "authority_effect": "NONE",
+  "builds": [
+    {
+      "bytes": 38945435,
+      "label": "A",
+      "sha256": "5f55b42bc52e9bd77d734eb5db1cec81bf12272dbc38266ffe9b2b4c6c33061c"
+    },
+    {
+      "bytes": 38945435,
+      "label": "B",
+      "sha256": "5f55b42bc52e9bd77d734eb5db1cec81bf12272dbc38266ffe9b2b4c6c33061c"
+    }
+  ],
+  "byte_reproducible": true,
+  "court_root": "12b896ef030bc427bacd9a7448523a220088eb2dfc1733f8e3b3166c48b42995",
+  "glibc_floor": "2.38",
+  "manifest_root": "f6f2c9d3d450116b22009454a4acf6945c2a8b38d89951975313656effb372ec",
+  "native_acceleration": {
+    "bundled": false,
+    "fallback": "PURE_PYTHON_REFERENCE"
+  },
+  "platform": "linux_x86_64",
+  "runtime_root": "14aa54b446417004efbc39cedeefb81d055a0db6ff82f31e56ec7e18d2199975",
+  "runtime_smoke": "PACK_VERIFY_UNPACK_PASS",
+  "schema": "semcrys.linux-standalone-court.v0.2",
+  "security_claim": "BOUNDED_IMPLEMENTED_PROFILE_NO_PROTOCOL_SECURITY_PROOF",
+  "standing": "INTERNAL_SELF_QUALIFICATION",
+  "status": "PASS",
+  "toolchain": {
+    "host_libc": {
+      "name": "glibc",
+      "version": "2.39"
+    },
+    "machine": "x86_64",
+    "pyinstaller": "6.22.3",
+    "python": "3.12.3",
+    "source_root": "dfc3977d3f887a6d7f548873d6a848f93fb90d9fc54edc1878d39dfd34c96617"
+  },
+  "version": "0.1.0"
+}

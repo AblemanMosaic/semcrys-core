@@ -1,0 +1,123 @@
+{
+  "authority_effect": "NONE",
+  "benchmark_root": "ae4371b8e4b9751d3e9d2c603a8d86148a538ef4dda89d3c55073e88c777941d",
+  "container_bytes_invariant": true,
+  "events": 2000000,
+  "native": {
+    "fold_samples": [
+      0.056563499849289656,
+      0.0636086999438703,
+      0.07079580007120967
+    ],
+    "fold_seconds_median": 0.0636086999438703,
+    "folded_events": 1000000,
+    "mode": "AUTO",
+    "pack_samples": [
+      0.09788659983314574,
+      0.09960120008327067,
+      0.0963659998960793
+    ],
+    "pack_seconds_median": 0.09788659983314574,
+    "packed_sha256": "f4d10bc9395b7dfaef719923802a05cb329fd8800c6867f4ea13a6c92c09f137",
+    "parse_samples": [
+      0.011668599909171462,
+      0.01315949996933341,
+      0.014610200189054012
+    ],
+    "parse_seconds_median": 0.01315949996933341,
+    "parsed_events": 2000000,
+    "runtime": {
+      "abi_version": 2,
+      "authority_effect": "NONE",
+      "available": true,
+      "binary_sha256": "56a1dab3ac8362cc15e0cc6cc5d319509ba8596f59bafb2c5072bbbf93168319",
+      "build_root": "226ceda0f21623fab1e0932c44bc4521e0c23b86388b103825248a8d05b0f18f",
+      "metrics": {
+        "fallback_calls": 0,
+        "fold_calls": 3,
+        "fold_input_events": 6000000,
+        "pack_calls": 3,
+        "pack_values": 6000000,
+        "parse_calls": 3,
+        "parse_events": 6000000,
+        "unpack_calls": 3,
+        "unpack_values": 6000000
+      },
+      "policy": "AUTO",
+      "reason": "HASH_BOUND_NATIVE_KERNEL_LOADED",
+      "schema": "semcrys.native-runtime.v0.1",
+      "selected": true,
+      "threshold_events": 1
+    },
+    "unpack_exact": true,
+    "unpack_samples": [
+      0.07262189988978207,
+      0.09918290004134178,
+      0.09350419999100268
+    ],
+    "unpack_seconds_median": 0.09350419999100268
+  },
+  "reference": {
+    "fold_samples": [
+      0.5823042001575232,
+      0.5859890999272466,
+      0.5794053999707103
+    ],
+    "fold_seconds_median": 0.5823042001575232,
+    "folded_events": 1000000,
+    "mode": "OFF",
+    "pack_samples": [
+      0.47607249999418855,
+      0.4924105000682175,
+      0.4876753001008183
+    ],
+    "pack_seconds_median": 0.4876753001008183,
+    "packed_sha256": "f4d10bc9395b7dfaef719923802a05cb329fd8800c6867f4ea13a6c92c09f137",
+    "parse_samples": [
+      0.9151167999953032,
+      0.9143725000321865,
+      0.881150099914521
+    ],
+    "parse_seconds_median": 0.9143725000321865,
+    "parsed_events": 2000000,
+    "runtime": {
+      "abi_version": 2,
+      "authority_effect": "NONE",
+      "available": true,
+      "binary_sha256": "56a1dab3ac8362cc15e0cc6cc5d319509ba8596f59bafb2c5072bbbf93168319",
+      "build_root": "226ceda0f21623fab1e0932c44bc4521e0c23b86388b103825248a8d05b0f18f",
+      "metrics": {
+        "fallback_calls": 12,
+        "fold_calls": 0,
+        "fold_input_events": 0,
+        "pack_calls": 0,
+        "pack_values": 0,
+        "parse_calls": 0,
+        "parse_events": 0,
+        "unpack_calls": 0,
+        "unpack_values": 0
+      },
+      "policy": "OFF",
+      "reason": "DISABLED_BY_POLICY",
+      "schema": "semcrys.native-runtime.v0.1",
+      "selected": false,
+      "threshold_events": 1
+    },
+    "unpack_exact": true,
+    "unpack_samples": [
+      0.464636699995026,
+      0.4669753999914974,
+      0.4721745001152158
+    ],
+    "unpack_seconds_median": 0.4669753999914974
+  },
+  "repeats": 3,
+  "schema": "semcrys.native-benchmark.v0.2",
+  "speedup": {
+    "assembly_fold": 9.154474162675248,
+    "pack": 4.982043517009411,
+    "packed_event_parse": 69.48383313674674,
+    "unpack": 4.994164968380367
+  },
+  "status": "PASS"
+}

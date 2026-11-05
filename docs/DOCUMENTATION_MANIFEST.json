@@ -1,0 +1,581 @@
+{
+  "command_group_counts": {
+    "DIRECTORY_PUBLICATION": 8,
+    "EXPLICIT_RECOVERY": 2,
+    "FILE_PUBLICATION": 36,
+    "READ_ONLY": 36
+  },
+  "current_version_sources": [
+    "README.md",
+    "pyproject.toml",
+    "semcrys.__version__"
+  ],
+  "file_count": 50,
+  "files": [
+    {
+      "bytes": 9852,
+      "embedded_dates": [
+        "2026-08-31"
+      ],
+      "historical_or_current_version_mentions": [
+        "0.1.0rc1",
+        "dev65"
+      ],
+      "kind": "MARKDOWN",
+      "name": "ABI.md",
+      "reviewed_date": "2026-11-05",
+      "reviewed_for_version": "0.1.0",
+      "sha256": "ceb409cac4ee2580e0a081229eaa19345a4cb03a0b583c95e143efb41031501c"
+    },
+    {
+      "bytes": 1756,
+      "embedded_dates": [],
+      "historical_or_current_version_mentions": [],
+      "kind": "MARKDOWN",
+      "name": "ADR-0001-STANDARD-ADAPTIVE-COMPOSITION.md",
+      "reviewed_date": "2026-11-05",
+      "reviewed_for_version": "0.1.0",
+      "sha256": "45b90fcae85ad12adaa74f8ad399c36481e96ef79e768913634644a88de59af8"
+    },
+    {
+      "bytes": 10009,
+      "embedded_dates": [],
+      "historical_or_current_version_mentions": [],
+      "kind": "MARKDOWN",
+      "name": "AGENT_API.md",
+      "reviewed_date": "2026-11-05",
+      "reviewed_for_version": "0.1.0",
+      "sha256": "2ff67bb671d396f2f06dbdb7e90b4a04b9eeadf1c8e73bd6fb263c9168de3649"
+    },
+    {
+      "bytes": 3057,
+      "embedded_dates": [],
+      "historical_or_current_version_mentions": [],
+      "kind": "MARKDOWN",
+      "name": "APPLICATION_RESOURCES.md",
+      "reviewed_date": "2026-11-05",
+      "reviewed_for_version": "0.1.0",
+      "sha256": "eddc8c35c4ccaf029d7333898008dc8839e9a9690ba9bfb2c2a119ff69ba4c2f"
+    },
+    {
+      "bytes": 2454,
+      "embedded_dates": [],
+      "historical_or_current_version_mentions": [],
+      "kind": "MARKDOWN",
+      "name": "ARCHITECTURE.md",
+      "reviewed_date": "2026-11-05",
+      "reviewed_for_version": "0.1.0",
+      "sha256": "1da9c891033ef298a42894c5cf03cf6e54dc0b0e4cd7c4ad825899bb68500c1d"
+    },
+    {
+      "bytes": 4177,
+      "embedded_dates": [],
+      "historical_or_current_version_mentions": [],
+      "kind": "MARKDOWN",
+      "name": "ARCHIVE_SELECTION.md",
+      "reviewed_date": "2026-11-05",
+      "reviewed_for_version": "0.1.0",
+      "sha256": "59537ebaf6383b52b3534118701c0e21bac4b5562059b0f2a30d434fd7e1d11d"
+    },
+    {
+      "bytes": 6265,
+      "embedded_dates": [],
+      "historical_or_current_version_mentions": [
+        "Dev37",
+        "dev36"
+      ],
+      "kind": "MARKDOWN",
+      "name": "ASSEMBLY_EVENTS.md",
+      "reviewed_date": "2026-11-05",
+      "reviewed_for_version": "0.1.0",
+      "sha256": "6657508cd6d753ea913fdbca7bd2bed2ba56f77329c4a1a73adfee8d98d6fdfa"
+    },
+    {
+      "bytes": 3000,
+      "embedded_dates": [],
+      "historical_or_current_version_mentions": [
+        "dev69"
+      ],
+      "kind": "MARKDOWN",
+      "name": "BACKEND_COMPARISON.md",
+      "reviewed_date": "2026-11-05",
+      "reviewed_for_version": "0.1.0",
+      "sha256": "62c842f86507d0db1d3b1175037550317e009995d7f214178d4d6ea920b61688"
+    },
+    {
+      "bytes": 2978,
+      "embedded_dates": [
+        "2026-08-31"
+      ],
+      "historical_or_current_version_mentions": [
+        "0.1.0rc1"
+      ],
+      "kind": "MARKDOWN",
+      "name": "CAPABILITY_SURFACE.md",
+      "reviewed_date": "2026-11-05",
+      "reviewed_for_version": "0.1.0",
+      "sha256": "0a4e0d9a85f79ea943f7595f3a5377867cfd98099dca9ebd2fe91ba8ea03855a"
+    },
+    {
+      "bytes": 2287,
+      "embedded_dates": [
+        "2026-08-31"
+      ],
+      "historical_or_current_version_mentions": [
+        "dev87"
+      ],
+      "kind": "MARKDOWN",
+      "name": "CODEC_SELECTION.md",
+      "reviewed_date": "2026-11-05",
+      "reviewed_for_version": "0.1.0",
+      "sha256": "df2ba3d16727a791c8888d6bcc34394531947e1c2db4ec21500aa0d3100710f1"
+    },
+    {
+      "bytes": 4033,
+      "embedded_dates": [],
+      "historical_or_current_version_mentions": [],
+      "kind": "MARKDOWN",
+      "name": "COMPACT_PROJECTION.md",
+      "reviewed_date": "2026-11-05",
+      "reviewed_for_version": "0.1.0",
+      "sha256": "b6867a8f7d50422ebbd3037d65e4dbb1940df1b78aa9608d485bfbc0ee747407"
+    },
+    {
+      "bytes": 631,
+      "embedded_dates": [],
+      "historical_or_current_version_mentions": [],
+      "kind": "MARKDOWN",
+      "name": "COMPATIBILITY.md",
+      "reviewed_date": "2026-11-05",
+      "reviewed_for_version": "0.1.0",
+      "sha256": "a142a0121bb62618e6465947020c7b644a5fd14f3e2d28bc245b8b64d2bca3ab"
+    },
+    {
+      "bytes": 2330,
+      "embedded_dates": [],
+      "historical_or_current_version_mentions": [],
+      "kind": "MARKDOWN",
+      "name": "COMPOSITE_RESOURCES.md",
+      "reviewed_date": "2026-11-05",
+      "reviewed_for_version": "0.1.0",
+      "sha256": "29d5b545e400aa92611322772105bd27e575a4bf3978c1850ec594e77e3a2c4d"
+    },
+    {
+      "bytes": 2439,
+      "embedded_dates": [],
+      "historical_or_current_version_mentions": [],
+      "kind": "MARKDOWN",
+      "name": "CONFIGURATION_COURT.md",
+      "reviewed_date": "2026-11-05",
+      "reviewed_for_version": "0.1.0",
+      "sha256": "5cd8feb82350a1f5b4a9b614329d00baa54ca318f09383cb27fa4c788c1c53e9"
+    },
+    {
+      "bytes": 3887,
+      "embedded_dates": [
+        "2026-08-31"
+      ],
+      "historical_or_current_version_mentions": [
+        "dev87"
+      ],
+      "kind": "MARKDOWN",
+      "name": "CONFIGURATION_SELECTION.md",
+      "reviewed_date": "2026-11-05",
+      "reviewed_for_version": "0.1.0",
+      "sha256": "6b590220dbcd6d59f8f5b261c2c21b1e978d5ea1c6666ad9cb056227f218a6d4"
+    },
+    {
+      "bytes": 4955,
+      "embedded_dates": [],
+      "historical_or_current_version_mentions": [],
+      "kind": "MARKDOWN",
+      "name": "DIRECTORY_RESOURCES.md",
+      "reviewed_date": "2026-11-05",
+      "reviewed_for_version": "0.1.0",
+      "sha256": "11ab3038c7940eb1eeaec03b35d8f1e72c95c5978dc7cdb52cd307138cc56f09"
+    },
+    {
+      "bytes": 10793,
+      "embedded_dates": [],
+      "historical_or_current_version_mentions": [
+        "dev32"
+      ],
+      "kind": "MARKDOWN",
+      "name": "FOLD_FORMAT.md",
+      "reviewed_date": "2026-11-05",
+      "reviewed_for_version": "0.1.0",
+      "sha256": "fe0aee06972954a2a9f51ce3a4e5f309ffbca8cb3fe448ce7d1715f2917eba21"
+    },
+    {
+      "bytes": 3177,
+      "embedded_dates": [],
+      "historical_or_current_version_mentions": [],
+      "kind": "MARKDOWN",
+      "name": "GLYPH_FORMAT.md",
+      "reviewed_date": "2026-11-05",
+      "reviewed_for_version": "0.1.0",
+      "sha256": "c15e63eb08183dbc505855349dca3597a995e0c5d02d76eaea802993a912b05b"
+    },
+    {
+      "bytes": 1567,
+      "embedded_dates": [],
+      "historical_or_current_version_mentions": [],
+      "kind": "MARKDOWN",
+      "name": "GROUP_LEGEND.md",
+      "reviewed_date": "2026-11-05",
+      "reviewed_for_version": "0.1.0",
+      "sha256": "d97a51a9bd6b378f2e605b261a9f6cf7bf89e7feb37ea1dc07f546f1751da6d1"
+    },
+    {
+      "bytes": 3771,
+      "embedded_dates": [
+        "2026-08-31"
+      ],
+      "historical_or_current_version_mentions": [],
+      "kind": "MARKDOWN",
+      "name": "GTK_ANALYSIS.md",
+      "reviewed_date": "2026-11-05",
+      "reviewed_for_version": "0.1.0",
+      "sha256": "09ba79096df158fb594a64bdb0a9a0cd3fda57d07ab186d43fc54c300472293b"
+    },
+    {
+      "bytes": 2595,
+      "embedded_dates": [],
+      "historical_or_current_version_mentions": [],
+      "kind": "MARKDOWN",
+      "name": "INTEGERIZATION_PERFORMANCE.md",
+      "reviewed_date": "2026-11-05",
+      "reviewed_for_version": "0.1.0",
+      "sha256": "40dfe28753db03e531c9f03868975fa346efbddc48baf12f778e4e28966bf797"
+    },
+    {
+      "bytes": 1706,
+      "embedded_dates": [],
+      "historical_or_current_version_mentions": [],
+      "kind": "MARKDOWN",
+      "name": "INTEGER_PROJECTION.md",
+      "reviewed_date": "2026-11-05",
+      "reviewed_for_version": "0.1.0",
+      "sha256": "2538771db2207eca185f51459d76c81170574d4e06557c46f6044b16e5b2b1c4"
+    },
+    {
+      "bytes": 2573,
+      "embedded_dates": [],
+      "historical_or_current_version_mentions": [],
+      "kind": "MARKDOWN",
+      "name": "LEGACY_MIGRATION.md",
+      "reviewed_date": "2026-11-05",
+      "reviewed_for_version": "0.1.0",
+      "sha256": "7191fe5c52e3fc3b33e4250c5a36f9ae78bfcac800bdaccd2690a90d142b87d6"
+    },
+    {
+      "bytes": 3311,
+      "embedded_dates": [],
+      "historical_or_current_version_mentions": [],
+      "kind": "MARKDOWN",
+      "name": "LEGEND_RESOURCES.md",
+      "reviewed_date": "2026-11-05",
+      "reviewed_for_version": "0.1.0",
+      "sha256": "1702f25e626883dd862b9a988394ca29151490f6d2a18d96616e10dfe90f599a"
+    },
+    {
+      "bytes": 4800,
+      "embedded_dates": [],
+      "historical_or_current_version_mentions": [],
+      "kind": "MARKDOWN",
+      "name": "LIBRARY_FORMAT.md",
+      "reviewed_date": "2026-11-05",
+      "reviewed_for_version": "0.1.0",
+      "sha256": "fd61427ae29525612848decd4b59c83ce4062c9d32e76e045321725f144d1e05"
+    },
+    {
+      "bytes": 3832,
+      "embedded_dates": [],
+      "historical_or_current_version_mentions": [],
+      "kind": "MARKDOWN",
+      "name": "LONGITUDINAL_ASSEMBLY.md",
+      "reviewed_date": "2026-11-05",
+      "reviewed_for_version": "0.1.0",
+      "sha256": "a07deb8dbd49372ec217e27f0410d8a8d5ec3f4b1e7ebbf79687679ca7f53d1b"
+    },
+    {
+      "bytes": 4370,
+      "embedded_dates": [],
+      "historical_or_current_version_mentions": [],
+      "kind": "MARKDOWN",
+      "name": "METALEGEND.md",
+      "reviewed_date": "2026-11-05",
+      "reviewed_for_version": "0.1.0",
+      "sha256": "394620fc43fe741196149062897dd6d8007d519b5fc1342a18bc289c5cb61868"
+    },
+    {
+      "bytes": 2555,
+      "embedded_dates": [],
+      "historical_or_current_version_mentions": [],
+      "kind": "MARKDOWN",
+      "name": "META_AUXILIARIES.md",
+      "reviewed_date": "2026-11-05",
+      "reviewed_for_version": "0.1.0",
+      "sha256": "f712a8a6a3c4a76c7ef2ba7916f18bf9794bfdecca73de62dfaf8afc3fc9b315"
+    },
+    {
+      "bytes": 1460,
+      "embedded_dates": [
+        "2026-08-31"
+      ],
+      "historical_or_current_version_mentions": [],
+      "kind": "MARKDOWN",
+      "name": "MIGRATION_WORKBENCH.md",
+      "reviewed_date": "2026-11-05",
+      "reviewed_for_version": "0.1.0",
+      "sha256": "60894fa72829bdc3f19f3b4306ae7f7091905bf43457c16c569487cad4ef3dbb"
+    },
+    {
+      "bytes": 3236,
+      "embedded_dates": [],
+      "historical_or_current_version_mentions": [],
+      "kind": "MARKDOWN",
+      "name": "NATIVE_ACCELERATION.md",
+      "reviewed_date": "2026-11-05",
+      "reviewed_for_version": "0.1.0",
+      "sha256": "29b661550616e7c0ae7f9a32a40ac825b66071e050df3c5351179457e403bc4b"
+    },
+    {
+      "bytes": 3090,
+      "embedded_dates": [],
+      "historical_or_current_version_mentions": [],
+      "kind": "MARKDOWN",
+      "name": "ORDERED_IMPORT.md",
+      "reviewed_date": "2026-11-05",
+      "reviewed_for_version": "0.1.0",
+      "sha256": "c621d851bcb54d8144f669473b5c0a947ab89a0fe2bc4610d25f8e172e5efdf3"
+    },
+    {
+      "bytes": 2529,
+      "embedded_dates": [],
+      "historical_or_current_version_mentions": [],
+      "kind": "MARKDOWN",
+      "name": "PUBLICATION_SAFETY.md",
+      "reviewed_date": "2026-11-05",
+      "reviewed_for_version": "0.1.0",
+      "sha256": "70177016114c3bc39e167ef15b28939eff07c32f621a80bb0da36177a7b9dd63"
+    },
+    {
+      "bytes": 16447,
+      "embedded_dates": [
+        "2026-08-31"
+      ],
+      "historical_or_current_version_mentions": [
+        "0.1.0rc1",
+        "dev64",
+        "dev65",
+        "dev73"
+      ],
+      "kind": "MARKDOWN",
+      "name": "README.md",
+      "reviewed_date": "2026-11-05",
+      "reviewed_for_version": "0.1.0",
+      "sha256": "872d29ddb96d6555096244ae0614596f7769b30a77ccdb68f83f010eff30cd78"
+    },
+    {
+      "bytes": 6389,
+      "embedded_dates": [],
+      "historical_or_current_version_mentions": [],
+      "kind": "MARKDOWN",
+      "name": "RECOVERY.md",
+      "reviewed_date": "2026-11-05",
+      "reviewed_for_version": "0.1.0",
+      "sha256": "34917466de44fbb0953c9c70286c8fdc1dea507bb2918ec6999039dd54482bd6"
+    },
+    {
+      "bytes": 11360,
+      "embedded_dates": [
+        "2026-11-02"
+      ],
+      "historical_or_current_version_mentions": [],
+      "kind": "MARKDOWN",
+      "name": "RELATED_WORK.md",
+      "reviewed_date": "2026-11-05",
+      "reviewed_for_version": "0.1.0",
+      "sha256": "8aebcb44769637bb8feb066d907920ec8bb4b2fe788a9d65d8d79957d04cffb5"
+    },
+    {
+      "bytes": 2984,
+      "embedded_dates": [
+        "2026-11-05"
+      ],
+      "historical_or_current_version_mentions": [],
+      "kind": "MARKDOWN",
+      "name": "RELEASE_CANDIDATE.md",
+      "reviewed_date": "2026-11-05",
+      "reviewed_for_version": "0.1.0",
+      "sha256": "94c505fac351e996884db13fd69c5a498bab17b5effc15fd75831b7a81b8de47"
+    },
+    {
+      "bytes": 4566,
+      "embedded_dates": [],
+      "historical_or_current_version_mentions": [],
+      "kind": "MARKDOWN",
+      "name": "RELEASING.md",
+      "reviewed_date": "2026-11-05",
+      "reviewed_for_version": "0.1.0",
+      "sha256": "4bba2d8da0f804849cf098713d27aacc1257496314699581d85644d3a734a5f7"
+    },
+    {
+      "bytes": 9671,
+      "embedded_dates": [],
+      "historical_or_current_version_mentions": [],
+      "kind": "MARKDOWN",
+      "name": "SECOND_PASS.md",
+      "reviewed_date": "2026-11-05",
+      "reviewed_for_version": "0.1.0",
+      "sha256": "c35028bb8fe8e26497cc7f4834b59cb596c5c01aae2b693ef9c5556409c837f2"
+    },
+    {
+      "bytes": 4885,
+      "embedded_dates": [],
+      "historical_or_current_version_mentions": [],
+      "kind": "MARKDOWN",
+      "name": "SECURITY-LITE.md",
+      "reviewed_date": "2026-11-05",
+      "reviewed_for_version": "0.1.0",
+      "sha256": "239429c3a7a60883055ae6c7d695150e93452e927c08d7346b5f850c718864fe"
+    },
+    {
+      "bytes": 9797,
+      "embedded_dates": [],
+      "historical_or_current_version_mentions": [],
+      "kind": "MARKDOWN",
+      "name": "SECURITY.md",
+      "reviewed_date": "2026-11-05",
+      "reviewed_for_version": "0.1.0",
+      "sha256": "3ab623928657fbef00ac9d459e1417a03b2bfbaac51f55a64880dcad6466ff29"
+    },
+    {
+      "bytes": 6702,
+      "embedded_dates": [],
+      "historical_or_current_version_mentions": [],
+      "kind": "MARKDOWN",
+      "name": "SEMANTIC_IDENTITY.md",
+      "reviewed_date": "2026-11-05",
+      "reviewed_for_version": "0.1.0",
+      "sha256": "c06cc755bdc33bf4c34dba4ec96ae78ce095297c108a064886526de5cdb2f62c"
+    },
+    {
+      "bytes": 4409,
+      "embedded_dates": [],
+      "historical_or_current_version_mentions": [],
+      "kind": "MARKDOWN",
+      "name": "SEMCRYS-COMPRESSION-MODEL.md",
+      "reviewed_date": "2026-11-05",
+      "reviewed_for_version": "0.1.0",
+      "sha256": "5bb16beab7a1eb414908cf26ed016a470013a510758b2c21fcd4592913e51851"
+    },
+    {
+      "bytes": 1943,
+      "embedded_dates": [],
+      "historical_or_current_version_mentions": [],
+      "kind": "MARKDOWN",
+      "name": "SEMCRYS_A.md",
+      "reviewed_date": "2026-11-05",
+      "reviewed_for_version": "0.1.0",
+      "sha256": "46f4e570bb7c3c6f806bc09b8627de2aff140053f11abe6ca3da2ef96132dcf1"
+    },
+    {
+      "bytes": 6670,
+      "embedded_dates": [],
+      "historical_or_current_version_mentions": [],
+      "kind": "MARKDOWN",
+      "name": "STANDARD_CLI.md",
+      "reviewed_date": "2026-11-05",
+      "reviewed_for_version": "0.1.0",
+      "sha256": "90ac2ae8525f29ce1076425e17d60224e80dadbfd2bc09ddf5553f5248eee6fa"
+    },
+    {
+      "bytes": 1405,
+      "embedded_dates": [],
+      "historical_or_current_version_mentions": [],
+      "kind": "MARKDOWN",
+      "name": "SYNCHRONIZATION.md",
+      "reviewed_date": "2026-11-05",
+      "reviewed_for_version": "0.1.0",
+      "sha256": "a70d617d64f016e8de823691f8a7f74b6ef391fe57af393756cc5a1c5f0e8adf"
+    },
+    {
+      "bytes": 16303,
+      "embedded_dates": [],
+      "historical_or_current_version_mentions": [],
+      "kind": "MARKDOWN",
+      "name": "SYSTEM-ARCHITECTURE.md",
+      "reviewed_date": "2026-11-05",
+      "reviewed_for_version": "0.1.0",
+      "sha256": "d3a0e82ae76b6317ef45fee0e1a0a100b75a0601bcc35a73daeb962e32bbcaae"
+    },
+    {
+      "bytes": 3399,
+      "embedded_dates": [
+        "2026-08-31"
+      ],
+      "historical_or_current_version_mentions": [],
+      "kind": "MARKDOWN",
+      "name": "TRANSPORT_CONTROL.md",
+      "reviewed_date": "2026-11-05",
+      "reviewed_for_version": "0.1.0",
+      "sha256": "e4a3f14c4a41869621cab02f968c59eb2c21e0abc462ac8b7fb1607a2c37a77f"
+    },
+    {
+      "bytes": 2969,
+      "embedded_dates": [],
+      "historical_or_current_version_mentions": [],
+      "kind": "MARKDOWN",
+      "name": "ULTRA_CONFIGURATION.md",
+      "reviewed_date": "2026-11-05",
+      "reviewed_for_version": "0.1.0",
+      "sha256": "7267b6d68a1f91f6330c722c09432aa4d623e4b5b3d21583c45f510336115d15"
+    },
+    {
+      "bytes": 7040,
+      "embedded_dates": [],
+      "historical_or_current_version_mentions": [],
+      "kind": "MARKDOWN",
+      "name": "VERIFIED_CONTEXT.md",
+      "reviewed_date": "2026-11-05",
+      "reviewed_for_version": "0.1.0",
+      "sha256": "8f32dfd88ce704e3835128cd28b4aed2b6742eb7e5d4511f49aa97477f08131b"
+    },
+    {
+      "bytes": 5278,
+      "embedded_dates": [],
+      "historical_or_current_version_mentions": [],
+      "kind": "MARKDOWN",
+      "name": "WIKIPEDIA_OPTIMIZATION.md",
+      "reviewed_date": "2026-11-05",
+      "reviewed_for_version": "0.1.0",
+      "sha256": "8ea214732f246b384ee9cbb19bfad728a0910add876cf95b723ba2171de0974b"
+    }
+  ],
+  "historical_version_mentions_retained_as_lineage_not_current_versions": true,
+  "manifest_root": "bc711802e982125b253df07fae0b55a953f30850a7af9dba15ba624c018d81f0",
+  "public_publication": true,
+  "public_release_date": "2026-11-05",
+  "references_from_readme": [
+    "CONFIGURATION_COURT.md",
+    "GROUP_LEGEND.md",
+    "INTEGERIZATION_PERFORMANCE.md",
+    "METALEGEND.md",
+    "RELATED_WORK.md",
+    "RELEASING.md",
+    "SECURITY.md",
+    "SEMANTIC_IDENTITY.md",
+    "SEMCRYS-COMPRESSION-MODEL.md",
+    "STANDARD_CLI.md",
+    "SYSTEM-ARCHITECTURE.md",
+    "WIKIPEDIA_OPTIMIZATION.md"
+  ],
+  "reviewed_date": "2026-11-05",
+  "schema": "semcrys.documentation-manifest.v0.1",
+  "security_claim": "NONE",
+  "stale_current_entries": [],
+  "standing": "CANDIDATE_ONLY",
+  "version": "0.1.0"
+}

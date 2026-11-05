@@ -1,0 +1,2232 @@
+{
+  "authority_effect": "NONE",
+  "claim_boundary": "One pinned 100-page stream prefix on one host; enumerated-candidate optimality only, with no whole-Wikipedia, cross-corpus, or global-optimality claim.",
+  "configuration_court": {
+    "authority_effect": "NONE",
+    "candidate_count": 18,
+    "candidates": [
+      {
+        "candidate_id": "NATURAL:BZ2_1",
+        "capabilities": [
+          "EXACT_RECOVERY"
+        ],
+        "codec": "BZ2_1",
+        "container_bytes": 816518,
+        "container_sha256": "0135439863a3352b3b9f1ac246956fa2a70197ee7fb394c6d33ab6f592fd2f1a",
+        "family": "NATURAL_CONTROL",
+        "legend_policy": null,
+        "legend_roots": [],
+        "profile": null,
+        "verification_cpu_ns": 218750000,
+        "verification_wall_ns": 272182500
+      },
+      {
+        "candidate_id": "NATURAL:BZ2_9",
+        "capabilities": [
+          "EXACT_RECOVERY"
+        ],
+        "codec": "BZ2_9",
+        "container_bytes": 718692,
+        "container_sha256": "9e43ca7132583bea03abd075ed90abb1197be7bf47105e6273388f42b432b5bb",
+        "family": "NATURAL_CONTROL",
+        "legend_policy": null,
+        "legend_roots": [],
+        "profile": null,
+        "verification_cpu_ns": 296875000,
+        "verification_wall_ns": 309125700
+      },
+      {
+        "candidate_id": "NATURAL:LZMA2_XZ_0",
+        "capabilities": [
+          "EXACT_RECOVERY"
+        ],
+        "codec": "LZMA2_XZ_0",
+        "container_bytes": 886856,
+        "container_sha256": "1dbe51807f0a7bba831fba6699d02a6e8b2df6d8e8d00a4715faa3300ad79827",
+        "family": "NATURAL_CONTROL",
+        "legend_policy": null,
+        "legend_roots": [],
+        "profile": null,
+        "verification_cpu_ns": 187500000,
+        "verification_wall_ns": 191986500
+      },
+      {
+        "candidate_id": "NATURAL:LZMA2_XZ_6",
+        "capabilities": [
+          "EXACT_RECOVERY"
+        ],
+        "codec": "LZMA2_XZ_6",
+        "container_bytes": 701272,
+        "container_sha256": "cdaa72299bbad01905b0bda137b2cb7337c4f9a6cd214f6deae74aeba8c8165d",
+        "family": "NATURAL_CONTROL",
+        "legend_policy": null,
+        "legend_roots": [],
+        "profile": null,
+        "verification_cpu_ns": 937500000,
+        "verification_wall_ns": 962535000
+      },
+      {
+        "candidate_id": "NATURAL:LZMA2_XZ_9",
+        "capabilities": [
+          "EXACT_RECOVERY"
+        ],
+        "codec": "LZMA2_XZ_9",
+        "container_bytes": 701272,
+        "container_sha256": "1bd87691a7f091bf45762f8557e9cdfd9cf4bf2d53b020323e35792e472448c8",
+        "family": "NATURAL_CONTROL",
+        "legend_policy": null,
+        "legend_roots": [],
+        "profile": null,
+        "verification_cpu_ns": 984375000,
+        "verification_wall_ns": 988012000
+      },
+      {
+        "candidate_id": "NATURAL:RAW",
+        "capabilities": [
+          "EXACT_RECOVERY"
+        ],
+        "codec": "RAW",
+        "container_bytes": 2763849,
+        "container_sha256": "28d61392bfc27ffb1c283beb6dc3dbd78a6d22f2a60e6c76121f6b70cffaaecb",
+        "family": "NATURAL_CONTROL",
+        "legend_policy": null,
+        "legend_roots": [],
+        "profile": null,
+        "verification_cpu_ns": 0,
+        "verification_wall_ns": 393000
+      },
+      {
+        "body_payload_bytes": 686910,
+        "candidate_id": "SEMCRYS:BASE:LOCAL:BZ2_9",
+        "capabilities": [
+          "EXACT_RECOVERY",
+          "INTEGERIZED",
+          "PROFITABLE_INTEGERIZATION",
+          "SEMCRYS_CONTAINER"
+        ],
+        "codec": "BZ2_9",
+        "container_bytes": 873818,
+        "container_sha256": "de909fd079518cd084d52ec1ff690acc6dd5552680a2adc9f74f10c7a9e63897",
+        "family": "SEMCRYS",
+        "legend_policy": "PROFITABLE",
+        "legend_roots": [],
+        "profile": "C:SELF_CONTAINED_TOKEN",
+        "traced_python_peak_bytes": 9679212,
+        "verification_cpu_ns": 393359375000,
+        "verification_wall_ns": 459662482600
+      },
+      {
+        "body_payload_bytes": 692488,
+        "candidate_id": "SEMCRYS:BASE:LOCAL:LZMA",
+        "capabilities": [
+          "EXACT_RECOVERY",
+          "INTEGERIZED",
+          "PROFITABLE_INTEGERIZATION",
+          "SEMCRYS_CONTAINER"
+        ],
+        "codec": "LZMA",
+        "container_bytes": 878670,
+        "container_sha256": "e31c14fba9898182ad4815bfd6ecba5637bfb804730194e3489930d2ca68864f",
+        "family": "SEMCRYS",
+        "legend_policy": "PROFITABLE",
+        "legend_roots": [],
+        "profile": "C:SELF_CONTAINED_TOKEN",
+        "traced_python_peak_bytes": 99751986,
+        "verification_cpu_ns": 387203125000,
+        "verification_wall_ns": 451630115400
+      },
+      {
+        "body_payload_bytes": 1946897,
+        "candidate_id": "SEMCRYS:BASE:LOCAL:NONE",
+        "capabilities": [
+          "EXACT_RECOVERY",
+          "INTEGERIZED",
+          "PROFITABLE_INTEGERIZATION",
+          "SEMCRYS_CONTAINER"
+        ],
+        "codec": "NONE",
+        "container_bytes": 2133080,
+        "container_sha256": "12df9bd18d7dfbe554540f516d96976b862dd73d8d4960b2f7e61fb07e8c520b",
+        "family": "SEMCRYS",
+        "legend_policy": "PROFITABLE",
+        "legend_roots": [],
+        "profile": "C:SELF_CONTAINED_TOKEN",
+        "traced_python_peak_bytes": 7484331,
+        "verification_cpu_ns": 494390625000,
+        "verification_wall_ns": 585227677700
+      },
+      {
+        "body_payload_bytes": 719140,
+        "candidate_id": "SEMCRYS:BASE:RAW:BZ2_9",
+        "capabilities": [
+          "EXACT_RECOVERY",
+          "SEMCRYS_CONTAINER"
+        ],
+        "codec": "BZ2_9",
+        "container_bytes": 722033,
+        "container_sha256": "f2c117e971ef3adacecd85a72cc95609adfa876bb2bbcd868d4351ed8610852f",
+        "family": "SEMCRYS",
+        "legend_policy": "PROFITABLE",
+        "legend_roots": [],
+        "profile": "C:RAW_BYTES",
+        "traced_python_peak_bytes": 9645928,
+        "verification_cpu_ns": 562500000,
+        "verification_wall_ns": 901283200
+      },
+      {
+        "body_payload_bytes": 701304,
+        "candidate_id": "SEMCRYS:BASE:RAW:LZMA",
+        "capabilities": [
+          "EXACT_RECOVERY",
+          "SEMCRYS_CONTAINER"
+        ],
+        "codec": "LZMA",
+        "container_bytes": 703472,
+        "container_sha256": "01ff860acf73d9d0b8ec8958c830bac377f31ddb341e978857d4bcc728c25704",
+        "family": "SEMCRYS",
+        "legend_policy": "PROFITABLE",
+        "legend_roots": [],
+        "profile": "C:RAW_BYTES",
+        "traced_python_peak_bytes": 99717814,
+        "verification_cpu_ns": 1281250000,
+        "verification_wall_ns": 1671409700
+      },
+      {
+        "body_payload_bytes": 2763853,
+        "candidate_id": "SEMCRYS:BASE:RAW:NONE",
+        "capabilities": [
+          "EXACT_RECOVERY",
+          "SEMCRYS_CONTAINER"
+        ],
+        "codec": "NONE",
+        "container_bytes": 2766022,
+        "container_sha256": "7d324768d8d9a5077ea4ddce1062ffa6ee560a4849c270606b6dcd361e89ea30",
+        "family": "SEMCRYS",
+        "legend_policy": "PROFITABLE",
+        "legend_roots": [],
+        "profile": "C:RAW_BYTES",
+        "traced_python_peak_bytes": 2148319,
+        "verification_cpu_ns": 187500000,
+        "verification_wall_ns": 565576600
+      },
+      {
+        "body_payload_bytes": 660848,
+        "candidate_id": "SEMCRYS:ULTRA:DELTA:BZ2_9",
+        "capabilities": [
+          "EXACT_RECOVERY",
+          "FULL_INTEGERIZATION",
+          "INTEGERIZED",
+          "SEMCRYS_CONTAINER",
+          "SHARED_LEGEND"
+        ],
+        "codec": "BZ2_9",
+        "container_bytes": 763392,
+        "container_sha256": "620659a6992ea293bd0b38f05bc7598cf7edff7cd1c5e2ba433139305170e58f",
+        "family": "SEMCRYS",
+        "legend_policy": "TOTAL",
+        "legend_roots": [
+          "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+        ],
+        "profile": "A:LONGITUDINAL_TOKEN_DELTA",
+        "traced_python_peak_bytes": 10489378,
+        "verification_cpu_ns": 546718750000,
+        "verification_wall_ns": 655024285300
+      },
+      {
+        "body_payload_bytes": 622964,
+        "candidate_id": "SEMCRYS:ULTRA:DELTA:LZMA",
+        "capabilities": [
+          "EXACT_RECOVERY",
+          "FULL_INTEGERIZATION",
+          "INTEGERIZED",
+          "SEMCRYS_CONTAINER",
+          "SHARED_LEGEND"
+        ],
+        "codec": "LZMA",
+        "container_bytes": 724782,
+        "container_sha256": "c0d3e93008358f758530bb54572edbc004456159a452774d281a9b92e5cdffce",
+        "family": "SEMCRYS",
+        "legend_policy": "TOTAL",
+        "legend_roots": [
+          "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+        ],
+        "profile": "A:LONGITUDINAL_TOKEN_DELTA",
+        "traced_python_peak_bytes": 100014980,
+        "verification_cpu_ns": 561609375000,
+        "verification_wall_ns": 704517944200
+      },
+      {
+        "body_payload_bytes": 1377903,
+        "candidate_id": "SEMCRYS:ULTRA:DELTA:NONE",
+        "capabilities": [
+          "EXACT_RECOVERY",
+          "FULL_INTEGERIZATION",
+          "INTEGERIZED",
+          "SEMCRYS_CONTAINER",
+          "SHARED_LEGEND"
+        ],
+        "codec": "NONE",
+        "container_bytes": 1479722,
+        "container_sha256": "6ef33afad5bc462a27765d9b621da5a72c9a0c03a6736e1ff02e1ee0f89af964",
+        "family": "SEMCRYS",
+        "legend_policy": "TOTAL",
+        "legend_roots": [
+          "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+        ],
+        "profile": "A:LONGITUDINAL_TOKEN_DELTA",
+        "traced_python_peak_bytes": 7422627,
+        "verification_cpu_ns": 589125000000,
+        "verification_wall_ns": 722291851700
+      },
+      {
+        "body_payload_bytes": 703501,
+        "candidate_id": "SEMCRYS:ULTRA:PRESHARED:BZ2_9",
+        "capabilities": [
+          "EXACT_RECOVERY",
+          "INTEGERIZED",
+          "PROFITABLE_INTEGERIZATION",
+          "SEMCRYS_CONTAINER",
+          "SHARED_LEGEND"
+        ],
+        "codec": "BZ2_9",
+        "container_bytes": 706741,
+        "container_sha256": "6be1e3518247ea1906604259de34834c3e08ca65cc2207c7fbbf7c4783e68a4e",
+        "family": "SEMCRYS",
+        "legend_policy": "PROFITABLE",
+        "legend_roots": [
+          "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+        ],
+        "profile": "T:PRESHARED_TOKEN",
+        "traced_python_peak_bytes": 10422551,
+        "verification_cpu_ns": 435828125000,
+        "verification_wall_ns": 533980551900
+      },
+      {
+        "body_payload_bytes": 668532,
+        "candidate_id": "SEMCRYS:ULTRA:PRESHARED:LZMA",
+        "capabilities": [
+          "EXACT_RECOVERY",
+          "INTEGERIZED",
+          "PROFITABLE_INTEGERIZATION",
+          "SEMCRYS_CONTAINER",
+          "SHARED_LEGEND"
+        ],
+        "codec": "LZMA",
+        "container_bytes": 671046,
+        "container_sha256": "e0d424b3aa7265bcbd4d8a60eb8da5f4655bbae02fc194d669e6eb0630d4a43c",
+        "family": "SEMCRYS",
+        "legend_policy": "PROFITABLE",
+        "legend_roots": [
+          "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+        ],
+        "profile": "T:PRESHARED_TOKEN",
+        "traced_python_peak_bytes": 100121402,
+        "verification_cpu_ns": 454687500000,
+        "verification_wall_ns": 578047641000
+      },
+      {
+        "body_payload_bytes": 1548540,
+        "candidate_id": "SEMCRYS:ULTRA:PRESHARED:NONE",
+        "capabilities": [
+          "EXACT_RECOVERY",
+          "INTEGERIZED",
+          "PROFITABLE_INTEGERIZATION",
+          "SEMCRYS_CONTAINER",
+          "SHARED_LEGEND"
+        ],
+        "codec": "NONE",
+        "container_bytes": 1551055,
+        "container_sha256": "4df888edc0465fc38aa0f8c1276e1f2306bc82fe8b65019bc87d326464cad495",
+        "family": "SEMCRYS",
+        "legend_policy": "PROFITABLE",
+        "legend_roots": [
+          "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+        ],
+        "profile": "T:PRESHARED_TOKEN",
+        "traced_python_peak_bytes": 7372174,
+        "verification_cpu_ns": 451531250000,
+        "verification_wall_ns": 556033751400
+      }
+    ],
+    "control_codecs": [
+      "RAW",
+      "BZ2_1",
+      "BZ2_9",
+      "LZMA2_XZ_0",
+      "LZMA2_XZ_6",
+      "LZMA2_XZ_9"
+    ],
+    "court_root": "9b9d46b421a9dd82e3a377ad044622e596bd38cc9455762806a0de7a2908f54f",
+    "future_prediction": false,
+    "global_optimality": false,
+    "horizons": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32
+    ],
+    "library_root": "b5f45206cb1acf026325629881b4dbfbcdd8b8c609e9006de386f00288a20812",
+    "measurement_selection_root": "f70c4adaf8e08d74af1270ec9facef7fe517a419ce0bcf596b11b35121235e38",
+    "objective": "MIN_TOTAL_DELIVERY_BYTES_AT_EXACT_REUSE_HORIZON_WITH_CAPABILITY_CONSTRAINTS",
+    "qualification_label": "PINNED_ENWIKI_20261001_100_PAGE_STREAM_PREFIX",
+    "scenarios": [
+      {
+        "accounting": "COLD",
+        "available_candidates": 18,
+        "receiver_roots": [],
+        "reuse_horizon": 1,
+        "winners": {
+          "MIN_COMPLETE_DELIVERY": {
+            "acquisition_bytes": 0,
+            "candidate_id": "NATURAL:LZMA2_XZ_6",
+            "capabilities": [
+              "EXACT_RECOVERY"
+            ],
+            "codec": "LZMA2_XZ_6",
+            "container_bytes": 701272,
+            "container_sha256": "cdaa72299bbad01905b0bda137b2cb7337c4f9a6cd214f6deae74aeba8c8165d",
+            "family": "NATURAL_CONTROL",
+            "legend_policy": null,
+            "legend_roots": [],
+            "profile": null,
+            "reuse_horizon": 1,
+            "score_bytes": 701272
+          },
+          "MIN_FULL_INTEGERIZATION_DELIVERY": {
+            "acquisition_bytes": 54102082,
+            "candidate_id": "SEMCRYS:ULTRA:DELTA:LZMA",
+            "capabilities": [
+              "EXACT_RECOVERY",
+              "FULL_INTEGERIZATION",
+              "INTEGERIZED",
+              "SEMCRYS_CONTAINER",
+              "SHARED_LEGEND"
+            ],
+            "codec": "LZMA",
+            "container_bytes": 724782,
+            "container_sha256": "c0d3e93008358f758530bb54572edbc004456159a452774d281a9b92e5cdffce",
+            "family": "SEMCRYS",
+            "legend_policy": "TOTAL",
+            "legend_roots": [
+              "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+            ],
+            "profile": "A:LONGITUDINAL_TOKEN_DELTA",
+            "reuse_horizon": 1,
+            "score_bytes": 54826864
+          },
+          "MIN_INTEGERIZED_DELIVERY": {
+            "acquisition_bytes": 0,
+            "candidate_id": "SEMCRYS:BASE:LOCAL:BZ2_9",
+            "capabilities": [
+              "EXACT_RECOVERY",
+              "INTEGERIZED",
+              "PROFITABLE_INTEGERIZATION",
+              "SEMCRYS_CONTAINER"
+            ],
+            "codec": "BZ2_9",
+            "container_bytes": 873818,
+            "container_sha256": "de909fd079518cd084d52ec1ff690acc6dd5552680a2adc9f74f10c7a9e63897",
+            "family": "SEMCRYS",
+            "legend_policy": "PROFITABLE",
+            "legend_roots": [],
+            "profile": "C:SELF_CONTAINED_TOKEN",
+            "reuse_horizon": 1,
+            "score_bytes": 873818
+          },
+          "MIN_SEMCRYS_DELIVERY": {
+            "acquisition_bytes": 0,
+            "candidate_id": "SEMCRYS:BASE:RAW:LZMA",
+            "capabilities": [
+              "EXACT_RECOVERY",
+              "SEMCRYS_CONTAINER"
+            ],
+            "codec": "LZMA",
+            "container_bytes": 703472,
+            "container_sha256": "01ff860acf73d9d0b8ec8958c830bac377f31ddb341e978857d4bcc728c25704",
+            "family": "SEMCRYS",
+            "legend_policy": "PROFITABLE",
+            "legend_roots": [],
+            "profile": "C:RAW_BYTES",
+            "reuse_horizon": 1,
+            "score_bytes": 703472
+          },
+          "MIN_SHARED_LEGEND_DELIVERY": {
+            "acquisition_bytes": 54102082,
+            "candidate_id": "SEMCRYS:ULTRA:PRESHARED:LZMA",
+            "capabilities": [
+              "EXACT_RECOVERY",
+              "INTEGERIZED",
+              "PROFITABLE_INTEGERIZATION",
+              "SEMCRYS_CONTAINER",
+              "SHARED_LEGEND"
+            ],
+            "codec": "LZMA",
+            "container_bytes": 671046,
+            "container_sha256": "e0d424b3aa7265bcbd4d8a60eb8da5f4655bbae02fc194d669e6eb0630d4a43c",
+            "family": "SEMCRYS",
+            "legend_policy": "PROFITABLE",
+            "legend_roots": [
+              "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+            ],
+            "profile": "T:PRESHARED_TOKEN",
+            "reuse_horizon": 1,
+            "score_bytes": 54773128
+          }
+        }
+      },
+      {
+        "accounting": "WARM",
+        "available_candidates": 18,
+        "receiver_roots": [
+          "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+        ],
+        "reuse_horizon": 1,
+        "winners": {
+          "MIN_COMPLETE_DELIVERY": {
+            "acquisition_bytes": 0,
+            "candidate_id": "SEMCRYS:ULTRA:PRESHARED:LZMA",
+            "capabilities": [
+              "EXACT_RECOVERY",
+              "INTEGERIZED",
+              "PROFITABLE_INTEGERIZATION",
+              "SEMCRYS_CONTAINER",
+              "SHARED_LEGEND"
+            ],
+            "codec": "LZMA",
+            "container_bytes": 671046,
+            "container_sha256": "e0d424b3aa7265bcbd4d8a60eb8da5f4655bbae02fc194d669e6eb0630d4a43c",
+            "family": "SEMCRYS",
+            "legend_policy": "PROFITABLE",
+            "legend_roots": [
+              "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+            ],
+            "profile": "T:PRESHARED_TOKEN",
+            "reuse_horizon": 1,
+            "score_bytes": 671046
+          },
+          "MIN_FULL_INTEGERIZATION_DELIVERY": {
+            "acquisition_bytes": 0,
+            "candidate_id": "SEMCRYS:ULTRA:DELTA:LZMA",
+            "capabilities": [
+              "EXACT_RECOVERY",
+              "FULL_INTEGERIZATION",
+              "INTEGERIZED",
+              "SEMCRYS_CONTAINER",
+              "SHARED_LEGEND"
+            ],
+            "codec": "LZMA",
+            "container_bytes": 724782,
+            "container_sha256": "c0d3e93008358f758530bb54572edbc004456159a452774d281a9b92e5cdffce",
+            "family": "SEMCRYS",
+            "legend_policy": "TOTAL",
+            "legend_roots": [
+              "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+            ],
+            "profile": "A:LONGITUDINAL_TOKEN_DELTA",
+            "reuse_horizon": 1,
+            "score_bytes": 724782
+          },
+          "MIN_INTEGERIZED_DELIVERY": {
+            "acquisition_bytes": 0,
+            "candidate_id": "SEMCRYS:ULTRA:PRESHARED:LZMA",
+            "capabilities": [
+              "EXACT_RECOVERY",
+              "INTEGERIZED",
+              "PROFITABLE_INTEGERIZATION",
+              "SEMCRYS_CONTAINER",
+              "SHARED_LEGEND"
+            ],
+            "codec": "LZMA",
+            "container_bytes": 671046,
+            "container_sha256": "e0d424b3aa7265bcbd4d8a60eb8da5f4655bbae02fc194d669e6eb0630d4a43c",
+            "family": "SEMCRYS",
+            "legend_policy": "PROFITABLE",
+            "legend_roots": [
+              "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+            ],
+            "profile": "T:PRESHARED_TOKEN",
+            "reuse_horizon": 1,
+            "score_bytes": 671046
+          },
+          "MIN_SEMCRYS_DELIVERY": {
+            "acquisition_bytes": 0,
+            "candidate_id": "SEMCRYS:ULTRA:PRESHARED:LZMA",
+            "capabilities": [
+              "EXACT_RECOVERY",
+              "INTEGERIZED",
+              "PROFITABLE_INTEGERIZATION",
+              "SEMCRYS_CONTAINER",
+              "SHARED_LEGEND"
+            ],
+            "codec": "LZMA",
+            "container_bytes": 671046,
+            "container_sha256": "e0d424b3aa7265bcbd4d8a60eb8da5f4655bbae02fc194d669e6eb0630d4a43c",
+            "family": "SEMCRYS",
+            "legend_policy": "PROFITABLE",
+            "legend_roots": [
+              "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+            ],
+            "profile": "T:PRESHARED_TOKEN",
+            "reuse_horizon": 1,
+            "score_bytes": 671046
+          },
+          "MIN_SHARED_LEGEND_DELIVERY": {
+            "acquisition_bytes": 0,
+            "candidate_id": "SEMCRYS:ULTRA:PRESHARED:LZMA",
+            "capabilities": [
+              "EXACT_RECOVERY",
+              "INTEGERIZED",
+              "PROFITABLE_INTEGERIZATION",
+              "SEMCRYS_CONTAINER",
+              "SHARED_LEGEND"
+            ],
+            "codec": "LZMA",
+            "container_bytes": 671046,
+            "container_sha256": "e0d424b3aa7265bcbd4d8a60eb8da5f4655bbae02fc194d669e6eb0630d4a43c",
+            "family": "SEMCRYS",
+            "legend_policy": "PROFITABLE",
+            "legend_roots": [
+              "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+            ],
+            "profile": "T:PRESHARED_TOKEN",
+            "reuse_horizon": 1,
+            "score_bytes": 671046
+          }
+        }
+      },
+      {
+        "accounting": "COLD",
+        "available_candidates": 18,
+        "receiver_roots": [],
+        "reuse_horizon": 2,
+        "winners": {
+          "MIN_COMPLETE_DELIVERY": {
+            "acquisition_bytes": 0,
+            "candidate_id": "NATURAL:LZMA2_XZ_6",
+            "capabilities": [
+              "EXACT_RECOVERY"
+            ],
+            "codec": "LZMA2_XZ_6",
+            "container_bytes": 701272,
+            "container_sha256": "cdaa72299bbad01905b0bda137b2cb7337c4f9a6cd214f6deae74aeba8c8165d",
+            "family": "NATURAL_CONTROL",
+            "legend_policy": null,
+            "legend_roots": [],
+            "profile": null,
+            "reuse_horizon": 2,
+            "score_bytes": 1402544
+          },
+          "MIN_FULL_INTEGERIZATION_DELIVERY": {
+            "acquisition_bytes": 54102082,
+            "candidate_id": "SEMCRYS:ULTRA:DELTA:LZMA",
+            "capabilities": [
+              "EXACT_RECOVERY",
+              "FULL_INTEGERIZATION",
+              "INTEGERIZED",
+              "SEMCRYS_CONTAINER",
+              "SHARED_LEGEND"
+            ],
+            "codec": "LZMA",
+            "container_bytes": 724782,
+            "container_sha256": "c0d3e93008358f758530bb54572edbc004456159a452774d281a9b92e5cdffce",
+            "family": "SEMCRYS",
+            "legend_policy": "TOTAL",
+            "legend_roots": [
+              "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+            ],
+            "profile": "A:LONGITUDINAL_TOKEN_DELTA",
+            "reuse_horizon": 2,
+            "score_bytes": 55551646
+          },
+          "MIN_INTEGERIZED_DELIVERY": {
+            "acquisition_bytes": 0,
+            "candidate_id": "SEMCRYS:BASE:LOCAL:BZ2_9",
+            "capabilities": [
+              "EXACT_RECOVERY",
+              "INTEGERIZED",
+              "PROFITABLE_INTEGERIZATION",
+              "SEMCRYS_CONTAINER"
+            ],
+            "codec": "BZ2_9",
+            "container_bytes": 873818,
+            "container_sha256": "de909fd079518cd084d52ec1ff690acc6dd5552680a2adc9f74f10c7a9e63897",
+            "family": "SEMCRYS",
+            "legend_policy": "PROFITABLE",
+            "legend_roots": [],
+            "profile": "C:SELF_CONTAINED_TOKEN",
+            "reuse_horizon": 2,
+            "score_bytes": 1747636
+          },
+          "MIN_SEMCRYS_DELIVERY": {
+            "acquisition_bytes": 0,
+            "candidate_id": "SEMCRYS:BASE:RAW:LZMA",
+            "capabilities": [
+              "EXACT_RECOVERY",
+              "SEMCRYS_CONTAINER"
+            ],
+            "codec": "LZMA",
+            "container_bytes": 703472,
+            "container_sha256": "01ff860acf73d9d0b8ec8958c830bac377f31ddb341e978857d4bcc728c25704",
+            "family": "SEMCRYS",
+            "legend_policy": "PROFITABLE",
+            "legend_roots": [],
+            "profile": "C:RAW_BYTES",
+            "reuse_horizon": 2,
+            "score_bytes": 1406944
+          },
+          "MIN_SHARED_LEGEND_DELIVERY": {
+            "acquisition_bytes": 54102082,
+            "candidate_id": "SEMCRYS:ULTRA:PRESHARED:LZMA",
+            "capabilities": [
+              "EXACT_RECOVERY",
+              "INTEGERIZED",
+              "PROFITABLE_INTEGERIZATION",
+              "SEMCRYS_CONTAINER",
+              "SHARED_LEGEND"
+            ],
+            "codec": "LZMA",
+            "container_bytes": 671046,
+            "container_sha256": "e0d424b3aa7265bcbd4d8a60eb8da5f4655bbae02fc194d669e6eb0630d4a43c",
+            "family": "SEMCRYS",
+            "legend_policy": "PROFITABLE",
+            "legend_roots": [
+              "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+            ],
+            "profile": "T:PRESHARED_TOKEN",
+            "reuse_horizon": 2,
+            "score_bytes": 55444174
+          }
+        }
+      },
+      {
+        "accounting": "WARM",
+        "available_candidates": 18,
+        "receiver_roots": [
+          "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+        ],
+        "reuse_horizon": 2,
+        "winners": {
+          "MIN_COMPLETE_DELIVERY": {
+            "acquisition_bytes": 0,
+            "candidate_id": "SEMCRYS:ULTRA:PRESHARED:LZMA",
+            "capabilities": [
+              "EXACT_RECOVERY",
+              "INTEGERIZED",
+              "PROFITABLE_INTEGERIZATION",
+              "SEMCRYS_CONTAINER",
+              "SHARED_LEGEND"
+            ],
+            "codec": "LZMA",
+            "container_bytes": 671046,
+            "container_sha256": "e0d424b3aa7265bcbd4d8a60eb8da5f4655bbae02fc194d669e6eb0630d4a43c",
+            "family": "SEMCRYS",
+            "legend_policy": "PROFITABLE",
+            "legend_roots": [
+              "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+            ],
+            "profile": "T:PRESHARED_TOKEN",
+            "reuse_horizon": 2,
+            "score_bytes": 1342092
+          },
+          "MIN_FULL_INTEGERIZATION_DELIVERY": {
+            "acquisition_bytes": 0,
+            "candidate_id": "SEMCRYS:ULTRA:DELTA:LZMA",
+            "capabilities": [
+              "EXACT_RECOVERY",
+              "FULL_INTEGERIZATION",
+              "INTEGERIZED",
+              "SEMCRYS_CONTAINER",
+              "SHARED_LEGEND"
+            ],
+            "codec": "LZMA",
+            "container_bytes": 724782,
+            "container_sha256": "c0d3e93008358f758530bb54572edbc004456159a452774d281a9b92e5cdffce",
+            "family": "SEMCRYS",
+            "legend_policy": "TOTAL",
+            "legend_roots": [
+              "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+            ],
+            "profile": "A:LONGITUDINAL_TOKEN_DELTA",
+            "reuse_horizon": 2,
+            "score_bytes": 1449564
+          },
+          "MIN_INTEGERIZED_DELIVERY": {
+            "acquisition_bytes": 0,
+            "candidate_id": "SEMCRYS:ULTRA:PRESHARED:LZMA",
+            "capabilities": [
+              "EXACT_RECOVERY",
+              "INTEGERIZED",
+              "PROFITABLE_INTEGERIZATION",
+              "SEMCRYS_CONTAINER",
+              "SHARED_LEGEND"
+            ],
+            "codec": "LZMA",
+            "container_bytes": 671046,
+            "container_sha256": "e0d424b3aa7265bcbd4d8a60eb8da5f4655bbae02fc194d669e6eb0630d4a43c",
+            "family": "SEMCRYS",
+            "legend_policy": "PROFITABLE",
+            "legend_roots": [
+              "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+            ],
+            "profile": "T:PRESHARED_TOKEN",
+            "reuse_horizon": 2,
+            "score_bytes": 1342092
+          },
+          "MIN_SEMCRYS_DELIVERY": {
+            "acquisition_bytes": 0,
+            "candidate_id": "SEMCRYS:ULTRA:PRESHARED:LZMA",
+            "capabilities": [
+              "EXACT_RECOVERY",
+              "INTEGERIZED",
+              "PROFITABLE_INTEGERIZATION",
+              "SEMCRYS_CONTAINER",
+              "SHARED_LEGEND"
+            ],
+            "codec": "LZMA",
+            "container_bytes": 671046,
+            "container_sha256": "e0d424b3aa7265bcbd4d8a60eb8da5f4655bbae02fc194d669e6eb0630d4a43c",
+            "family": "SEMCRYS",
+            "legend_policy": "PROFITABLE",
+            "legend_roots": [
+              "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+            ],
+            "profile": "T:PRESHARED_TOKEN",
+            "reuse_horizon": 2,
+            "score_bytes": 1342092
+          },
+          "MIN_SHARED_LEGEND_DELIVERY": {
+            "acquisition_bytes": 0,
+            "candidate_id": "SEMCRYS:ULTRA:PRESHARED:LZMA",
+            "capabilities": [
+              "EXACT_RECOVERY",
+              "INTEGERIZED",
+              "PROFITABLE_INTEGERIZATION",
+              "SEMCRYS_CONTAINER",
+              "SHARED_LEGEND"
+            ],
+            "codec": "LZMA",
+            "container_bytes": 671046,
+            "container_sha256": "e0d424b3aa7265bcbd4d8a60eb8da5f4655bbae02fc194d669e6eb0630d4a43c",
+            "family": "SEMCRYS",
+            "legend_policy": "PROFITABLE",
+            "legend_roots": [
+              "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+            ],
+            "profile": "T:PRESHARED_TOKEN",
+            "reuse_horizon": 2,
+            "score_bytes": 1342092
+          }
+        }
+      },
+      {
+        "accounting": "COLD",
+        "available_candidates": 18,
+        "receiver_roots": [],
+        "reuse_horizon": 4,
+        "winners": {
+          "MIN_COMPLETE_DELIVERY": {
+            "acquisition_bytes": 0,
+            "candidate_id": "NATURAL:LZMA2_XZ_6",
+            "capabilities": [
+              "EXACT_RECOVERY"
+            ],
+            "codec": "LZMA2_XZ_6",
+            "container_bytes": 701272,
+            "container_sha256": "cdaa72299bbad01905b0bda137b2cb7337c4f9a6cd214f6deae74aeba8c8165d",
+            "family": "NATURAL_CONTROL",
+            "legend_policy": null,
+            "legend_roots": [],
+            "profile": null,
+            "reuse_horizon": 4,
+            "score_bytes": 2805088
+          },
+          "MIN_FULL_INTEGERIZATION_DELIVERY": {
+            "acquisition_bytes": 54102082,
+            "candidate_id": "SEMCRYS:ULTRA:DELTA:LZMA",
+            "capabilities": [
+              "EXACT_RECOVERY",
+              "FULL_INTEGERIZATION",
+              "INTEGERIZED",
+              "SEMCRYS_CONTAINER",
+              "SHARED_LEGEND"
+            ],
+            "codec": "LZMA",
+            "container_bytes": 724782,
+            "container_sha256": "c0d3e93008358f758530bb54572edbc004456159a452774d281a9b92e5cdffce",
+            "family": "SEMCRYS",
+            "legend_policy": "TOTAL",
+            "legend_roots": [
+              "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+            ],
+            "profile": "A:LONGITUDINAL_TOKEN_DELTA",
+            "reuse_horizon": 4,
+            "score_bytes": 57001210
+          },
+          "MIN_INTEGERIZED_DELIVERY": {
+            "acquisition_bytes": 0,
+            "candidate_id": "SEMCRYS:BASE:LOCAL:BZ2_9",
+            "capabilities": [
+              "EXACT_RECOVERY",
+              "INTEGERIZED",
+              "PROFITABLE_INTEGERIZATION",
+              "SEMCRYS_CONTAINER"
+            ],
+            "codec": "BZ2_9",
+            "container_bytes": 873818,
+            "container_sha256": "de909fd079518cd084d52ec1ff690acc6dd5552680a2adc9f74f10c7a9e63897",
+            "family": "SEMCRYS",
+            "legend_policy": "PROFITABLE",
+            "legend_roots": [],
+            "profile": "C:SELF_CONTAINED_TOKEN",
+            "reuse_horizon": 4,
+            "score_bytes": 3495272
+          },
+          "MIN_SEMCRYS_DELIVERY": {
+            "acquisition_bytes": 0,
+            "candidate_id": "SEMCRYS:BASE:RAW:LZMA",
+            "capabilities": [
+              "EXACT_RECOVERY",
+              "SEMCRYS_CONTAINER"
+            ],
+            "codec": "LZMA",
+            "container_bytes": 703472,
+            "container_sha256": "01ff860acf73d9d0b8ec8958c830bac377f31ddb341e978857d4bcc728c25704",
+            "family": "SEMCRYS",
+            "legend_policy": "PROFITABLE",
+            "legend_roots": [],
+            "profile": "C:RAW_BYTES",
+            "reuse_horizon": 4,
+            "score_bytes": 2813888
+          },
+          "MIN_SHARED_LEGEND_DELIVERY": {
+            "acquisition_bytes": 54102082,
+            "candidate_id": "SEMCRYS:ULTRA:PRESHARED:LZMA",
+            "capabilities": [
+              "EXACT_RECOVERY",
+              "INTEGERIZED",
+              "PROFITABLE_INTEGERIZATION",
+              "SEMCRYS_CONTAINER",
+              "SHARED_LEGEND"
+            ],
+            "codec": "LZMA",
+            "container_bytes": 671046,
+            "container_sha256": "e0d424b3aa7265bcbd4d8a60eb8da5f4655bbae02fc194d669e6eb0630d4a43c",
+            "family": "SEMCRYS",
+            "legend_policy": "PROFITABLE",
+            "legend_roots": [
+              "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+            ],
+            "profile": "T:PRESHARED_TOKEN",
+            "reuse_horizon": 4,
+            "score_bytes": 56786266
+          }
+        }
+      },
+      {
+        "accounting": "WARM",
+        "available_candidates": 18,
+        "receiver_roots": [
+          "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+        ],
+        "reuse_horizon": 4,
+        "winners": {
+          "MIN_COMPLETE_DELIVERY": {
+            "acquisition_bytes": 0,
+            "candidate_id": "SEMCRYS:ULTRA:PRESHARED:LZMA",
+            "capabilities": [
+              "EXACT_RECOVERY",
+              "INTEGERIZED",
+              "PROFITABLE_INTEGERIZATION",
+              "SEMCRYS_CONTAINER",
+              "SHARED_LEGEND"
+            ],
+            "codec": "LZMA",
+            "container_bytes": 671046,
+            "container_sha256": "e0d424b3aa7265bcbd4d8a60eb8da5f4655bbae02fc194d669e6eb0630d4a43c",
+            "family": "SEMCRYS",
+            "legend_policy": "PROFITABLE",
+            "legend_roots": [
+              "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+            ],
+            "profile": "T:PRESHARED_TOKEN",
+            "reuse_horizon": 4,
+            "score_bytes": 2684184
+          },
+          "MIN_FULL_INTEGERIZATION_DELIVERY": {
+            "acquisition_bytes": 0,
+            "candidate_id": "SEMCRYS:ULTRA:DELTA:LZMA",
+            "capabilities": [
+              "EXACT_RECOVERY",
+              "FULL_INTEGERIZATION",
+              "INTEGERIZED",
+              "SEMCRYS_CONTAINER",
+              "SHARED_LEGEND"
+            ],
+            "codec": "LZMA",
+            "container_bytes": 724782,
+            "container_sha256": "c0d3e93008358f758530bb54572edbc004456159a452774d281a9b92e5cdffce",
+            "family": "SEMCRYS",
+            "legend_policy": "TOTAL",
+            "legend_roots": [
+              "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+            ],
+            "profile": "A:LONGITUDINAL_TOKEN_DELTA",
+            "reuse_horizon": 4,
+            "score_bytes": 2899128
+          },
+          "MIN_INTEGERIZED_DELIVERY": {
+            "acquisition_bytes": 0,
+            "candidate_id": "SEMCRYS:ULTRA:PRESHARED:LZMA",
+            "capabilities": [
+              "EXACT_RECOVERY",
+              "INTEGERIZED",
+              "PROFITABLE_INTEGERIZATION",
+              "SEMCRYS_CONTAINER",
+              "SHARED_LEGEND"
+            ],
+            "codec": "LZMA",
+            "container_bytes": 671046,
+            "container_sha256": "e0d424b3aa7265bcbd4d8a60eb8da5f4655bbae02fc194d669e6eb0630d4a43c",
+            "family": "SEMCRYS",
+            "legend_policy": "PROFITABLE",
+            "legend_roots": [
+              "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+            ],
+            "profile": "T:PRESHARED_TOKEN",
+            "reuse_horizon": 4,
+            "score_bytes": 2684184
+          },
+          "MIN_SEMCRYS_DELIVERY": {
+            "acquisition_bytes": 0,
+            "candidate_id": "SEMCRYS:ULTRA:PRESHARED:LZMA",
+            "capabilities": [
+              "EXACT_RECOVERY",
+              "INTEGERIZED",
+              "PROFITABLE_INTEGERIZATION",
+              "SEMCRYS_CONTAINER",
+              "SHARED_LEGEND"
+            ],
+            "codec": "LZMA",
+            "container_bytes": 671046,
+            "container_sha256": "e0d424b3aa7265bcbd4d8a60eb8da5f4655bbae02fc194d669e6eb0630d4a43c",
+            "family": "SEMCRYS",
+            "legend_policy": "PROFITABLE",
+            "legend_roots": [
+              "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+            ],
+            "profile": "T:PRESHARED_TOKEN",
+            "reuse_horizon": 4,
+            "score_bytes": 2684184
+          },
+          "MIN_SHARED_LEGEND_DELIVERY": {
+            "acquisition_bytes": 0,
+            "candidate_id": "SEMCRYS:ULTRA:PRESHARED:LZMA",
+            "capabilities": [
+              "EXACT_RECOVERY",
+              "INTEGERIZED",
+              "PROFITABLE_INTEGERIZATION",
+              "SEMCRYS_CONTAINER",
+              "SHARED_LEGEND"
+            ],
+            "codec": "LZMA",
+            "container_bytes": 671046,
+            "container_sha256": "e0d424b3aa7265bcbd4d8a60eb8da5f4655bbae02fc194d669e6eb0630d4a43c",
+            "family": "SEMCRYS",
+            "legend_policy": "PROFITABLE",
+            "legend_roots": [
+              "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+            ],
+            "profile": "T:PRESHARED_TOKEN",
+            "reuse_horizon": 4,
+            "score_bytes": 2684184
+          }
+        }
+      },
+      {
+        "accounting": "COLD",
+        "available_candidates": 18,
+        "receiver_roots": [],
+        "reuse_horizon": 8,
+        "winners": {
+          "MIN_COMPLETE_DELIVERY": {
+            "acquisition_bytes": 0,
+            "candidate_id": "NATURAL:LZMA2_XZ_6",
+            "capabilities": [
+              "EXACT_RECOVERY"
+            ],
+            "codec": "LZMA2_XZ_6",
+            "container_bytes": 701272,
+            "container_sha256": "cdaa72299bbad01905b0bda137b2cb7337c4f9a6cd214f6deae74aeba8c8165d",
+            "family": "NATURAL_CONTROL",
+            "legend_policy": null,
+            "legend_roots": [],
+            "profile": null,
+            "reuse_horizon": 8,
+            "score_bytes": 5610176
+          },
+          "MIN_FULL_INTEGERIZATION_DELIVERY": {
+            "acquisition_bytes": 54102082,
+            "candidate_id": "SEMCRYS:ULTRA:DELTA:LZMA",
+            "capabilities": [
+              "EXACT_RECOVERY",
+              "FULL_INTEGERIZATION",
+              "INTEGERIZED",
+              "SEMCRYS_CONTAINER",
+              "SHARED_LEGEND"
+            ],
+            "codec": "LZMA",
+            "container_bytes": 724782,
+            "container_sha256": "c0d3e93008358f758530bb54572edbc004456159a452774d281a9b92e5cdffce",
+            "family": "SEMCRYS",
+            "legend_policy": "TOTAL",
+            "legend_roots": [
+              "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+            ],
+            "profile": "A:LONGITUDINAL_TOKEN_DELTA",
+            "reuse_horizon": 8,
+            "score_bytes": 59900338
+          },
+          "MIN_INTEGERIZED_DELIVERY": {
+            "acquisition_bytes": 0,
+            "candidate_id": "SEMCRYS:BASE:LOCAL:BZ2_9",
+            "capabilities": [
+              "EXACT_RECOVERY",
+              "INTEGERIZED",
+              "PROFITABLE_INTEGERIZATION",
+              "SEMCRYS_CONTAINER"
+            ],
+            "codec": "BZ2_9",
+            "container_bytes": 873818,
+            "container_sha256": "de909fd079518cd084d52ec1ff690acc6dd5552680a2adc9f74f10c7a9e63897",
+            "family": "SEMCRYS",
+            "legend_policy": "PROFITABLE",
+            "legend_roots": [],
+            "profile": "C:SELF_CONTAINED_TOKEN",
+            "reuse_horizon": 8,
+            "score_bytes": 6990544
+          },
+          "MIN_SEMCRYS_DELIVERY": {
+            "acquisition_bytes": 0,
+            "candidate_id": "SEMCRYS:BASE:RAW:LZMA",
+            "capabilities": [
+              "EXACT_RECOVERY",
+              "SEMCRYS_CONTAINER"
+            ],
+            "codec": "LZMA",
+            "container_bytes": 703472,
+            "container_sha256": "01ff860acf73d9d0b8ec8958c830bac377f31ddb341e978857d4bcc728c25704",
+            "family": "SEMCRYS",
+            "legend_policy": "PROFITABLE",
+            "legend_roots": [],
+            "profile": "C:RAW_BYTES",
+            "reuse_horizon": 8,
+            "score_bytes": 5627776
+          },
+          "MIN_SHARED_LEGEND_DELIVERY": {
+            "acquisition_bytes": 54102082,
+            "candidate_id": "SEMCRYS:ULTRA:PRESHARED:LZMA",
+            "capabilities": [
+              "EXACT_RECOVERY",
+              "INTEGERIZED",
+              "PROFITABLE_INTEGERIZATION",
+              "SEMCRYS_CONTAINER",
+              "SHARED_LEGEND"
+            ],
+            "codec": "LZMA",
+            "container_bytes": 671046,
+            "container_sha256": "e0d424b3aa7265bcbd4d8a60eb8da5f4655bbae02fc194d669e6eb0630d4a43c",
+            "family": "SEMCRYS",
+            "legend_policy": "PROFITABLE",
+            "legend_roots": [
+              "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+            ],
+            "profile": "T:PRESHARED_TOKEN",
+            "reuse_horizon": 8,
+            "score_bytes": 59470450
+          }
+        }
+      },
+      {
+        "accounting": "WARM",
+        "available_candidates": 18,
+        "receiver_roots": [
+          "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+        ],
+        "reuse_horizon": 8,
+        "winners": {
+          "MIN_COMPLETE_DELIVERY": {
+            "acquisition_bytes": 0,
+            "candidate_id": "SEMCRYS:ULTRA:PRESHARED:LZMA",
+            "capabilities": [
+              "EXACT_RECOVERY",
+              "INTEGERIZED",
+              "PROFITABLE_INTEGERIZATION",
+              "SEMCRYS_CONTAINER",
+              "SHARED_LEGEND"
+            ],
+            "codec": "LZMA",
+            "container_bytes": 671046,
+            "container_sha256": "e0d424b3aa7265bcbd4d8a60eb8da5f4655bbae02fc194d669e6eb0630d4a43c",
+            "family": "SEMCRYS",
+            "legend_policy": "PROFITABLE",
+            "legend_roots": [
+              "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+            ],
+            "profile": "T:PRESHARED_TOKEN",
+            "reuse_horizon": 8,
+            "score_bytes": 5368368
+          },
+          "MIN_FULL_INTEGERIZATION_DELIVERY": {
+            "acquisition_bytes": 0,
+            "candidate_id": "SEMCRYS:ULTRA:DELTA:LZMA",
+            "capabilities": [
+              "EXACT_RECOVERY",
+              "FULL_INTEGERIZATION",
+              "INTEGERIZED",
+              "SEMCRYS_CONTAINER",
+              "SHARED_LEGEND"
+            ],
+            "codec": "LZMA",
+            "container_bytes": 724782,
+            "container_sha256": "c0d3e93008358f758530bb54572edbc004456159a452774d281a9b92e5cdffce",
+            "family": "SEMCRYS",
+            "legend_policy": "TOTAL",
+            "legend_roots": [
+              "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+            ],
+            "profile": "A:LONGITUDINAL_TOKEN_DELTA",
+            "reuse_horizon": 8,
+            "score_bytes": 5798256
+          },
+          "MIN_INTEGERIZED_DELIVERY": {
+            "acquisition_bytes": 0,
+            "candidate_id": "SEMCRYS:ULTRA:PRESHARED:LZMA",
+            "capabilities": [
+              "EXACT_RECOVERY",
+              "INTEGERIZED",
+              "PROFITABLE_INTEGERIZATION",
+              "SEMCRYS_CONTAINER",
+              "SHARED_LEGEND"
+            ],
+            "codec": "LZMA",
+            "container_bytes": 671046,
+            "container_sha256": "e0d424b3aa7265bcbd4d8a60eb8da5f4655bbae02fc194d669e6eb0630d4a43c",
+            "family": "SEMCRYS",
+            "legend_policy": "PROFITABLE",
+            "legend_roots": [
+              "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+            ],
+            "profile": "T:PRESHARED_TOKEN",
+            "reuse_horizon": 8,
+            "score_bytes": 5368368
+          },
+          "MIN_SEMCRYS_DELIVERY": {
+            "acquisition_bytes": 0,
+            "candidate_id": "SEMCRYS:ULTRA:PRESHARED:LZMA",
+            "capabilities": [
+              "EXACT_RECOVERY",
+              "INTEGERIZED",
+              "PROFITABLE_INTEGERIZATION",
+              "SEMCRYS_CONTAINER",
+              "SHARED_LEGEND"
+            ],
+            "codec": "LZMA",
+            "container_bytes": 671046,
+            "container_sha256": "e0d424b3aa7265bcbd4d8a60eb8da5f4655bbae02fc194d669e6eb0630d4a43c",
+            "family": "SEMCRYS",
+            "legend_policy": "PROFITABLE",
+            "legend_roots": [
+              "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+            ],
+            "profile": "T:PRESHARED_TOKEN",
+            "reuse_horizon": 8,
+            "score_bytes": 5368368
+          },
+          "MIN_SHARED_LEGEND_DELIVERY": {
+            "acquisition_bytes": 0,
+            "candidate_id": "SEMCRYS:ULTRA:PRESHARED:LZMA",
+            "capabilities": [
+              "EXACT_RECOVERY",
+              "INTEGERIZED",
+              "PROFITABLE_INTEGERIZATION",
+              "SEMCRYS_CONTAINER",
+              "SHARED_LEGEND"
+            ],
+            "codec": "LZMA",
+            "container_bytes": 671046,
+            "container_sha256": "e0d424b3aa7265bcbd4d8a60eb8da5f4655bbae02fc194d669e6eb0630d4a43c",
+            "family": "SEMCRYS",
+            "legend_policy": "PROFITABLE",
+            "legend_roots": [
+              "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+            ],
+            "profile": "T:PRESHARED_TOKEN",
+            "reuse_horizon": 8,
+            "score_bytes": 5368368
+          }
+        }
+      },
+      {
+        "accounting": "COLD",
+        "available_candidates": 18,
+        "receiver_roots": [],
+        "reuse_horizon": 16,
+        "winners": {
+          "MIN_COMPLETE_DELIVERY": {
+            "acquisition_bytes": 0,
+            "candidate_id": "NATURAL:LZMA2_XZ_6",
+            "capabilities": [
+              "EXACT_RECOVERY"
+            ],
+            "codec": "LZMA2_XZ_6",
+            "container_bytes": 701272,
+            "container_sha256": "cdaa72299bbad01905b0bda137b2cb7337c4f9a6cd214f6deae74aeba8c8165d",
+            "family": "NATURAL_CONTROL",
+            "legend_policy": null,
+            "legend_roots": [],
+            "profile": null,
+            "reuse_horizon": 16,
+            "score_bytes": 11220352
+          },
+          "MIN_FULL_INTEGERIZATION_DELIVERY": {
+            "acquisition_bytes": 54102082,
+            "candidate_id": "SEMCRYS:ULTRA:DELTA:LZMA",
+            "capabilities": [
+              "EXACT_RECOVERY",
+              "FULL_INTEGERIZATION",
+              "INTEGERIZED",
+              "SEMCRYS_CONTAINER",
+              "SHARED_LEGEND"
+            ],
+            "codec": "LZMA",
+            "container_bytes": 724782,
+            "container_sha256": "c0d3e93008358f758530bb54572edbc004456159a452774d281a9b92e5cdffce",
+            "family": "SEMCRYS",
+            "legend_policy": "TOTAL",
+            "legend_roots": [
+              "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+            ],
+            "profile": "A:LONGITUDINAL_TOKEN_DELTA",
+            "reuse_horizon": 16,
+            "score_bytes": 65698594
+          },
+          "MIN_INTEGERIZED_DELIVERY": {
+            "acquisition_bytes": 0,
+            "candidate_id": "SEMCRYS:BASE:LOCAL:BZ2_9",
+            "capabilities": [
+              "EXACT_RECOVERY",
+              "INTEGERIZED",
+              "PROFITABLE_INTEGERIZATION",
+              "SEMCRYS_CONTAINER"
+            ],
+            "codec": "BZ2_9",
+            "container_bytes": 873818,
+            "container_sha256": "de909fd079518cd084d52ec1ff690acc6dd5552680a2adc9f74f10c7a9e63897",
+            "family": "SEMCRYS",
+            "legend_policy": "PROFITABLE",
+            "legend_roots": [],
+            "profile": "C:SELF_CONTAINED_TOKEN",
+            "reuse_horizon": 16,
+            "score_bytes": 13981088
+          },
+          "MIN_SEMCRYS_DELIVERY": {
+            "acquisition_bytes": 0,
+            "candidate_id": "SEMCRYS:BASE:RAW:LZMA",
+            "capabilities": [
+              "EXACT_RECOVERY",
+              "SEMCRYS_CONTAINER"
+            ],
+            "codec": "LZMA",
+            "container_bytes": 703472,
+            "container_sha256": "01ff860acf73d9d0b8ec8958c830bac377f31ddb341e978857d4bcc728c25704",
+            "family": "SEMCRYS",
+            "legend_policy": "PROFITABLE",
+            "legend_roots": [],
+            "profile": "C:RAW_BYTES",
+            "reuse_horizon": 16,
+            "score_bytes": 11255552
+          },
+          "MIN_SHARED_LEGEND_DELIVERY": {
+            "acquisition_bytes": 54102082,
+            "candidate_id": "SEMCRYS:ULTRA:PRESHARED:LZMA",
+            "capabilities": [
+              "EXACT_RECOVERY",
+              "INTEGERIZED",
+              "PROFITABLE_INTEGERIZATION",
+              "SEMCRYS_CONTAINER",
+              "SHARED_LEGEND"
+            ],
+            "codec": "LZMA",
+            "container_bytes": 671046,
+            "container_sha256": "e0d424b3aa7265bcbd4d8a60eb8da5f4655bbae02fc194d669e6eb0630d4a43c",
+            "family": "SEMCRYS",
+            "legend_policy": "PROFITABLE",
+            "legend_roots": [
+              "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+            ],
+            "profile": "T:PRESHARED_TOKEN",
+            "reuse_horizon": 16,
+            "score_bytes": 64838818
+          }
+        }
+      },
+      {
+        "accounting": "WARM",
+        "available_candidates": 18,
+        "receiver_roots": [
+          "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+        ],
+        "reuse_horizon": 16,
+        "winners": {
+          "MIN_COMPLETE_DELIVERY": {
+            "acquisition_bytes": 0,
+            "candidate_id": "SEMCRYS:ULTRA:PRESHARED:LZMA",
+            "capabilities": [
+              "EXACT_RECOVERY",
+              "INTEGERIZED",
+              "PROFITABLE_INTEGERIZATION",
+              "SEMCRYS_CONTAINER",
+              "SHARED_LEGEND"
+            ],
+            "codec": "LZMA",
+            "container_bytes": 671046,
+            "container_sha256": "e0d424b3aa7265bcbd4d8a60eb8da5f4655bbae02fc194d669e6eb0630d4a43c",
+            "family": "SEMCRYS",
+            "legend_policy": "PROFITABLE",
+            "legend_roots": [
+              "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+            ],
+            "profile": "T:PRESHARED_TOKEN",
+            "reuse_horizon": 16,
+            "score_bytes": 10736736
+          },
+          "MIN_FULL_INTEGERIZATION_DELIVERY": {
+            "acquisition_bytes": 0,
+            "candidate_id": "SEMCRYS:ULTRA:DELTA:LZMA",
+            "capabilities": [
+              "EXACT_RECOVERY",
+              "FULL_INTEGERIZATION",
+              "INTEGERIZED",
+              "SEMCRYS_CONTAINER",
+              "SHARED_LEGEND"
+            ],
+            "codec": "LZMA",
+            "container_bytes": 724782,
+            "container_sha256": "c0d3e93008358f758530bb54572edbc004456159a452774d281a9b92e5cdffce",
+            "family": "SEMCRYS",
+            "legend_policy": "TOTAL",
+            "legend_roots": [
+              "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+            ],
+            "profile": "A:LONGITUDINAL_TOKEN_DELTA",
+            "reuse_horizon": 16,
+            "score_bytes": 11596512
+          },
+          "MIN_INTEGERIZED_DELIVERY": {
+            "acquisition_bytes": 0,
+            "candidate_id": "SEMCRYS:ULTRA:PRESHARED:LZMA",
+            "capabilities": [
+              "EXACT_RECOVERY",
+              "INTEGERIZED",
+              "PROFITABLE_INTEGERIZATION",
+              "SEMCRYS_CONTAINER",
+              "SHARED_LEGEND"
+            ],
+            "codec": "LZMA",
+            "container_bytes": 671046,
+            "container_sha256": "e0d424b3aa7265bcbd4d8a60eb8da5f4655bbae02fc194d669e6eb0630d4a43c",
+            "family": "SEMCRYS",
+            "legend_policy": "PROFITABLE",
+            "legend_roots": [
+              "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+            ],
+            "profile": "T:PRESHARED_TOKEN",
+            "reuse_horizon": 16,
+            "score_bytes": 10736736
+          },
+          "MIN_SEMCRYS_DELIVERY": {
+            "acquisition_bytes": 0,
+            "candidate_id": "SEMCRYS:ULTRA:PRESHARED:LZMA",
+            "capabilities": [
+              "EXACT_RECOVERY",
+              "INTEGERIZED",
+              "PROFITABLE_INTEGERIZATION",
+              "SEMCRYS_CONTAINER",
+              "SHARED_LEGEND"
+            ],
+            "codec": "LZMA",
+            "container_bytes": 671046,
+            "container_sha256": "e0d424b3aa7265bcbd4d8a60eb8da5f4655bbae02fc194d669e6eb0630d4a43c",
+            "family": "SEMCRYS",
+            "legend_policy": "PROFITABLE",
+            "legend_roots": [
+              "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+            ],
+            "profile": "T:PRESHARED_TOKEN",
+            "reuse_horizon": 16,
+            "score_bytes": 10736736
+          },
+          "MIN_SHARED_LEGEND_DELIVERY": {
+            "acquisition_bytes": 0,
+            "candidate_id": "SEMCRYS:ULTRA:PRESHARED:LZMA",
+            "capabilities": [
+              "EXACT_RECOVERY",
+              "INTEGERIZED",
+              "PROFITABLE_INTEGERIZATION",
+              "SEMCRYS_CONTAINER",
+              "SHARED_LEGEND"
+            ],
+            "codec": "LZMA",
+            "container_bytes": 671046,
+            "container_sha256": "e0d424b3aa7265bcbd4d8a60eb8da5f4655bbae02fc194d669e6eb0630d4a43c",
+            "family": "SEMCRYS",
+            "legend_policy": "PROFITABLE",
+            "legend_roots": [
+              "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+            ],
+            "profile": "T:PRESHARED_TOKEN",
+            "reuse_horizon": 16,
+            "score_bytes": 10736736
+          }
+        }
+      },
+      {
+        "accounting": "COLD",
+        "available_candidates": 18,
+        "receiver_roots": [],
+        "reuse_horizon": 32,
+        "winners": {
+          "MIN_COMPLETE_DELIVERY": {
+            "acquisition_bytes": 0,
+            "candidate_id": "NATURAL:LZMA2_XZ_6",
+            "capabilities": [
+              "EXACT_RECOVERY"
+            ],
+            "codec": "LZMA2_XZ_6",
+            "container_bytes": 701272,
+            "container_sha256": "cdaa72299bbad01905b0bda137b2cb7337c4f9a6cd214f6deae74aeba8c8165d",
+            "family": "NATURAL_CONTROL",
+            "legend_policy": null,
+            "legend_roots": [],
+            "profile": null,
+            "reuse_horizon": 32,
+            "score_bytes": 22440704
+          },
+          "MIN_FULL_INTEGERIZATION_DELIVERY": {
+            "acquisition_bytes": 54102082,
+            "candidate_id": "SEMCRYS:ULTRA:DELTA:LZMA",
+            "capabilities": [
+              "EXACT_RECOVERY",
+              "FULL_INTEGERIZATION",
+              "INTEGERIZED",
+              "SEMCRYS_CONTAINER",
+              "SHARED_LEGEND"
+            ],
+            "codec": "LZMA",
+            "container_bytes": 724782,
+            "container_sha256": "c0d3e93008358f758530bb54572edbc004456159a452774d281a9b92e5cdffce",
+            "family": "SEMCRYS",
+            "legend_policy": "TOTAL",
+            "legend_roots": [
+              "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+            ],
+            "profile": "A:LONGITUDINAL_TOKEN_DELTA",
+            "reuse_horizon": 32,
+            "score_bytes": 77295106
+          },
+          "MIN_INTEGERIZED_DELIVERY": {
+            "acquisition_bytes": 0,
+            "candidate_id": "SEMCRYS:BASE:LOCAL:BZ2_9",
+            "capabilities": [
+              "EXACT_RECOVERY",
+              "INTEGERIZED",
+              "PROFITABLE_INTEGERIZATION",
+              "SEMCRYS_CONTAINER"
+            ],
+            "codec": "BZ2_9",
+            "container_bytes": 873818,
+            "container_sha256": "de909fd079518cd084d52ec1ff690acc6dd5552680a2adc9f74f10c7a9e63897",
+            "family": "SEMCRYS",
+            "legend_policy": "PROFITABLE",
+            "legend_roots": [],
+            "profile": "C:SELF_CONTAINED_TOKEN",
+            "reuse_horizon": 32,
+            "score_bytes": 27962176
+          },
+          "MIN_SEMCRYS_DELIVERY": {
+            "acquisition_bytes": 0,
+            "candidate_id": "SEMCRYS:BASE:RAW:LZMA",
+            "capabilities": [
+              "EXACT_RECOVERY",
+              "SEMCRYS_CONTAINER"
+            ],
+            "codec": "LZMA",
+            "container_bytes": 703472,
+            "container_sha256": "01ff860acf73d9d0b8ec8958c830bac377f31ddb341e978857d4bcc728c25704",
+            "family": "SEMCRYS",
+            "legend_policy": "PROFITABLE",
+            "legend_roots": [],
+            "profile": "C:RAW_BYTES",
+            "reuse_horizon": 32,
+            "score_bytes": 22511104
+          },
+          "MIN_SHARED_LEGEND_DELIVERY": {
+            "acquisition_bytes": 54102082,
+            "candidate_id": "SEMCRYS:ULTRA:PRESHARED:LZMA",
+            "capabilities": [
+              "EXACT_RECOVERY",
+              "INTEGERIZED",
+              "PROFITABLE_INTEGERIZATION",
+              "SEMCRYS_CONTAINER",
+              "SHARED_LEGEND"
+            ],
+            "codec": "LZMA",
+            "container_bytes": 671046,
+            "container_sha256": "e0d424b3aa7265bcbd4d8a60eb8da5f4655bbae02fc194d669e6eb0630d4a43c",
+            "family": "SEMCRYS",
+            "legend_policy": "PROFITABLE",
+            "legend_roots": [
+              "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+            ],
+            "profile": "T:PRESHARED_TOKEN",
+            "reuse_horizon": 32,
+            "score_bytes": 75575554
+          }
+        }
+      },
+      {
+        "accounting": "WARM",
+        "available_candidates": 18,
+        "receiver_roots": [
+          "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+        ],
+        "reuse_horizon": 32,
+        "winners": {
+          "MIN_COMPLETE_DELIVERY": {
+            "acquisition_bytes": 0,
+            "candidate_id": "SEMCRYS:ULTRA:PRESHARED:LZMA",
+            "capabilities": [
+              "EXACT_RECOVERY",
+              "INTEGERIZED",
+              "PROFITABLE_INTEGERIZATION",
+              "SEMCRYS_CONTAINER",
+              "SHARED_LEGEND"
+            ],
+            "codec": "LZMA",
+            "container_bytes": 671046,
+            "container_sha256": "e0d424b3aa7265bcbd4d8a60eb8da5f4655bbae02fc194d669e6eb0630d4a43c",
+            "family": "SEMCRYS",
+            "legend_policy": "PROFITABLE",
+            "legend_roots": [
+              "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+            ],
+            "profile": "T:PRESHARED_TOKEN",
+            "reuse_horizon": 32,
+            "score_bytes": 21473472
+          },
+          "MIN_FULL_INTEGERIZATION_DELIVERY": {
+            "acquisition_bytes": 0,
+            "candidate_id": "SEMCRYS:ULTRA:DELTA:LZMA",
+            "capabilities": [
+              "EXACT_RECOVERY",
+              "FULL_INTEGERIZATION",
+              "INTEGERIZED",
+              "SEMCRYS_CONTAINER",
+              "SHARED_LEGEND"
+            ],
+            "codec": "LZMA",
+            "container_bytes": 724782,
+            "container_sha256": "c0d3e93008358f758530bb54572edbc004456159a452774d281a9b92e5cdffce",
+            "family": "SEMCRYS",
+            "legend_policy": "TOTAL",
+            "legend_roots": [
+              "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+            ],
+            "profile": "A:LONGITUDINAL_TOKEN_DELTA",
+            "reuse_horizon": 32,
+            "score_bytes": 23193024
+          },
+          "MIN_INTEGERIZED_DELIVERY": {
+            "acquisition_bytes": 0,
+            "candidate_id": "SEMCRYS:ULTRA:PRESHARED:LZMA",
+            "capabilities": [
+              "EXACT_RECOVERY",
+              "INTEGERIZED",
+              "PROFITABLE_INTEGERIZATION",
+              "SEMCRYS_CONTAINER",
+              "SHARED_LEGEND"
+            ],
+            "codec": "LZMA",
+            "container_bytes": 671046,
+            "container_sha256": "e0d424b3aa7265bcbd4d8a60eb8da5f4655bbae02fc194d669e6eb0630d4a43c",
+            "family": "SEMCRYS",
+            "legend_policy": "PROFITABLE",
+            "legend_roots": [
+              "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+            ],
+            "profile": "T:PRESHARED_TOKEN",
+            "reuse_horizon": 32,
+            "score_bytes": 21473472
+          },
+          "MIN_SEMCRYS_DELIVERY": {
+            "acquisition_bytes": 0,
+            "candidate_id": "SEMCRYS:ULTRA:PRESHARED:LZMA",
+            "capabilities": [
+              "EXACT_RECOVERY",
+              "INTEGERIZED",
+              "PROFITABLE_INTEGERIZATION",
+              "SEMCRYS_CONTAINER",
+              "SHARED_LEGEND"
+            ],
+            "codec": "LZMA",
+            "container_bytes": 671046,
+            "container_sha256": "e0d424b3aa7265bcbd4d8a60eb8da5f4655bbae02fc194d669e6eb0630d4a43c",
+            "family": "SEMCRYS",
+            "legend_policy": "PROFITABLE",
+            "legend_roots": [
+              "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+            ],
+            "profile": "T:PRESHARED_TOKEN",
+            "reuse_horizon": 32,
+            "score_bytes": 21473472
+          },
+          "MIN_SHARED_LEGEND_DELIVERY": {
+            "acquisition_bytes": 0,
+            "candidate_id": "SEMCRYS:ULTRA:PRESHARED:LZMA",
+            "capabilities": [
+              "EXACT_RECOVERY",
+              "INTEGERIZED",
+              "PROFITABLE_INTEGERIZATION",
+              "SEMCRYS_CONTAINER",
+              "SHARED_LEGEND"
+            ],
+            "codec": "LZMA",
+            "container_bytes": 671046,
+            "container_sha256": "e0d424b3aa7265bcbd4d8a60eb8da5f4655bbae02fc194d669e6eb0630d4a43c",
+            "family": "SEMCRYS",
+            "legend_policy": "PROFITABLE",
+            "legend_roots": [
+              "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+            ],
+            "profile": "T:PRESHARED_TOKEN",
+            "reuse_horizon": 32,
+            "score_bytes": 21473472
+          }
+        }
+      }
+    ],
+    "schema": "semcrys.configuration-court.v0.1",
+    "security_claim": "NONE",
+    "selection_scope": "ENUMERATED_CANDIDATES_FOR_ONE_EXACT_SOURCE_AND_DECLARED_RECEIVER_STATE",
+    "semcrys_codecs": [
+      "NONE",
+      "LZMA",
+      "BZ2_9"
+    ],
+    "source_bytes": 2763849,
+    "source_sha256": "28d61392bfc27ffb1c283beb6dc3dbd78a6d22f2a60e6c76121f6b70cffaaecb",
+    "standing": "BOUNDED_EXACT_WORKLOAD_EVIDENCE"
+  },
+  "evidence_root": "c665d8a11130b6f39f2696ae03d7ed96e2916a030fb32e7db9586e6f86227775",
+  "fixture": {
+    "bytes": 717512,
+    "complete_article_streams": 1,
+    "content_range": "bytes 0-717511/300361909",
+    "derivation": "HTTP_RANGE_PREFIX_ENDING_BEFORE_NEXT_COMPLETE_BZIP2_STREAM",
+    "expanded_bytes": 2763849,
+    "expanded_sha256": "28d61392bfc27ffb1c283beb6dc3dbd78a6d22f2a60e6c76121f6b70cffaaecb",
+    "filename": "enwiki-20261001-pages-articles-multistream1.xml-p1p41242-prefix-717512.bz2",
+    "first_page": {
+      "id": 10,
+      "title": "AccessibleComputing"
+    },
+    "index_rows": 100,
+    "last_page": {
+      "id": 595,
+      "title": "Andre Agassi"
+    },
+    "redistributed": false,
+    "sha256": "6f144fa15abb7ee100a91ed5a63761d89a691dcdb7a6f2836859e8a259675e00",
+    "utf8": true
+  },
+  "fixture_manifest_sha256": "606e84870acf8ac066300c56290be8639cde0d7fe084066f6e5d1fdf7ebd0017",
+  "headline_scenarios": {
+    "cold_horizon_1": {
+      "accounting": "COLD",
+      "available_candidates": 18,
+      "receiver_roots": [],
+      "reuse_horizon": 1,
+      "winners": {
+        "MIN_COMPLETE_DELIVERY": {
+          "acquisition_bytes": 0,
+          "candidate_id": "NATURAL:LZMA2_XZ_6",
+          "capabilities": [
+            "EXACT_RECOVERY"
+          ],
+          "codec": "LZMA2_XZ_6",
+          "container_bytes": 701272,
+          "container_sha256": "cdaa72299bbad01905b0bda137b2cb7337c4f9a6cd214f6deae74aeba8c8165d",
+          "family": "NATURAL_CONTROL",
+          "legend_policy": null,
+          "legend_roots": [],
+          "profile": null,
+          "reuse_horizon": 1,
+          "score_bytes": 701272
+        },
+        "MIN_FULL_INTEGERIZATION_DELIVERY": {
+          "acquisition_bytes": 54102082,
+          "candidate_id": "SEMCRYS:ULTRA:DELTA:LZMA",
+          "capabilities": [
+            "EXACT_RECOVERY",
+            "FULL_INTEGERIZATION",
+            "INTEGERIZED",
+            "SEMCRYS_CONTAINER",
+            "SHARED_LEGEND"
+          ],
+          "codec": "LZMA",
+          "container_bytes": 724782,
+          "container_sha256": "c0d3e93008358f758530bb54572edbc004456159a452774d281a9b92e5cdffce",
+          "family": "SEMCRYS",
+          "legend_policy": "TOTAL",
+          "legend_roots": [
+            "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+          ],
+          "profile": "A:LONGITUDINAL_TOKEN_DELTA",
+          "reuse_horizon": 1,
+          "score_bytes": 54826864
+        },
+        "MIN_INTEGERIZED_DELIVERY": {
+          "acquisition_bytes": 0,
+          "candidate_id": "SEMCRYS:BASE:LOCAL:BZ2_9",
+          "capabilities": [
+            "EXACT_RECOVERY",
+            "INTEGERIZED",
+            "PROFITABLE_INTEGERIZATION",
+            "SEMCRYS_CONTAINER"
+          ],
+          "codec": "BZ2_9",
+          "container_bytes": 873818,
+          "container_sha256": "de909fd079518cd084d52ec1ff690acc6dd5552680a2adc9f74f10c7a9e63897",
+          "family": "SEMCRYS",
+          "legend_policy": "PROFITABLE",
+          "legend_roots": [],
+          "profile": "C:SELF_CONTAINED_TOKEN",
+          "reuse_horizon": 1,
+          "score_bytes": 873818
+        },
+        "MIN_SEMCRYS_DELIVERY": {
+          "acquisition_bytes": 0,
+          "candidate_id": "SEMCRYS:BASE:RAW:LZMA",
+          "capabilities": [
+            "EXACT_RECOVERY",
+            "SEMCRYS_CONTAINER"
+          ],
+          "codec": "LZMA",
+          "container_bytes": 703472,
+          "container_sha256": "01ff860acf73d9d0b8ec8958c830bac377f31ddb341e978857d4bcc728c25704",
+          "family": "SEMCRYS",
+          "legend_policy": "PROFITABLE",
+          "legend_roots": [],
+          "profile": "C:RAW_BYTES",
+          "reuse_horizon": 1,
+          "score_bytes": 703472
+        },
+        "MIN_SHARED_LEGEND_DELIVERY": {
+          "acquisition_bytes": 54102082,
+          "candidate_id": "SEMCRYS:ULTRA:PRESHARED:LZMA",
+          "capabilities": [
+            "EXACT_RECOVERY",
+            "INTEGERIZED",
+            "PROFITABLE_INTEGERIZATION",
+            "SEMCRYS_CONTAINER",
+            "SHARED_LEGEND"
+          ],
+          "codec": "LZMA",
+          "container_bytes": 671046,
+          "container_sha256": "e0d424b3aa7265bcbd4d8a60eb8da5f4655bbae02fc194d669e6eb0630d4a43c",
+          "family": "SEMCRYS",
+          "legend_policy": "PROFITABLE",
+          "legend_roots": [
+            "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+          ],
+          "profile": "T:PRESHARED_TOKEN",
+          "reuse_horizon": 1,
+          "score_bytes": 54773128
+        }
+      }
+    },
+    "cold_horizon_32": {
+      "accounting": "COLD",
+      "available_candidates": 18,
+      "receiver_roots": [],
+      "reuse_horizon": 32,
+      "winners": {
+        "MIN_COMPLETE_DELIVERY": {
+          "acquisition_bytes": 0,
+          "candidate_id": "NATURAL:LZMA2_XZ_6",
+          "capabilities": [
+            "EXACT_RECOVERY"
+          ],
+          "codec": "LZMA2_XZ_6",
+          "container_bytes": 701272,
+          "container_sha256": "cdaa72299bbad01905b0bda137b2cb7337c4f9a6cd214f6deae74aeba8c8165d",
+          "family": "NATURAL_CONTROL",
+          "legend_policy": null,
+          "legend_roots": [],
+          "profile": null,
+          "reuse_horizon": 32,
+          "score_bytes": 22440704
+        },
+        "MIN_FULL_INTEGERIZATION_DELIVERY": {
+          "acquisition_bytes": 54102082,
+          "candidate_id": "SEMCRYS:ULTRA:DELTA:LZMA",
+          "capabilities": [
+            "EXACT_RECOVERY",
+            "FULL_INTEGERIZATION",
+            "INTEGERIZED",
+            "SEMCRYS_CONTAINER",
+            "SHARED_LEGEND"
+          ],
+          "codec": "LZMA",
+          "container_bytes": 724782,
+          "container_sha256": "c0d3e93008358f758530bb54572edbc004456159a452774d281a9b92e5cdffce",
+          "family": "SEMCRYS",
+          "legend_policy": "TOTAL",
+          "legend_roots": [
+            "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+          ],
+          "profile": "A:LONGITUDINAL_TOKEN_DELTA",
+          "reuse_horizon": 32,
+          "score_bytes": 77295106
+        },
+        "MIN_INTEGERIZED_DELIVERY": {
+          "acquisition_bytes": 0,
+          "candidate_id": "SEMCRYS:BASE:LOCAL:BZ2_9",
+          "capabilities": [
+            "EXACT_RECOVERY",
+            "INTEGERIZED",
+            "PROFITABLE_INTEGERIZATION",
+            "SEMCRYS_CONTAINER"
+          ],
+          "codec": "BZ2_9",
+          "container_bytes": 873818,
+          "container_sha256": "de909fd079518cd084d52ec1ff690acc6dd5552680a2adc9f74f10c7a9e63897",
+          "family": "SEMCRYS",
+          "legend_policy": "PROFITABLE",
+          "legend_roots": [],
+          "profile": "C:SELF_CONTAINED_TOKEN",
+          "reuse_horizon": 32,
+          "score_bytes": 27962176
+        },
+        "MIN_SEMCRYS_DELIVERY": {
+          "acquisition_bytes": 0,
+          "candidate_id": "SEMCRYS:BASE:RAW:LZMA",
+          "capabilities": [
+            "EXACT_RECOVERY",
+            "SEMCRYS_CONTAINER"
+          ],
+          "codec": "LZMA",
+          "container_bytes": 703472,
+          "container_sha256": "01ff860acf73d9d0b8ec8958c830bac377f31ddb341e978857d4bcc728c25704",
+          "family": "SEMCRYS",
+          "legend_policy": "PROFITABLE",
+          "legend_roots": [],
+          "profile": "C:RAW_BYTES",
+          "reuse_horizon": 32,
+          "score_bytes": 22511104
+        },
+        "MIN_SHARED_LEGEND_DELIVERY": {
+          "acquisition_bytes": 54102082,
+          "candidate_id": "SEMCRYS:ULTRA:PRESHARED:LZMA",
+          "capabilities": [
+            "EXACT_RECOVERY",
+            "INTEGERIZED",
+            "PROFITABLE_INTEGERIZATION",
+            "SEMCRYS_CONTAINER",
+            "SHARED_LEGEND"
+          ],
+          "codec": "LZMA",
+          "container_bytes": 671046,
+          "container_sha256": "e0d424b3aa7265bcbd4d8a60eb8da5f4655bbae02fc194d669e6eb0630d4a43c",
+          "family": "SEMCRYS",
+          "legend_policy": "PROFITABLE",
+          "legend_roots": [
+            "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+          ],
+          "profile": "T:PRESHARED_TOKEN",
+          "reuse_horizon": 32,
+          "score_bytes": 75575554
+        }
+      }
+    },
+    "warm_horizon_1": {
+      "accounting": "WARM",
+      "available_candidates": 18,
+      "receiver_roots": [
+        "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+      ],
+      "reuse_horizon": 1,
+      "winners": {
+        "MIN_COMPLETE_DELIVERY": {
+          "acquisition_bytes": 0,
+          "candidate_id": "SEMCRYS:ULTRA:PRESHARED:LZMA",
+          "capabilities": [
+            "EXACT_RECOVERY",
+            "INTEGERIZED",
+            "PROFITABLE_INTEGERIZATION",
+            "SEMCRYS_CONTAINER",
+            "SHARED_LEGEND"
+          ],
+          "codec": "LZMA",
+          "container_bytes": 671046,
+          "container_sha256": "e0d424b3aa7265bcbd4d8a60eb8da5f4655bbae02fc194d669e6eb0630d4a43c",
+          "family": "SEMCRYS",
+          "legend_policy": "PROFITABLE",
+          "legend_roots": [
+            "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+          ],
+          "profile": "T:PRESHARED_TOKEN",
+          "reuse_horizon": 1,
+          "score_bytes": 671046
+        },
+        "MIN_FULL_INTEGERIZATION_DELIVERY": {
+          "acquisition_bytes": 0,
+          "candidate_id": "SEMCRYS:ULTRA:DELTA:LZMA",
+          "capabilities": [
+            "EXACT_RECOVERY",
+            "FULL_INTEGERIZATION",
+            "INTEGERIZED",
+            "SEMCRYS_CONTAINER",
+            "SHARED_LEGEND"
+          ],
+          "codec": "LZMA",
+          "container_bytes": 724782,
+          "container_sha256": "c0d3e93008358f758530bb54572edbc004456159a452774d281a9b92e5cdffce",
+          "family": "SEMCRYS",
+          "legend_policy": "TOTAL",
+          "legend_roots": [
+            "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+          ],
+          "profile": "A:LONGITUDINAL_TOKEN_DELTA",
+          "reuse_horizon": 1,
+          "score_bytes": 724782
+        },
+        "MIN_INTEGERIZED_DELIVERY": {
+          "acquisition_bytes": 0,
+          "candidate_id": "SEMCRYS:ULTRA:PRESHARED:LZMA",
+          "capabilities": [
+            "EXACT_RECOVERY",
+            "INTEGERIZED",
+            "PROFITABLE_INTEGERIZATION",
+            "SEMCRYS_CONTAINER",
+            "SHARED_LEGEND"
+          ],
+          "codec": "LZMA",
+          "container_bytes": 671046,
+          "container_sha256": "e0d424b3aa7265bcbd4d8a60eb8da5f4655bbae02fc194d669e6eb0630d4a43c",
+          "family": "SEMCRYS",
+          "legend_policy": "PROFITABLE",
+          "legend_roots": [
+            "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+          ],
+          "profile": "T:PRESHARED_TOKEN",
+          "reuse_horizon": 1,
+          "score_bytes": 671046
+        },
+        "MIN_SEMCRYS_DELIVERY": {
+          "acquisition_bytes": 0,
+          "candidate_id": "SEMCRYS:ULTRA:PRESHARED:LZMA",
+          "capabilities": [
+            "EXACT_RECOVERY",
+            "INTEGERIZED",
+            "PROFITABLE_INTEGERIZATION",
+            "SEMCRYS_CONTAINER",
+            "SHARED_LEGEND"
+          ],
+          "codec": "LZMA",
+          "container_bytes": 671046,
+          "container_sha256": "e0d424b3aa7265bcbd4d8a60eb8da5f4655bbae02fc194d669e6eb0630d4a43c",
+          "family": "SEMCRYS",
+          "legend_policy": "PROFITABLE",
+          "legend_roots": [
+            "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+          ],
+          "profile": "T:PRESHARED_TOKEN",
+          "reuse_horizon": 1,
+          "score_bytes": 671046
+        },
+        "MIN_SHARED_LEGEND_DELIVERY": {
+          "acquisition_bytes": 0,
+          "candidate_id": "SEMCRYS:ULTRA:PRESHARED:LZMA",
+          "capabilities": [
+            "EXACT_RECOVERY",
+            "INTEGERIZED",
+            "PROFITABLE_INTEGERIZATION",
+            "SEMCRYS_CONTAINER",
+            "SHARED_LEGEND"
+          ],
+          "codec": "LZMA",
+          "container_bytes": 671046,
+          "container_sha256": "e0d424b3aa7265bcbd4d8a60eb8da5f4655bbae02fc194d669e6eb0630d4a43c",
+          "family": "SEMCRYS",
+          "legend_policy": "PROFITABLE",
+          "legend_roots": [
+            "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+          ],
+          "profile": "T:PRESHARED_TOKEN",
+          "reuse_horizon": 1,
+          "score_bytes": 671046
+        }
+      }
+    },
+    "warm_horizon_32": {
+      "accounting": "WARM",
+      "available_candidates": 18,
+      "receiver_roots": [
+        "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+      ],
+      "reuse_horizon": 32,
+      "winners": {
+        "MIN_COMPLETE_DELIVERY": {
+          "acquisition_bytes": 0,
+          "candidate_id": "SEMCRYS:ULTRA:PRESHARED:LZMA",
+          "capabilities": [
+            "EXACT_RECOVERY",
+            "INTEGERIZED",
+            "PROFITABLE_INTEGERIZATION",
+            "SEMCRYS_CONTAINER",
+            "SHARED_LEGEND"
+          ],
+          "codec": "LZMA",
+          "container_bytes": 671046,
+          "container_sha256": "e0d424b3aa7265bcbd4d8a60eb8da5f4655bbae02fc194d669e6eb0630d4a43c",
+          "family": "SEMCRYS",
+          "legend_policy": "PROFITABLE",
+          "legend_roots": [
+            "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+          ],
+          "profile": "T:PRESHARED_TOKEN",
+          "reuse_horizon": 32,
+          "score_bytes": 21473472
+        },
+        "MIN_FULL_INTEGERIZATION_DELIVERY": {
+          "acquisition_bytes": 0,
+          "candidate_id": "SEMCRYS:ULTRA:DELTA:LZMA",
+          "capabilities": [
+            "EXACT_RECOVERY",
+            "FULL_INTEGERIZATION",
+            "INTEGERIZED",
+            "SEMCRYS_CONTAINER",
+            "SHARED_LEGEND"
+          ],
+          "codec": "LZMA",
+          "container_bytes": 724782,
+          "container_sha256": "c0d3e93008358f758530bb54572edbc004456159a452774d281a9b92e5cdffce",
+          "family": "SEMCRYS",
+          "legend_policy": "TOTAL",
+          "legend_roots": [
+            "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+          ],
+          "profile": "A:LONGITUDINAL_TOKEN_DELTA",
+          "reuse_horizon": 32,
+          "score_bytes": 23193024
+        },
+        "MIN_INTEGERIZED_DELIVERY": {
+          "acquisition_bytes": 0,
+          "candidate_id": "SEMCRYS:ULTRA:PRESHARED:LZMA",
+          "capabilities": [
+            "EXACT_RECOVERY",
+            "INTEGERIZED",
+            "PROFITABLE_INTEGERIZATION",
+            "SEMCRYS_CONTAINER",
+            "SHARED_LEGEND"
+          ],
+          "codec": "LZMA",
+          "container_bytes": 671046,
+          "container_sha256": "e0d424b3aa7265bcbd4d8a60eb8da5f4655bbae02fc194d669e6eb0630d4a43c",
+          "family": "SEMCRYS",
+          "legend_policy": "PROFITABLE",
+          "legend_roots": [
+            "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+          ],
+          "profile": "T:PRESHARED_TOKEN",
+          "reuse_horizon": 32,
+          "score_bytes": 21473472
+        },
+        "MIN_SEMCRYS_DELIVERY": {
+          "acquisition_bytes": 0,
+          "candidate_id": "SEMCRYS:ULTRA:PRESHARED:LZMA",
+          "capabilities": [
+            "EXACT_RECOVERY",
+            "INTEGERIZED",
+            "PROFITABLE_INTEGERIZATION",
+            "SEMCRYS_CONTAINER",
+            "SHARED_LEGEND"
+          ],
+          "codec": "LZMA",
+          "container_bytes": 671046,
+          "container_sha256": "e0d424b3aa7265bcbd4d8a60eb8da5f4655bbae02fc194d669e6eb0630d4a43c",
+          "family": "SEMCRYS",
+          "legend_policy": "PROFITABLE",
+          "legend_roots": [
+            "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+          ],
+          "profile": "T:PRESHARED_TOKEN",
+          "reuse_horizon": 32,
+          "score_bytes": 21473472
+        },
+        "MIN_SHARED_LEGEND_DELIVERY": {
+          "acquisition_bytes": 0,
+          "candidate_id": "SEMCRYS:ULTRA:PRESHARED:LZMA",
+          "capabilities": [
+            "EXACT_RECOVERY",
+            "INTEGERIZED",
+            "PROFITABLE_INTEGERIZATION",
+            "SEMCRYS_CONTAINER",
+            "SHARED_LEGEND"
+          ],
+          "codec": "LZMA",
+          "container_bytes": 671046,
+          "container_sha256": "e0d424b3aa7265bcbd4d8a60eb8da5f4655bbae02fc194d669e6eb0630d4a43c",
+          "family": "SEMCRYS",
+          "legend_policy": "PROFITABLE",
+          "legend_roots": [
+            "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+          ],
+          "profile": "T:PRESHARED_TOKEN",
+          "reuse_horizon": 32,
+          "score_bytes": 21473472
+        }
+      }
+    }
+  },
+  "method_notes": [
+    "The fixture is a bounded prefix of complete bzip2 streams, not a well-formed complete XML dump.",
+    "The general court measures exact SemCrys RAW, self-contained, Ultra pre-shared, and Ultra longitudinal-delta candidates under NONE, LZMA, and BZ2_9.",
+    "Direct RAW, BZ2 levels 1/9, and XZ presets 0/6/9 are exact-recovery controls.",
+    "Cold scenarios charge the decoded Ultra legend once; warm scenarios require its exact root and charge no acquisition bytes.",
+    "Every SemCrys candidate is decoded and hash-verified before it is eligible for selection.",
+    "Full integerization is a capability constraint, so its winner is reported separately from the unconstrained minimum-byte winner.",
+    "Reuse horizons repeat this exact frozen source and do not predict future Wikipedia pages or other corpora."
+  ],
+  "official_fixture_ratio": 0.25960608,
+  "runtime": {
+    "implementation": "CPython",
+    "machine": "AMD64",
+    "python": "3.12.10",
+    "system": "Windows"
+  },
+  "schema": "semcrys.wikipedia-qualification.v0.2",
+  "source_bytes": 2763849,
+  "source_sha256": "28d61392bfc27ffb1c283beb6dc3dbd78a6d22f2a60e6c76121f6b70cffaaecb",
+  "standing": "SINGLE_HOST_BOUNDED_CONFIGURATION_COURT_EVIDENCE",
+  "ultra": {
+    "container_bytes": 22939848,
+    "container_sha256": "859f1160b2c61620fc582d6d420294d91d6d68106f67e97ac14930e69bbb4e71",
+    "library_root": "b5f45206cb1acf026325629881b4dbfbcdd8b8c609e9006de386f00288a20812",
+    "restored_legend_bytes": 54102082,
+    "restored_legend_sha256": "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+  }
+}

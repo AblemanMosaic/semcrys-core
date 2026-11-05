@@ -1,0 +1,22 @@
+{
+  "schema": "semcrys.metalegend-terminology-contract.v0.1",
+  "standing": "CANDIDATE_ONLY",
+  "canonical_meaning": "RECURSIVE_LEGEND_OF_A_LEGEND",
+  "canonical_commands": ["metalegend build", "metalegend inspect", "metalegend lookup", "metalegend prepare", "metalegend restore", "metalegend verify"],
+  "dialects": ["semcrys.seekable-metalegend.v0.1", "semcrys.recursive-metalegend.v0.1"],
+  "default_layout": "SEEKABLE_PREFIX_SUPERFRAMES_V1",
+  "compact_control": "RECURSIVE_PREFIX_RECIPE_V1",
+  "legacy_compatibility_aliases": {
+    "metalegend pack": "group-legend pack",
+    "metalegend unpack": "group-legend unpack"
+  },
+  "legacy_archive_schemas_unchanged": [
+    "semcrys.metalegend-instance.v0.1",
+    "semcrys.metalegend-instance.v0.2",
+    "semcrys.metalegend-bundle-instance.v0.1",
+    "semcrys.metalegend-bundle-instance.v0.2"
+  ],
+  "semantic_identity_effect": "NONE",
+  "security_claim": "NONE",
+  "admission_effect": "NONE"
+}

@@ -1,0 +1,113 @@
+{
+  "admission": "NONE",
+  "application_version": "0.1.0rc1",
+  "authority": "NONE",
+  "baseline_pin_root": "7ce95116d0ba80c6f992ccaa1bf36a968fe417db7121aa22864c48df406ec828",
+  "candidate_heads": {
+    "SEMCRYS-CANDIDATE-ADAMS-LONGITUDINAL-HEAD.json": {
+      "candidate_head_root": "8919098fb568485491d12c292d518b6a45d5e8aadc616ec0aabb27acf6dfd523",
+      "pointer_sha256": "55b16ec5c72db5bc38006d7d68e0affb0884c79a26dba8efb7fd554008b615c4",
+      "target": "work/SEMCRYS-ADAMS-LONGITUDINAL-008/CANDIDATE_HEAD.json"
+    },
+    "SEMCRYS-CANDIDATE-APPLICATION-INTEGRATION-HEAD.json": {
+      "candidate_head_root": "62f42d1e7e45c4797be5725dff7b8e019b0f0ee1d113c6d365d06a01eef0337f",
+      "pointer_sha256": "a4d45497a98a7c616ff9f643e1d0a05d540412226628e0d366ea704e41420483",
+      "target": "work/SEMCRYS-APPLICATION-INTEGRATION-COURT-020/CANDIDATE_HEAD.json"
+    },
+    "SEMCRYS-CANDIDATE-ARCHAIC-HEAD.json": {
+      "candidate_head_root": "4911a2e3dc4979e631a5ed80243f4c95598de1b8e0f217672cefb37a1e2c5b15",
+      "pointer_sha256": "a0dbe04415ad4b9d349e4a550293de866e4128e7ce213ec2044483cbd441a9cc",
+      "target": "work/SEMCRYS-ARCHAIC-CONFIGURATION-004/CANDIDATE_HEAD.json"
+    },
+    "SEMCRYS-CANDIDATE-ASSEMBLY-PROFILE-INTEGRATION-HEAD.json": {
+      "candidate_head_root": "30dca4cef80bb4da9ba5a653262c89f0a542b724f22bebfcb4e8a618f49f9c5a",
+      "pointer_sha256": "c91e4197fd9b6ae550566eee3616c64aefe980d6071808903659ff711a011ef6",
+      "target": "work/SEMCRYS-ASSEMBLY-PROFILE-INTEGRATION-012/CANDIDATE_HEAD.json"
+    },
+    "SEMCRYS-CANDIDATE-ASSEMBLY-SECOND-PASS-HEAD.json": {
+      "candidate_head_root": "96bdac0df38d013b491539b3f838b8ca5488bab87503b832ddc8417241cdd133",
+      "pointer_sha256": "aec877d9246727b922f86e69cf509e3942e0545259c466d5192a5a2a14d15270",
+      "target": "work/SEMCRYS-ASSEMBLY-SECOND-PASS-COURT-013/CANDIDATE_HEAD.json"
+    },
+    "SEMCRYS-CANDIDATE-COMPRESSION-HEAD.json": {
+      "candidate_head_root": "177b4b261fcc41707c8b678d237ce16c677d68adf27810a8602fcdb838cbe689",
+      "pointer_sha256": "5005b92b609b74b7dd420d0bafc7c95dd48ce6cf8d530cc30ea38f8ce547ac15",
+      "target": "work/SEMCRYS-C-T-CONFIGURATION-005/COMPRESSION_CANDIDATE_HEAD.json"
+    },
+    "SEMCRYS-CANDIDATE-CONFIGURATION-CONVERGENCE-COURT-HEAD.json": {
+      "candidate_head_root": "683c67e1fd786762ef68086d58c4ede6790908fcdfda743c4c7f4a1e2960bc64",
+      "pointer_sha256": "b4e0b8c68e5d1c69d2ba6d53ffa9566a1bdfc99aa6ea37d8ec6e590b6c66c90c",
+      "target": "work/SEMCRYS-CONFIGURATION-CONVERGENCE-COURT-006/CANDIDATE_HEAD.json"
+    },
+    "SEMCRYS-CANDIDATE-CONFIGURATION-FUNNEL-HEAD.json": {
+      "candidate_head_root": "b20759c03063ab37258eb77db23a083924e5b28eddcd2fe8795a3c103f5f202d",
+      "pointer_sha256": "b6fab4f80fbf25483e362012a12399e121971b10fb4ac72875f58288e28788d3",
+      "target": "work/SEMCRYS-CONFIGURATION-FUNNEL-003/CANDIDATE_HEAD.json"
+    },
+    "SEMCRYS-CANDIDATE-CONFIGURATION-HEAD.json": {
+      "candidate_head_root": "412176c2c2cab2c2ed7b552cca5af58c25b03e52085974dbc29b51f9469bbec7",
+      "pointer_sha256": "f9b750741eceb014f632386e3e1760428cb8c6c437dfe86c688623508b012dff",
+      "target": "work/SEMCRYS-CONFIGURATION-CONSTITUTION-001/constitution/CANDIDATE_HEAD.json"
+    },
+    "SEMCRYS-CANDIDATE-CORRESPONDENCE-ULTRA-PROFILE-HEAD.json": {
+      "candidate_head_root": "f00f95096dc39ca0b31b0a926b87e228d22cc6fe6842da9398203a8e21e3675b",
+      "pointer_sha256": "99a77157901060585b66c47c7ff2b71d5627d8b563245675aae62aece47bb65f",
+      "target": "work/SEMCRYS-CORRESPONDENCE-ULTRA-PROFILE-COURT-015/CANDIDATE_HEAD.json"
+    },
+    "SEMCRYS-CANDIDATE-CRYS-CONTAINER-ABI-HEAD.json": {
+      "candidate_head_root": "0946ee403baedcd3ced539e7854a1a95042045c3f508b013cfd817c32eb88b85",
+      "pointer_sha256": "d2ac0c082e4b5865d68d42c7c4c731a55581cd574c79d6624f25842b1005b387",
+      "target": "work/SEMCRYS-CRYS-CONTAINER-ABI-COURT-019/CANDIDATE_HEAD.json"
+    },
+    "SEMCRYS-CANDIDATE-FOLD-COMPATIBILITY-PROJECTION-HEAD.json": {
+      "candidate_head_root": "7de35c7fd19be1fdf8b48c8664074dc91f4f0fa49b17e0f49011ac3623ac5031",
+      "pointer_sha256": "fdf2579dca81e5baac96a56b02ab3650ee01b18c67db1b1002bf1169f205caa4",
+      "target": "work/SEMCRYS-FOLD-COMPATIBILITY-PROJECTION-COURT-016/CANDIDATE_HEAD.json"
+    },
+    "SEMCRYS-CANDIDATE-FOLD-PROJECTION-CAPACITY-ORDERING-HEAD.json": {
+      "candidate_head_root": "0fc579f16fad87dc47d82fe83e89fe4614b73025a3ee004e71565c745f8d9123",
+      "pointer_sha256": "baf88e1a96833886d570d09641116b8217bef3274273fcc0c80c92eac51f464a",
+      "target": "work/SEMCRYS-FOLD-PROJECTION-CAPACITY-ORDERING-COURT-017/CANDIDATE_HEAD.json"
+    },
+    "SEMCRYS-CANDIDATE-FOLD-SELECTOR-FOUR-SHAPE-REPLICATION-HEAD.json": {
+      "candidate_head_root": "a11330f1bcc6cb65302f3b6cf0d4e9e89c1270756eec482706c34f37dcfe8b03",
+      "pointer_sha256": "747b08140c5f4ab434f284e9b6f79715ee46fe9e1750b939207693e5b1bf644b",
+      "target": "work/SEMCRYS-FOLD-SELECTOR-FOUR-SHAPE-REPLICATION-COURT-018/CANDIDATE_HEAD.json"
+    },
+    "SEMCRYS-CANDIDATE-LEGEND-LIFECYCLE-HEAD.json": {
+      "candidate_head_root": "639a9b175d7d5e25bed6def612dc1515671f7bd7d14ffff4eb0db63c4c114086",
+      "pointer_sha256": "f62c359d6a011d09919f4befd24b49795fedbf3eb6d96c32354c56dfee9c7256",
+      "target": "work/SEMCRYS-LEGEND-LIFECYCLE-MECHANISM-007/CANDIDATE_HEAD.json"
+    },
+    "SEMCRYS-CANDIDATE-MARK-TWAIN-ARCHIVAL-TRANSFER-HEAD.json": {
+      "candidate_head_root": "984ca6090622da9a34e1248df5a3b8e6aa5130f846a62ac34b225924df01758e",
+      "pointer_sha256": "00d27ce9c237683376b8ba605501e1aed0da3cc653567146e414e8fc203b270c",
+      "target": "work/SEMCRYS-MARK-TWAIN-ARCHIVAL-TRANSFER-COURT-014/CANDIDATE_HEAD.json"
+    },
+    "SEMCRYS-CANDIDATE-PACKED-CSIL-MORPHOLOGY-HEAD.json": {
+      "candidate_head_root": "f5f3436d6f8753826792200cab7ce967f63801ab99b8d836cce1bfcebb2088d3",
+      "pointer_sha256": "5f533e2f1f72b1d7e0638de59d57ca62985df5fe269d1e9d5d8ce45a0c9ecd2a",
+      "target": "work/HYPERPEDIA-SFTIR-GTK-PACKED-BYTE-COURT-011/CANDIDATE_HEAD.json"
+    },
+    "SEMCRYS-CANDIDATE-STREAMING-LEGEND-ABI-HEAD.json": {
+      "candidate_head_root": "66eada34e3979929ab98eea00806121d2da3a76f11599861917616e57669e1d3",
+      "pointer_sha256": "38fd8d70fc7f3b911d01edd7267f57f70b08f0ec5e01a0552cd7f701f5d9fd79",
+      "target": "work/SEMCRYS-STREAMING-LEGEND-ABI-COURT-021/CANDIDATE_HEAD.json"
+    },
+    "SEMCRYS-CANDIDATE-TRANSPORT-HEAD.json": {
+      "candidate_head_root": "c894cf7366c767f0958fa63ae88ddf2b917f1cf72752a48928c61de3b5276d8e",
+      "pointer_sha256": "39f980332cb67fcb62122250476bbf1768b4d4fd089a62a8a858019750de1cd3",
+      "target": "work/SEMCRYS-C-T-CONFIGURATION-005/TRANSPORT_CANDIDATE_HEAD.json"
+    }
+  },
+  "canonical_csil_gtk_effect": "NONE",
+  "context_root": "97b26651124e9c351edba0e6b20776c889faa77fb09fa2df27da04b2498e9cfd",
+  "external_evidence_bundled": false,
+  "lattice_root": "a6ad7efdbf5264470112d0790126b8751b57739575fa843c691429aacd4f026d",
+  "migration_contract_root": "b1b1f82d55ea4565d4ea01245cf7de152c368247eef5edc6c4c110e52a0f0160",
+  "predecessor_migration_checkpoint_root": "c4f751ff81a8c81e8a076436896447685140b08f9b242c8f14295bd7c159c043",
+  "release": "PUBLICATION_NOT_AUTHORIZED",
+  "schema": "semcrys.application-context.v0.2",
+  "security_claim": "NONE",
+  "standing": "CANDIDATE_ONLY"
+}

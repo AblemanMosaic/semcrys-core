@@ -1,0 +1,18 @@
+{
+  "predecessors": [
+    {
+      "artifact": "provenance/predecessors/Mosaic-Semantic-Compiler-Synchronization-0.1.0rc7-CANDIDATE.zip",
+      "role": "PRIMARY_SOURCE_PREDECESSOR",
+      "sha256": "f6d662c32065e255ef5e60faabcfb1dd3425ba055aeb2fc6febc63bbceb116c4"
+    },
+    {
+      "artifact": "assets/legends/ULTRA_FAMILY.crys",
+      "bytes": 22939848,
+      "role": "RELEASE_BOUND_ULTRA_ASSET",
+      "sha256": "859f1160b2c61620fc582d6d420294d91d6d68106f67e97ac14930e69bbb4e71"
+    }
+  ],
+  "schema": "semcrys.predecessor-binding.v0.1",
+  "standing": "CANDIDATE_ONLY"
+}
+

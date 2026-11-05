@@ -1,0 +1,28 @@
+{
+  "convergence_root": "e496f796359f1131ccc67ee1f1512cd472b7180650ca2eccd39df23b037a7b1d",
+  "independent_acceptance": false,
+  "open_findings": [
+    "R8_ORDERING_PROJECTION_CARRIES_NO_CLAIM_CEILING",
+    "FRESH_INDEPENDENT_ACCEPTANCE_REQUIRES_A_REVIEWER_WITHOUT_PRIOR_CONTACT"
+  ],
+  "release_ready": false,
+  "resolved_findings": [
+    "DEFECT_1_FABRICATED_CONTAINER_DIGEST_IN_ULTRA_CONFIGURATION_DOC",
+    "R1_CAPABILITIES_SCOPE_DRIFT",
+    "R2_HOST_BOUND_REVIEW_ROOTS",
+    "R3_README_NAMED_ABSENT_PATHS",
+    "R4_SINGLE_TEST_FOR_FOUR_SURFACES",
+    "R5_NON_DECODABLE_STUB_IN_EVIDENCE",
+    "R6_UNDOCUMENTED_ULTRA_OUTER_CODEC_DEFAULT"
+  ],
+  "review_roots": [
+    "3ea2ede1944f1d551954cdc1bb646d3d363aead358f241048363f4cd0baf4d95",
+    "fbf10e989d58e0406afab954c0ce3733ed207f8464a043bee092ab6fe7c5485f"
+  ],
+  "reviews_are_host_independent": true,
+  "schema": "semcrys.lite-full-synchronization-convergence.v0.2.candidate",
+  "security_claim": "NONE",
+  "standing": "CANDIDATE_ONLY",
+  "status": "BOUNDED_ENGINEERING_CONVERGED_PENDING_INDEPENDENT_REVIEW",
+  "subject_root": "f490a6581c5831b30d8d9c313bf38272d04ac5a5c5f3e915adbbf6a794cf231e"
+}

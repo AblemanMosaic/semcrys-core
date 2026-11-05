@@ -1,0 +1,85 @@
+{
+  "admission_effect": "NONE",
+  "authority_effect": "NONE",
+  "capability_surface_root": "d5f524d83df1c1b752d4d3832064320f78d07cac4164bf7814bc8d64cd4a6a1f",
+  "codecs": [
+    "CRYS_V02"
+  ],
+  "contract_root": "782d5de09c2611b4576a198cd1252e6d042c1e884a162a2a7129008b795bce0b",
+  "custody_values": [
+    "HELD",
+    "REGISTERED_REFERENCE"
+  ],
+  "frame_body": "EXTERNAL_EXACT_BYTES_NOT_EMBEDDED",
+  "frame_checks": [
+    "PEER_CAPABILITY_ROOTS",
+    "NEGOTIATION_ROOT",
+    "BODY_SHA256",
+    "BODY_BYTES",
+    "BODY_PROFILE",
+    "INSTANCE_CONSTITUTION_ROOT",
+    "ORDERED_LEGEND_CHAIN",
+    "PROJECTION"
+  ],
+  "frame_schema": "semcrys.transport-frame.v0.2",
+  "legend_record_fields": [
+    "legend_id",
+    "sha256",
+    "version",
+    "custody",
+    "supersedes",
+    "compatible_with",
+    "locations"
+  ],
+  "legend_resolution": "EXACT_ORDERED_ROOT_CHAIN_ONLY_FOR_EXECUTION",
+  "lineage": "REGISTERED_REFERENCE_METADATA_NEVER_SUBSTITUTES_FOR_HELD_EXACT_ROOT",
+  "lineage_execution_boundary": "REGISTERED_REFERENCE_SUPERSEDES_AND_COMPATIBLE_WITH_ARE_ACTIONABLE_METADATA_NOT_SUBSTITUTES_FOR_HELD_EXACT_ROOT",
+  "max_control_bytes": 16777216,
+  "native_opacity_boundary": "NONEMPTY_EXACT_PRESHARED_CHAIN_REQUIRED_NO_CONFIDENTIALITY_CLAIM",
+  "negotiation_schema": "semcrys.transport-negotiation.v0.2",
+  "network_stack": false,
+  "pathways": [
+    "EXTERNAL_CHANNEL",
+    "FILE_TRANSFER"
+  ],
+  "peer_fields": [
+    "schema",
+    "standing",
+    "peer_id",
+    "pathways",
+    "codecs",
+    "projections",
+    "legends",
+    "security_modes"
+  ],
+  "peer_schema": "semcrys.transport-peer-capabilities.v0.2",
+  "projections": [
+    "GLYPH",
+    "INTEGER",
+    "PACKED",
+    "RAW"
+  ],
+  "relationship_state_mutation": false,
+  "release_effect": "NONE",
+  "schema": "semcrys.transport-capability-surface.v0.2",
+  "security_claim": "NONE",
+  "security_modes": {
+    "DELEGATED_AEAD": "HELD_DELEGATED_CRYPTOGRAPHIC_EXECUTION",
+    "FULL_TRANSPORT_HOMOPHONIC_KEYED_PROJECTION": "HELD_FULL_TRANSPORT_HOMOPHONIC_ADAPTER_NOT_PACKAGED",
+    "KEYED_LOCAL_ID_SHUFFLE": "HELD_KEYED_LOCAL_ID_SHUFFLE_ADAPTER",
+    "NATIVE_OPACITY": "EXECUTABLE_ONLY_WITH_NONEMPTY_EXACT_PRESHARED_CHAIN_NO_CONFIDENTIALITY_CLAIM",
+    "NONE": "EXECUTABLE_NO_CONFIDENTIALITY_CLAIM",
+    "PUBLIC_ADAPTIVE_PERMUTATION": "HELD_ADAPTIVE_PERMUTATION_NOT_PACKAGED",
+    "SEALED_LEGEND": "HELD_DELEGATED_CRYPTOGRAPHIC_EXECUTION"
+  },
+  "sftir": {
+    "addresses": [
+      "SFM:SCOPE_BIND",
+      "SFM:REFERENCE_RESOLVE",
+      "SFM:CONDITION_GUARD"
+    ],
+    "identity_claim": "NONE_EXTERNAL_CONTROL_MAPPING_ONLY",
+    "operator_registry_root": "9ec508560f3634d567f304172452fa6a4200b0297852f6d23873f9b6e24921dd"
+  },
+  "standing": "CANDIDATE_ONLY"
+}

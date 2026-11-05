@@ -1,0 +1,12 @@
+{
+  "abi_version": 2,
+  "authority_effect": "NONE",
+  "binary_sha256": "56a1dab3ac8362cc15e0cc6cc5d319509ba8596f59bafb2c5072bbbf93168319",
+  "build_root": "226ceda0f21623fab1e0932c44bc4521e0c23b86388b103825248a8d05b0f18f",
+  "compiler": "gcc (Rev6, Built by MSYS2 project) 16.1.0",
+  "machine": "AMD64",
+  "platform_tag": "win_amd64",
+  "schema": "semcrys.native-build.v0.1",
+  "source_sha256": "51b73db9a5666c36f5ea92f2c37bab5f2c818d15ede5b6bf19a173c681eb7354",
+  "system": "Windows"
+}

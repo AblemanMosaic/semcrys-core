@@ -1,0 +1,83 @@
+{
+  "accounting": [
+    "COLD",
+    "WARM"
+  ],
+  "body_magic": "SPP1",
+  "command": "second-pass",
+  "configurable_hot_k": {
+    "default": 3,
+    "default_critical_schema": "semcrys.instance-constitution.v0.8",
+    "fixed_from": "INITIAL_EVENT_FREQUENCIES",
+    "maximum": 1000000,
+    "minimum": 1,
+    "nondefault_critical_schema": "semcrys.instance-constitution.v0.11",
+    "parameter": "--hot-k",
+    "security_claim": "NONE"
+  },
+  "input_artifact_deletion": false,
+  "instance_schemas": {
+    "CONFIGURABLE_TOPK": "semcrys.instance-constitution.v0.11",
+    "TOP3_COMPATIBLE": "semcrys.instance-constitution.v0.8"
+  },
+  "legend_unit_mode": "COMPOSED_EVENTS_V1",
+  "max_combined_legend_bytes": 67108864,
+  "max_decoded_source_bytes": 67108864,
+  "max_depth": 64,
+  "max_entries": 1000000,
+  "max_events": 1000000,
+  "max_input_container_bytes": 67108864,
+  "max_pair_bytes": 1048576,
+  "max_rounds": 400,
+  "group_legends": "DISTINCT_OPERATION_USE_GROUP_LEGEND_PACK",
+  "old_reader": "REFUSE_UNKNOWN_CRITICAL_IC",
+  "original_event_reconstruction_required": true,
+  "profile": "C:COMPOSED_SECOND_PASS",
+  "runtime_event_storage": "PRIVATE_U32_LE_SPOOL",
+  "runtime_pair_counter": "DISK_SQLITE_FIRST_OCCURRENCE_TIES",
+  "runtime_policy_source": "semcrys.event_stream.RESOURCE_POLICY",
+  "schema": "semcrys.second-pass-contract.v0.2",
+  "scratch_budget": {
+    "basis": "LOGICAL_LENGTH_PLUS_FULL_NATIVE_CAPACITY",
+    "counter_ranking": "STREAMING_TOP_K_COUNT_DESC_FIRST_OCCURRENCE_ASC_NO_SQL_TEMP_SORT",
+    "default_bytes": 4294967296,
+    "filesystem_allocation_overhead_counted": false,
+    "os_sandbox": false,
+    "parameter": "--max-scratch-bytes",
+    "phase_composition": "MAX_TRANSFORM_AND_PUBLICATION_NOT_SUM",
+    "process_rss_limit": false,
+    "publication_accounting": "STAGED_OUTPUT_PLUS_EXACT_UTF8_LF_RECEIPT_PLUS_BACKUPS_PLUS_FULL_JOURNAL_CAP",
+    "publication_policy_source": "semcrys.publication_resources.POLICY",
+    "publication_receipt_and_backups_budgeted": true,
+    "python_transform_scope": "TRANSFORM_ONLY_NO_OUTER_TRANSACTION",
+    "recovery_journal_reserved_bytes": 65536,
+    "scope": "CLI_SECOND_PASS_TRANSFORM_THEN_STAGED_OUTPUT_RECEIPT_AND_BACKUPS",
+    "transported_bytes_changed": false
+  },
+  "security_claim": "NONE",
+  "selection": [
+    "MIN_DELIVERY",
+    "MIN_DISPERSION",
+    "IDENTITY",
+    "ALL",
+    "TOP3",
+    "TOPK"
+  ],
+  "sequential_output": {
+    "block_bytes": 65536,
+    "failure": "DISCARD_PENDING_REFUSE_PUBLICATION",
+    "pending_memory_bound": "65536_LOGICAL_BYTES_PER_WRITER_EXCLUDES_ALLOCATOR_AND_CALLER_INPUT",
+    "quota_guard": "UNCHANGED_RESERVE_BEFORE_EACH_BLOCK",
+    "sinks": [
+      "EVENT_SPOOL",
+      "COMPOSED_PACKED_BODY",
+      "ORDINARY_DECODE",
+      "COMPOSED_DECODE"
+    ],
+    "transported_bytes_changed": false
+  },
+  "source_reconstruction_required": true,
+  "standing": "CANDIDATE_ONLY",
+  "ties": "ORIGINAL_FIRST",
+  "whole_application_streaming": false
+}

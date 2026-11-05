@@ -1,0 +1,15 @@
+{
+  "schema":"semcrys.glyph-profile-contract.v0.1",
+  "standing":"CANDIDATE_ONLY",
+  "authority_effect":"NONE",
+  "predecessor_archaic_bridge_root":"39b8544e79e970711c59c7b0d79ac233e0ae09eb6ff2c55b7265da2a648d6c65",
+  "sftir_compatibility":{"external_distribution_root":"017367bfcc45221ea1bd404a06ba6e2ee0f44068af905a1af12dda2974fedf21","referenced_control_sequence":["SFM:CONDITION_GUARD","SFM:REFERENCE_RESOLVE","SFM:SCOPE_BIND","SFM:EVIDENCE_PRIORITY","SFM:CURRENT_STATE_SELECT","SFM:IDENTITY_PRESERVE"],"scope":"REFERENCE_TO_EXISTING_CONTROL_CONTRACT_NOT_NEW_SFTIR_EXECUTION_OR_IDENTITY_PROOF"},
+  "domain_operation":"SDO:EMIT_GLYPH_PROJECTION",
+  "cm1":{"profile":"ONE_OF_THREE_TOKEN_PROFILES","registry":"EXACT_CANONICAL_TEMPLATE_GLY_V01","radix_range":[2,65536],"literal_escape":"FIRST_ABSENT_SCALAR_IN_DETERMINISTIC_SEARCH","reconstruction":"EXACT_SOURCE_BYTES"},
+  "cm2":{"projection":"USER_SELECTED_SYMBOLIC_OUTPUT","packed_default_preserved":true,"compression_optimality":false},
+  "ic":{"schema":"semcrys.instance-constitution.v0.3","bindings":["glyph_registry_sha256","glyph_placement","glyph_codec","glyph_radix","glyph_literal_escape","glyph_width","glyph_legend_entries","legend_stack","source_sha256","outer_codec"]},
+  "ir":{"body_magic_utf8":"SGY1\n","token_code":"FIXED_WIDTH_BASE_N_OF_LOCAL_LEGEND_ID_MINUS_ONE","literal_code":"escape + decimal_byte_count + colon + lowercase_hex_bytes + semicolon","container":"CRYS_V02_ENVELOPE_WITH_GLYPH_FEATURE_BINDING","embedded_registry_section":"CRITICAL_GLYP"},
+  "identity_boundary":"LOCAL_LEGEND_ID_IS_NOT_CANONICAL_CSIL_OR_AUTOMATIC_GCNL_SENSE",
+  "compatibility":{"packed_artifact_bytes":"UNCHANGED","older_glyph_reader_behavior":"TYPED_UNAVAILABLE_REFUSAL","backward_readability_of_new_glyph_feature":false},
+  "claims_excluded":["CRYPTOGRAPHIC_CONFIDENTIALITY","GCNL_RESOLUTION","BOUND_REGISTRY_REINTERPRETATION","CANONICAL_MUTATION","ADMISSION","RELEASE"]
+}

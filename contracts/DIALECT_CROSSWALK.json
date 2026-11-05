@@ -1,0 +1,38 @@
+{
+  "schema": "semcrys.event-dialect-crosswalk.v0.1.candidate",
+  "standing": "CANDIDATE_ONLY",
+  "shared_contract": "EVENT_MODEL_CONTRACT.json",
+  "rows": [
+    {
+      "semantic_role": "lossless source unit",
+      "lite": "WORD/SPACE/OTHER/HYPHEN token or BYTE",
+      "full": "UNICODE_CATEGORY_LOSSLESS_V1 unit or RAW byte",
+      "identity": "CORRESPONDENCE_ONLY"
+    },
+    {
+      "semantic_role": "unit reference",
+      "lite": "legend-scoped positive integer",
+      "full": "binary-.leg-scoped positive varint",
+      "identity": "CORRESPONDENCE_ONLY"
+    },
+    {
+      "semantic_role": "reusable composition",
+      "lite": "adjacent-pair assembly",
+      "full": "local/form/fold/second-pass assembly family",
+      "identity": "RELATED_NOT_IDENTICAL"
+    },
+    {
+      "semantic_role": "cold accounting",
+      "lite": "container plus actual .leg artifacts",
+      "full": "container plus actual dependency artifacts",
+      "identity": "SAME_RULE_DIFFERENT_ABI"
+    },
+    {
+      "semantic_role": "observable disclosure",
+      "lite": "disclose command",
+      "full": "synchronize disclosure command",
+      "identity": "SAME_METRIC_CONTRACT_DIFFERENT_TOKENIZER"
+    }
+  ],
+  "security_claim": "NONE"
+}

@@ -1,0 +1,63 @@
+{
+  "canonical_csil_claim": false,
+  "composition_boundaries": {
+    "BATCH_METALEGEND": "SEPARATE_MULTI_DOCUMENT_OPERATION",
+    "BODY_FRACTIONATION": "SEPARATE_SECOND_PASS_OPERATION",
+    "CROSS_DOCUMENT_BLOBS": "RESEARCH_ONLY_NOT_EQUIVALENT_TO_METALEGEND",
+    "LEGEND_RECURSION": "NOT_AUTOMATIC"
+  },
+  "meaning_modes": {
+    "GCNL_SENSE": "HELD_INJECTABLE_RESOLVER_NOT_PACKAGED",
+    "SURFACE": "EXECUTABLE"
+  },
+  "projections": {
+    "GLYPH": "EXACT_TEMPLATE_REGISTRY_SYMBOL_PROJECTION",
+    "INTEGER": "HUMAN_INSPECTABLE_DECIMAL_IDS_AND_HEX_LITERALS",
+    "PACKED": "BYTE_EFFICIENT_LOCAL_EVENT_IDS"
+  },
+  "registry_root": "3e02818ba3e23f0b8261acb5c8f618429255ce3fa7cb22cc46e4e21e307ff9b5",
+  "release_effect": "NONE",
+  "roles": {
+    "GUILD_PRESHARED": {
+      "legend_state": "EXACT_PRESHARED_GUILD_OR_DOMAIN_STACK",
+      "maximum_external_legends": 1023,
+      "minimum_external_legends": 1,
+      "profile": "T:PRESHARED_TOKEN"
+    },
+    "HYBRID_GUILD_LONGITUDINAL": {
+      "legend_state": "PRESHARED_BASE_PLUS_ADOPTED_DELTAS_PLUS_EMBEDDED_NEW_DELTA",
+      "maximum_external_legends": 1023,
+      "minimum_external_legends": 2,
+      "profile": "A:LONGITUDINAL_TOKEN_DELTA"
+    },
+    "PENPAL_LONGITUDINAL": {
+      "legend_state": "ORDERED_SHARED_HISTORY_PLUS_EMBEDDED_NEW_DELTA",
+      "maximum_external_legends": 1023,
+      "minimum_external_legends": 1,
+      "profile": "A:LONGITUDINAL_TOKEN_DELTA"
+    },
+    "SELF_CONTAINED_MANUAL": {
+      "legend_state": "NO_PRIOR_SHARED_STATE; LOCAL_LEGEND_EMBEDDED",
+      "maximum_external_legends": 0,
+      "minimum_external_legends": 0,
+      "profile": "C:SELF_CONTAINED_TOKEN"
+    }
+  },
+  "schema": "semcrys-a.profile-registry.v0.1",
+  "security_claim": "NONE",
+  "sftir": {
+    "addresses": [
+      "SFM:SCOPE_BIND",
+      "SFM:REFERENCE_RESOLVE",
+      "SFM:CURRENT_STATE_SELECT",
+      "SFM:IDENTITY_PRESERVE"
+    ],
+    "operator_registry_root": "9ec508560f3634d567f304172452fa6a4200b0297852f6d23873f9b6e24921dd",
+    "role": "EXTERNAL_CONTROL_SEMANTICS_NOT_BYTE_CODEC_OR_IDENTITY"
+  },
+  "shuffle_modes": {
+    "KEYED_LOCAL_ID_SHUFFLE": "HELD_CRYPTOGRAPHIC_ADAPTER_NOT_PACKAGED",
+    "NONE": "EXECUTABLE"
+  },
+  "standing": "CANDIDATE_ONLY"
+}

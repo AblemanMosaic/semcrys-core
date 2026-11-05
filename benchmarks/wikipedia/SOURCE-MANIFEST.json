@@ -1,0 +1,46 @@
+{
+  "authority_effect": "NONE",
+  "claim_boundary": "Benchmark input identity only; no SemCrys performance claim.",
+  "content_license": [
+    "CC-BY-SA-3.0",
+    "GFDL"
+  ],
+  "dump_date": "20261001",
+  "fixture": {
+    "bytes": 717512,
+    "complete_article_streams": 1,
+    "content_range": "bytes 0-717511/300361909",
+    "derivation": "HTTP_RANGE_PREFIX_ENDING_BEFORE_NEXT_COMPLETE_BZIP2_STREAM",
+    "expanded_bytes": 2763849,
+    "expanded_sha256": "28d61392bfc27ffb1c283beb6dc3dbd78a6d22f2a60e6c76121f6b70cffaaecb",
+    "filename": "enwiki-20261001-pages-articles-multistream1.xml-p1p41242-prefix-717512.bz2",
+    "first_page": {
+      "id": 10,
+      "title": "AccessibleComputing"
+    },
+    "index_rows": 100,
+    "last_page": {
+      "id": 595,
+      "title": "Andre Agassi"
+    },
+    "redistributed": false,
+    "sha256": "6f144fa15abb7ee100a91ed5a63761d89a691dcdb7a6f2836859e8a259675e00",
+    "utf8": true
+  },
+  "index_url": "https://dumps.wikimedia.org/enwiki/20261001/enwiki-20261001-pages-articles-multistream-index1.txt-p1p41242.bz2",
+  "parent": {
+    "bytes": 300361909,
+    "etag": "\"6ac7354f-11e728b5\"",
+    "last_modified": "Thu, 08 Oct 2026 06:16:47 GMT",
+    "sha1": "353bf6ce69fb0ba5e47a5cc13464523e95edb9f7",
+    "url": "https://dumps.wikimedia.org/enwiki/20261001/enwiki-20261001-pages-articles-multistream1.xml-p1p41242.bz2"
+  },
+  "project": "English Wikipedia",
+  "schema": "semcrys.wikipedia-fixture.v0.1",
+  "source_documentation": [
+    "https://meta.wikimedia.org/wiki/Data_dumps/What%27s_available_for_download",
+    "https://meta.wikimedia.org/wiki/Data_dumps/Dump_format",
+    "https://meta.wikimedia.org/wiki/Research:Data"
+  ],
+  "standing": "REPRODUCIBLE_BENCHMARK_INPUT"
+}

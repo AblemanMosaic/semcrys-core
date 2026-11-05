@@ -1,0 +1,48 @@
+{
+  "schema": "semcrys.shared-event-model.v0.1.candidate",
+  "standing": "CANDIDATE_ONLY",
+  "contract_id": "SEMCRYS-SHARED-EVENT-MODEL-090",
+  "identity_rule": "An event identifier is scoped to its declared legend or assembly and is never a canonical CSIL identity merely because it is an integer.",
+  "event_kinds": {
+    "LITERAL": {
+      "payload": "exact source bytes",
+      "identity": "source-local"
+    },
+    "UNIT_REFERENCE": {
+      "payload": "positive integer plus legend root",
+      "identity": "legend-scoped"
+    },
+    "ASSEMBLY_REFERENCE": {
+      "payload": "positive integer plus assembly root",
+      "identity": "assembly-scoped",
+      "expansion": "ordered event sequence"
+    }
+  },
+  "required_invariants": [
+    "LOSSLESS_RECONSTRUCTION",
+    "DETERMINISTIC_LOGICAL_ROOT_UNDER_FIXED_IC",
+    "EXACT_EXTERNAL_DEPENDENCY_ROOTS",
+    "NO_SILENT_ABI_SUBSTITUTION",
+    "ACTUAL_ARTIFACT_BYTES_FOR_COLD_ACCOUNTING",
+    "OBSERVED_NOT_DECLARED_DISCLOSURE"
+  ],
+  "dialects": {
+    "SEMCRYS_LITE": {
+      "role": "auditable reference and teaching realization",
+      "container_abi": "semcrys-lite.crys",
+      "legend_abi": "semcrys-lite.leg"
+    },
+    "SEMCRYS_FULL": {
+      "role": "performance and governed-application realization",
+      "container_abi": "semcrys.crys",
+      "legend_abi": "semcrys.legend.binary.v0.2"
+    }
+  },
+  "non_identity_boundaries": [
+    "Equal semantic roles do not imply byte-identical containers.",
+    "Lite and full legends require explicit translation; neither may parse the other silently.",
+    "Disclosure, compression, and concealment are separate measurements.",
+    "A candidate crosswalk grants no release, admission, or confidentiality claim."
+  ],
+  "security_claim": "NONE"
+}

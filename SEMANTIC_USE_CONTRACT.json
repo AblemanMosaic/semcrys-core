@@ -1,0 +1,123 @@
+{
+  "identity_effect": "NONE_FROM_COMPILATION",
+  "author_supplied_product_terminology": {
+    "CSIL": "Canonical Semantic Integer Layer; a CSIL ID is an integer in an exact registry",
+    "GTI": "Global Term Index; indexes terms, aliases, structures, and occurrences to CSIL IDs",
+    "GTK": "Global Term Key; governed key for a disambiguated bound-term",
+    "corpus_reconciliation": "EARLIER_READING_COPY_WORDING_RETAINED_AS_SOURCE_EVIDENCE_NOT_USED_AS_CURRENT_PRODUCT_EXPANSION"
+  },
+  "registry": {
+    "path": "docs/CORPUS_BINDINGS.jsonl",
+    "records": 5,
+    "sha256": "79F6268EFB166A31A40F942BED05FFE63BE69708938CE3FC634DFB72427624D2"
+  },
+  "schema": "semcrys.documentation-semantic-use.v1",
+  "semantic_bindings": [
+    {
+      "answer_units": {
+        "README.md#csil-gtk-and-bound-terms": [
+          "ATLAS.CORPUS.1F25A2D4E0C84DC3",
+          "ATLAS.CORPUS.E1FBE1E2BF3EC536",
+          "ATLAS.CORPUS.FC5BAA1960ADB5D8",
+          "ATLAS.STRUCTURE.85CDF0DC4E5CE287",
+          "ATLAS.STRUCTURE.DA0BB30C50B30175"
+        ],
+        "docs/RELATED_WORK.md": [
+          "ATLAS.CORPUS.1F25A2D4E0C84DC3",
+          "ATLAS.CORPUS.E1FBE1E2BF3EC536",
+          "ATLAS.CORPUS.FC5BAA1960ADB5D8",
+          "ATLAS.STRUCTURE.85CDF0DC4E5CE287",
+          "ATLAS.STRUCTURE.DA0BB30C50B30175"
+        ],
+        "docs/SEMANTIC_IDENTITY.md": [
+          "ATLAS.CORPUS.1F25A2D4E0C84DC3",
+          "ATLAS.CORPUS.E1FBE1E2BF3EC536",
+          "ATLAS.CORPUS.FC5BAA1960ADB5D8",
+          "ATLAS.STRUCTURE.85CDF0DC4E5CE287",
+          "ATLAS.STRUCTURE.DA0BB30C50B30175"
+        ],
+        "docs/SEMCRYS-COMPRESSION-MODEL.md": [
+          "ATLAS.CORPUS.1F25A2D4E0C84DC3",
+          "ATLAS.CORPUS.E1FBE1E2BF3EC536",
+          "ATLAS.CORPUS.FC5BAA1960ADB5D8",
+          "ATLAS.STRUCTURE.85CDF0DC4E5CE287",
+          "ATLAS.STRUCTURE.DA0BB30C50B30175"
+        ],
+        "docs/ADR-0001-STANDARD-ADAPTIVE-COMPOSITION.md": [
+          "ATLAS.CORPUS.1F25A2D4E0C84DC3",
+          "ATLAS.CORPUS.E1FBE1E2BF3EC536",
+          "ATLAS.CORPUS.FC5BAA1960ADB5D8",
+          "ATLAS.STRUCTURE.85CDF0DC4E5CE287",
+          "ATLAS.STRUCTURE.DA0BB30C50B30175"
+        ]
+      },
+      "binding_id": "semcrys-public-explanation-20261102",
+      "concept_ids": [
+        "ATLAS.CORPUS.1F25A2D4E0C84DC3",
+        "ATLAS.CORPUS.E1FBE1E2BF3EC536",
+        "ATLAS.CORPUS.FC5BAA1960ADB5D8",
+        "ATLAS.STRUCTURE.85CDF0DC4E5CE287",
+        "ATLAS.STRUCTURE.DA0BB30C50B30175"
+      ],
+      "coordinate": {
+        "D": {
+          "CSIL": "Canonical Semantic Integer Layer; integer identity scoped by exact canonical registry",
+          "GTI": "Global Term Index over CSIL identities; current software subset is exact key/surface/occurrence lookup",
+          "GTK": "global-term-key-gtk; layered reading of AC-0091; older catalog/schema relationship remains unresolved",
+          "bound-term": "sp-rpz-01; named binding, not an undifferentiated word"
+        },
+        "G": "Mixed source-declared/reviewed-provisional concept standing; generated prose is synthesis; no canonical identity effect",
+        "r": "RPZ2 and RPZ3 source-grounded explanation",
+        "theta": "public and agent documentation",
+        "z": "exact inspected public paper reading copies and implementation sources"
+      },
+      "identity_effect": "NONE_FROM_COMPILATION"
+    }
+  ],
+  "standing": "SOURCE_GROUNDED_DOCUMENTATION_SYNTHESIS",
+  "uses": {
+    "GMB": {
+      "concept_id": "SEMANTIC-KERNEL.GMB",
+      "coordinate_axis": "semantic_substrate",
+      "function": "versioned_contestable_source_bound_meaning_base"
+    },
+    "IC": {
+      "concept_id": "SEMANTIC-KERNEL.REALIZATION.IC",
+      "coordinate_axis": "realization_stage",
+      "function": "selected_context_specific_configuration_slice_before_realization"
+    },
+    "IR": {
+      "concept_id": "SEMANTIC-KERNEL.REALIZATION.IR",
+      "coordinate_axis": "realization_stage",
+      "function": "actual_realized_instance_subject_to_evidence"
+    },
+    "PI": {
+      "concept_id": "SEMANTIC-KERNEL.PI",
+      "coordinate_axis": "coordinate",
+      "function": "select_a_semantic_object_representation_retrieval_depth_lens_disambiguation_and_governance_context"
+    },
+    "RPZ": {
+      "concept_id": "ATLAS.STRUCTURE.DA0BB30C50B30175",
+      "coordinate_axis": "r",
+      "function": "representation_resolution_of_one_semantic_object",
+      "levels": {
+        "RPZ0": "collision-aware reference token or coordinate; not a definition",
+        "RPZ1": "canonical candidate name, bound term, slug, acronym, renderings, and aliases",
+        "RPZ2": "intension or one-hop essence sufficient to distinguish the object in context",
+        "RPZ3": "thick definition and relational manifold with typed adjacency, qualifications, standing, and provenance",
+        "RPZ4+": "generated traversal or exposition compiled on demand and labeled as synthesis"
+      }
+    },
+    "SZ": {
+      "concept_id": "SEMANTIC-KERNEL.SZ",
+      "coordinate_axis": "z",
+      "function": "retrieval_depth_across_semantic_and_source_material",
+      "levels": {
+        "SZ0": "minimal machine or session boot",
+        "SZ1": "compact human orientation",
+        "SZ2": "semantic indexes, catalogs, and universal GSM",
+        "SZ3": "full papers, codices, specifications, evidence, and revision dossiers"
+      }
+    }
+  }
+}

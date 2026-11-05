@@ -1,0 +1,40 @@
+{
+  "schema": "semcrys.scratch-integration-contract.v0.1",
+  "standing": "CANDIDATE_ONLY",
+  "S": "Account local archive temporary storage without changing encoded semantics or byte accounting.",
+  "CM1": {
+    "entrypoints": ["group_legend.pack", "group_legend.unpack"],
+    "required": ["single private root", "enrolled nested file writers", "full SQLite page-cap reservation before opening writable databases", "no SQL temporary B-tree plans", "no early release of live allocations"],
+    "measurement": "logical file lengths plus reserved native database and directory recovery journal capacities",
+    "not_measured": ["filesystem metadata or allocation rounding", "process RAM", "external unregistered code"],
+    "typed_refusal": "HELD_SCRATCH_*; no publication on quota failure"
+  },
+  "CM2": {
+    "budget_is_not_compression_selection": true,
+    "preshared_legend_accounting_unchanged": true,
+    "cold_warm_and_batch_second_pass_distinctions_preserved": true
+  },
+  "IC": {
+    "parameter": "max_scratch_bytes",
+    "default": 4294967296,
+    "minimum": 0,
+    "maximum": 1099511627776,
+    "bind_local_request_not_transported_container": true,
+    "native_builder_default_cap": 268435456,
+    "verified_lookup_cap": "max(65536,min(268435456,8*source_legend_bytes+65536)); fail at cap without retry"
+  },
+  "IR": {
+    "reserve_before_growth": true,
+    "readonly_lookup_reopen": "only exact owned database URI; guarded read plans",
+    "uncertain_write": "poison further growth and retain reservation",
+    "receipt_snapshot": "PUBLIC_FINAL_INVENTORY_INCLUDING_SELF_COUNTED_LOCAL_RECEIPT_AND_FULL_JOURNAL_CAP",
+    "internal_realization_receipt": "BEFORE_AUDIT_SERIALIZATION_AND_PUBLICATION; retained separately and charged in public final receipt",
+    "public_result_root": "COVERS_FINAL_RESOURCES_AND_RECOVERY; realization_receipt_sha256 identifies original on-disk receipt",
+    "directory_recovery": "EXPLICIT_ROOT_AND_TARGET_QUARANTINE; no automatic rollback or power-failure claim",
+    "cleanup": "release after deletion/close; local publication transfers ownership",
+    "adapters_are_not_a_sandbox": true
+  },
+  "security_claim": "NONE",
+  "admission_effect": "NONE",
+  "release_ready": false
+}

@@ -1,0 +1,22 @@
+{
+  "schema": "semcrys.recursive-metalegend-contract.v0.1",
+  "standing": "CANDIDATE_ONLY",
+  "profiles": ["SEEKABLE_PREFIX_SUPERFRAMES_V1", "RECURSIVE_PREFIX_RECIPE_V1"],
+  "default_profile": "SEEKABLE_PREFIX_SUPERFRAMES_V1",
+  "commands": ["metalegend build", "metalegend inspect", "metalegend lookup", "metalegend prepare", "metalegend restore", "metalegend verify"],
+  "suffix": ".mleg",
+  "direction": "VERTICAL_LEGEND_OF_A_LEGEND",
+  "logical_input": "ORDERED_LEGEND_RECORDS_NOT_OPAQUE_LEGEND_BYTES",
+  "recursion_depth": 1,
+  "nested_metalegend_input": "REFUSED",
+  "recipe_scope": "BLOCK_LOCAL_PREVIOUS_RECORD_PREFIX",
+  "seekable_frame_scope": "INDEPENDENTLY_COMPRESSED_AND_ROOTED_BOUNDED_BLOCK_GROUPS",
+  "cache": "ROOT_VERIFIED_DERIVABLE_FRAMES_AND_EXACT_FULL_LEGEND",
+  "exact_original_legend": true,
+  "original_physical_legend_required_after_build": false,
+  "source_decode_path": "RESTORE_EXACT_LEGEND_THEN_USE_EXISTING_DECODER",
+  "selection": "MINIMUM_COMPLETE_RECIPE_REALIZATION_ACROSS_DECLARED_LZMA_PRESETS_STRICTLY_SMALLER_THAN_SOURCE_BY_DEFAULT",
+  "semantic_identity_effect": "NONE",
+  "security_claim": "NONE",
+  "admission_effect": "NONE"
+}

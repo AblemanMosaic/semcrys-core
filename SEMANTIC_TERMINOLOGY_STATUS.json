@@ -1,0 +1,11 @@
+{
+  "canonical_identity_effect": "NONE",
+  "generated_projection_policy": "DESCRIPTIVE_TERMS_ONLY_UNLESS_CALLER_SUPPLIES_AN_EXACT_REGISTRY",
+  "notes": [
+    "SemCrys is not resolved as a controlled operational term in the loaded Ableman corpus registry.",
+    "Global Term Key and bound term were also unresolved by exact term-contract lookup on 2026-11-01.",
+    "The semantic integerization API accepts externally assigned keys and does not create canonical semantic identities."
+  ],
+  "schema": "semcrys.semantic-terminology-status.v0.1",
+  "standing": "SOURCE_INFORMED_CANDIDATE_NO_IDENTITY_EFFECT"
+}

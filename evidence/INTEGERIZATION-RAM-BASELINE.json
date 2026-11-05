@@ -1,0 +1,139 @@
+{
+  "authority_effect": "NONE",
+  "claim_boundary": "One exact pinned fixture and configuration on one host; no cross-corpus or global throughput claim.",
+  "container_bytes": 671046,
+  "container_sha256": "e0d424b3aa7265bcbd4d8a60eb8da5f4655bbae02fc194d669e6eb0630d4a43c",
+  "context_receipt": {
+    "artifact_bytes_changed": false,
+    "effective_configuration": {
+      "instance_constitution_sha256": "aec9d89135bfcde8e1d741c001f8a7092413f5486f491033b003d29759cd0d94",
+      "lookup_cache_max_bytes": 8388608,
+      "lookup_cache_max_entries": 32768,
+      "max_legend_bytes": 1073741824,
+      "max_legends": 1024,
+      "operation_sequence": [
+        "ROOT_SNAPSHOT",
+        "VALIDATE_STRUCTURE",
+        "BUILD_UNIQUE_LOOKUP",
+        "HASH_GUARD_REUSE",
+        "VERIFY_RECONSTRUCTION",
+        "HASH_GUARD_BEFORE_PUBLISH"
+      ],
+      "persistent_cache": false,
+      "physical_lookup": {
+        "backend": "RAM",
+        "hard_rss_limit": false,
+        "mmap_limit_bytes": 268435456,
+        "payload_budget_bytes": 536870912,
+        "scope": "EXPLICIT_LOW_LEVEL_CONTEXT_ONLY",
+        "standing": "CANDIDATE_ONLY",
+        "transported_configuration_changed": false,
+        "unit_mode": "TOKEN_ONLY"
+      },
+      "policy": "EPHEMERAL_PROCESS_OWNED_SNAPSHOTS_FULL_HASH_GUARDS",
+      "schema": "semcrys.verified-context-instance.v0.1",
+      "security_claim": "NONE",
+      "sqlite_cache_budget_kib": 16384,
+      "sqlite_cache_budget_kind": "AGGREGATE_SUGGESTED_PAGE_CACHE_NOT_RSS_LIMIT",
+      "standing": "CANDIDATE_ONLY"
+    },
+    "legend_roots": [
+      "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+    ],
+    "lookup_cache": {
+      "evictions": 0,
+      "max_bytes": 8388608,
+      "max_entries": 32768,
+      "owners": 0,
+      "peak_reserved_bytes": 0,
+      "peak_reserved_entries": 0,
+      "retained_bytes": 0,
+      "retained_entries": 0,
+      "scope": "RETAINED_SERIALIZED_BLOCKS_AND_SPAN_COUNTS_NOT_TOTAL_RSS"
+    },
+    "operation_sequence": [
+      "ROOT_SNAPSHOT",
+      "VALIDATE_STRUCTURE",
+      "BUILD_UNIQUE_LOOKUP",
+      "HASH_GUARD_REUSE",
+      "VERIFY_RECONSTRUCTION",
+      "HASH_GUARD_BEFORE_PUBLISH"
+    ],
+    "persistent_cache": false,
+    "physical_lookup": {
+      "backend": "RAM",
+      "hard_rss_limit": false,
+      "payload_estimate_bytes": 215697474,
+      "rows": [
+        {
+          "full_root_guards_retained": true,
+          "hard_rss_limit": false,
+          "legend_bytes": 54102082,
+          "mode": "RAM",
+          "offset_bytes": 32000000,
+          "payload_estimate_bytes": 215697474,
+          "sqlite_database_bytes": 97595392,
+          "sqlite_mmap_bytes": 0
+        }
+      ]
+    },
+    "policy": "EPHEMERAL_PROCESS_OWNED_SNAPSHOTS_FULL_HASH_GUARDS",
+    "receipt_sha256": "b2f9451f2e35b276ecb3a9f9c113e708592fb0e9cebf0dd1697bc3580870dc15",
+    "schema": "semcrys.verified-context-receipt.v0.1",
+    "security_claim": "NONE",
+    "sqlite_cache_targets": {
+      "aggregate_kib": 2048,
+      "budget_kib": 16384,
+      "connections": 1,
+      "hard_process_memory_limit": false,
+      "per_connection_kib": 2048
+    },
+    "standing": "CANDIDATE_ONLY",
+    "stats": {
+      "full_validations": 1,
+      "guard_checks": 5,
+      "lookup_builds": 1,
+      "operations": 1,
+      "prepare_seconds": 64.63381169992499,
+      "snapshot_bytes": 54102082
+    }
+  },
+  "evidence_root": "476d4b3e8dd67e743dc5252191ce0fa963dcbeecf329540134a6e4074304016d",
+  "independent_redecode": false,
+  "lookup_backend": "RAM",
+  "outer_codec": "LZMA",
+  "phase_metrics": {
+    "context_total_wall_ns": 90600705600,
+    "encode_with_postwrite_proof": {
+      "cpu_ns": 19734375000,
+      "wall_ns": 25756314300
+    },
+    "fixture_expansion": {
+      "cpu_ns": 93750000,
+      "wall_ns": 89006800
+    },
+    "independent_redecode": null,
+    "traced_python_peak_bytes": null,
+    "ultra_preparation": {
+      "cpu_ns": 64078125000,
+      "wall_ns": 64809744600
+    },
+    "ultra_restoration": {
+      "cpu_ns": 1375000000,
+      "wall_ns": 1436466800
+    }
+  },
+  "profile": "T:PRESHARED_TOKEN",
+  "runtime": {
+    "implementation": "CPython",
+    "machine": "AMD64",
+    "python": "3.12.10",
+    "system": "Windows"
+  },
+  "schema": "semcrys.integerization-pipeline-benchmark.v0.1",
+  "source_bytes": 2763849,
+  "source_sha256": "28d61392bfc27ffb1c283beb6dc3dbd78a6d22f2a60e6c76121f6b70cffaaecb",
+  "standing": "SINGLE_HOST_BOUNDED_MEASUREMENT",
+  "tracemalloc": false,
+  "ultra_root": "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+}

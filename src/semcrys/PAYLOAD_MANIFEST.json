@@ -1,0 +1,624 @@
+{
+  "files": [
+    {
+      "bytes": 23593,
+      "package": "semcrys",
+      "path": "ABI_REGISTRY.json",
+      "sha256": "1d7081563215a03568ae88115e9f157b1117d6762fcfdd07fe3d67ccf85549e2"
+    },
+    {
+      "bytes": 1348,
+      "package": "semcrys",
+      "path": "APPLICATION_RESOURCE_CONTRACT.json",
+      "sha256": "ec14d821eaab6da040eeba9748c7b3239d02e9d407cbab95d51c7c4adafec4b1"
+    },
+    {
+      "bytes": 2218,
+      "package": "semcrys",
+      "path": "ARCHAIC_PROFILE_CONTRACT.json",
+      "sha256": "3ec697cc9e70aa26ca75777dc5e2a4514a52d7f40584e52a493fa4c4514c59b0"
+    },
+    {
+      "bytes": 1866,
+      "package": "semcrys",
+      "path": "ARCHIVE_PROFILE_CONTRACT.json",
+      "sha256": "f190d115e948ad96ad7acf607a26686faf8c4328d17279698ac82103958bfa17"
+    },
+    {
+      "bytes": 3218,
+      "package": "semcrys",
+      "path": "ASSEMBLY_PROFILE_CONTRACT.json",
+      "sha256": "5eda139e84d86d4fb531b083171d008d19ba43f72a1980c95f8f80feb6b80de9"
+    },
+    {
+      "bytes": 7290,
+      "package": "semcrys",
+      "path": "CANDIDATE_CONTEXT.json",
+      "sha256": "9d0a498b0fd840057b941ce80cd12338e236319f49f59b73907f227b8c334253"
+    },
+    {
+      "bytes": 2182,
+      "package": "semcrys",
+      "path": "COMPACT_LOCAL_ASSEMBLY_CONTRACT.json",
+      "sha256": "b67fa7fc7f21d67b7a9a8109c88480782eb2aa30b0ae3220293a3f8b2f3fe5c4"
+    },
+    {
+      "bytes": 1635,
+      "package": "semcrys",
+      "path": "COMPACT_PROJECTION_CONTRACT.json",
+      "sha256": "16ed29808a6f35f2d68f0a19fe8c0eb732fb0582466c3f20a95d21808d6cca15"
+    },
+    {
+      "bytes": 1569,
+      "package": "semcrys",
+      "path": "COMPOSITE_RESOURCE_CONTRACT.json",
+      "sha256": "d78cbb96c2b48cdd28f5bf33621c61b2754a3e0e1b6eee60fde896ea303810f4"
+    },
+    {
+      "bytes": 2361,
+      "package": "semcrys",
+      "path": "DIRECTORY_RESOURCE_CONTRACT.json",
+      "sha256": "b364892900cff9e6d84869659b11721377b7674f2d0373be235d224db4ee5ffe"
+    },
+    {
+      "bytes": 3604,
+      "package": "semcrys",
+      "path": "FOLD_PROFILE_CONTRACT.json",
+      "sha256": "68fc3e9bf7900a064f67e69ad11f500c06394c28ff44bd31e45526f1a8a069b4"
+    },
+    {
+      "bytes": 1928,
+      "package": "semcrys",
+      "path": "GLYPH_PROFILE_CONTRACT.json",
+      "sha256": "327f912b9ddcfa61fd2b89f12def5007b460e8a6850eeede2a0788787308015d"
+    },
+    {
+      "bytes": 1034,
+      "package": "semcrys",
+      "path": "GROUP_LEGEND_CONTRACT.json",
+      "sha256": "3fe3a5503a7bd86b02e67334efd4a70d9297e09771077d16724e3cc30404692c"
+    },
+    {
+      "bytes": 3348,
+      "package": "semcrys",
+      "path": "GTK_ANALYSIS_CONTRACT.json",
+      "sha256": "81eacc018fdab582be17d2eecda1eb328e59844436e782a00dab4bd325a24509"
+    },
+    {
+      "bytes": 1440,
+      "package": "semcrys",
+      "path": "LEGACY_MIGRATION_CONTRACT.json",
+      "sha256": "d8df20158d8f527a8fabc2a2606e8601bbb1f816b56fc504fed9cbd324b83805"
+    },
+    {
+      "bytes": 1490,
+      "package": "semcrys",
+      "path": "LEGEND_RESOURCE_CONTRACT.json",
+      "sha256": "c6e2fc5b789ffac499596c014da3153d7d37d327c11a3ca58d82726e7093f50f"
+    },
+    {
+      "bytes": 11360,
+      "package": "semcrys",
+      "path": "LICENSE",
+      "sha256": "240b8a39fdfd2bd3b3539c02e34466334884fc84b056b57f06e9da35323ecd97"
+    },
+    {
+      "bytes": 2504,
+      "package": "semcrys",
+      "path": "LONGITUDINAL_ASSEMBLY_CONTRACT.json",
+      "sha256": "aff800a701c4675fefd6423e33013215825d720eb88e0a7434493ade9a779531"
+    },
+    {
+      "bytes": 2447,
+      "package": "semcrys",
+      "path": "METALEGEND_BUNDLE_CONTRACT.json",
+      "sha256": "d40f2eb868d66d57c259c7efae3b36a519a70f44fc6c7081d4a2b1eb78dd6666"
+    },
+    {
+      "bytes": 944,
+      "package": "semcrys",
+      "path": "METALEGEND_CONTRACT.json",
+      "sha256": "f69ab44626e542491d8930ffca1f6028111a22c073b726d17e2bf823731f0352"
+    },
+    {
+      "bytes": 1412,
+      "package": "semcrys",
+      "path": "META_AUXILIARY_CONTRACT.json",
+      "sha256": "00254c09f792fbaca3a6987d2808f9e1c7a9a1f6b86787534b529a6130e94cb1"
+    },
+    {
+      "bytes": 95725,
+      "package": "semcrys",
+      "path": "MIGRATION_STATUS.json",
+      "sha256": "f505ac9446a325a10c918c33dbd3c281f4b4e129071e95f6f17e3f58bfc01072"
+    },
+    {
+      "bytes": 653,
+      "package": "semcrys",
+      "path": "NOTICE",
+      "sha256": "ceb4573dde4fcf07268c6f45a1e1fe4e9b4f3edad23efc3ea75220d6a0b1369c"
+    },
+    {
+      "bytes": 30657,
+      "package": "semcrys",
+      "path": "PROFILE_CATALOGUE.json",
+      "sha256": "9c236633a244ade25d7abff81e5d1041e5e68f5ed32878f62264ad06245dd5b6"
+    },
+    {
+      "bytes": 1011,
+      "package": "semcrys",
+      "path": "PUBLICATION_CONCURRENCY_CONTRACT.json",
+      "sha256": "baab3c1d7621fafeb4f9b5338a42a05a7328efc6bd6d05dc8c8430a8ebafbf4b"
+    },
+    {
+      "bytes": 1165,
+      "package": "semcrys",
+      "path": "RECURSIVE_METALEGEND_CONTRACT.json",
+      "sha256": "c81b8554a6b0f397a33eb49c050a33fb5e24a2405a2c452ea30b100ffb03e93c"
+    },
+    {
+      "bytes": 9061,
+      "package": "semcrys",
+      "path": "RELEASE_SCOPE.json",
+      "sha256": "685cec2f9668a2c6ffdd26e971b35c14db62abfac3e5e4a9b8a90e09aa2a3f7a"
+    },
+    {
+      "bytes": 2217,
+      "package": "semcrys",
+      "path": "SCRATCH_INTEGRATION_CONTRACT.json",
+      "sha256": "d8e58607a6ccea3e7c89a2dd4fcb3d7c34d0f2db005bc7bd3403cea702fda54b"
+    },
+    {
+      "bytes": 2946,
+      "package": "semcrys",
+      "path": "SECOND_PASS_CONTRACT.json",
+      "sha256": "594e6ebf855214d69a2d8347cda11c2a41c000811f3215b0413e09c5e28c137e"
+    },
+    {
+      "bytes": 3316,
+      "package": "semcrys",
+      "path": "SECURITY_PROJECTION_CONTRACT.json",
+      "sha256": "406788b30e4b8e35bbd5971133b7e98b958da1d059a353203224653a0b883eef"
+    },
+    {
+      "bytes": 857,
+      "package": "semcrys",
+      "path": "SEEKABLE_METALEGEND_CONTRACT.json",
+      "sha256": "b407ab6766e312faf2667ddd3732c0b23fa236d4e3c3acd91bcb4a8c0ecb89d0"
+    },
+    {
+      "bytes": 2716,
+      "package": "semcrys",
+      "path": "TRANSPORT_CONTROL_CONTRACT.json",
+      "sha256": "0710848437eb46608f30098443c2c683b018a983298904a26488ba7fc9c00642"
+    },
+    {
+      "bytes": 98,
+      "package": "semcrys",
+      "path": "__init__.py",
+      "sha256": "162396d39860c8a379d3d57d7749c42b88bfb00e2642e62c44b04952b6dd9d57"
+    },
+    {
+      "bytes": 105,
+      "package": "semcrys",
+      "path": "__main__.py",
+      "sha256": "852371db1990b837dad8cf503add60858197201e2933d1d767a3bf391493ef5c"
+    },
+    {
+      "bytes": 6825,
+      "package": "semcrys",
+      "path": "application.py",
+      "sha256": "2d4d083554fd11636e0f911526ec2021c6352715281bfd1327f73aa6f8d3d09c"
+    },
+    {
+      "bytes": 5236,
+      "package": "semcrys",
+      "path": "archaic.py",
+      "sha256": "b5141419d575918f3eb9a4788a71178c27237246717d8b488bbc61a6e2ed69e2"
+    },
+    {
+      "bytes": 19668,
+      "package": "semcrys",
+      "path": "archive.py",
+      "sha256": "76c8a1e4e3f8cc0ed6d77ad0a19c213ee9eaf27e26c6ea35619b2f6d7930d3af"
+    },
+    {
+      "bytes": 8038,
+      "package": "semcrys",
+      "path": "artifacts.py",
+      "sha256": "91cd71d3fa97d13f484da83f2925438cb9a09826d543a67b850e8881393c70b7"
+    },
+    {
+      "bytes": 11222,
+      "package": "semcrys",
+      "path": "assembly.py",
+      "sha256": "13caf5a6820e947b15c6cb60d21d387764faa6dc01774b1e97bb9f1c99c6a908"
+    },
+    {
+      "bytes": 2893,
+      "package": "semcrys",
+      "path": "assembly_chain.py",
+      "sha256": "5a40ed1e9779706e0b54096c85a1802140f9498d411a1ebb43898909ab1b6170"
+    },
+    {
+      "bytes": 7059,
+      "package": "semcrys",
+      "path": "batch.py",
+      "sha256": "cec26de24b0c8267d1840ceda2128391a026496518da0f5edd0178b59f4ff3df"
+    },
+    {
+      "bytes": 5514,
+      "package": "semcrys",
+      "path": "capabilities.py",
+      "sha256": "12c18e2a70dcada4243c4345e9bf18d45d61f4e8dddf164c8ad7b6b2acbc7176"
+    },
+    {
+      "bytes": 62728,
+      "package": "semcrys",
+      "path": "cli.py",
+      "sha256": "8018df96c9469bca94284023717373e4dc3e1641bbd8d6694b820891a8c2463c"
+    },
+    {
+      "bytes": 18575,
+      "package": "semcrys",
+      "path": "codec_selection.py",
+      "sha256": "f64dd679b249e6cc28536ac625404971256569393c20a3ad250bd87aaf32e233"
+    },
+    {
+      "bytes": 3692,
+      "package": "semcrys",
+      "path": "composite_operations.py",
+      "sha256": "4a7c46d0d4033d2b48b4021e03388a7890185ff9ed4de8709fb70ecc0e24d09b"
+    },
+    {
+      "bytes": 12276,
+      "package": "semcrys",
+      "path": "configuration_court.py",
+      "sha256": "e41ac938434467924d491ca1971e54f8efb84d6d3f5e7adc35dede5e54b0e3c9"
+    },
+    {
+      "bytes": 28487,
+      "package": "semcrys",
+      "path": "configuration_selection.py",
+      "sha256": "a0b933238499c741cd964c24d28e5aeec5111b865666e5f9249f2eaa61ede24b"
+    },
+    {
+      "bytes": 10730,
+      "package": "semcrys",
+      "path": "directory_application.py",
+      "sha256": "107fc0f15dee90c1af8f39d8484892161da57c1effb9105252e62e835e27c48f"
+    },
+    {
+      "bytes": 10479,
+      "package": "semcrys",
+      "path": "directory_recovery.py",
+      "sha256": "d59f6a5a690f9402f76fac942677742afc43042f1b85decc608046403830419b"
+    },
+    {
+      "bytes": 10398,
+      "package": "semcrys",
+      "path": "event_stream.py",
+      "sha256": "44898a8dacd5f64e36ea991b73372627737b7d60bbaa3fb8efa90b4c57df41d2"
+    },
+    {
+      "bytes": 4687,
+      "package": "semcrys",
+      "path": "file_spans.py",
+      "sha256": "c917732fb04e35b558e7fe7de2cd514776942e28311fe8b4cdfbeb4b9de3aa3a"
+    },
+    {
+      "bytes": 9648,
+      "package": "semcrys",
+      "path": "fold_provenance.py",
+      "sha256": "76cf608209b17d028e6d81681b8d0d4a5d3dc9db91da8ef9fae26110eb64b90a"
+    },
+    {
+      "bytes": 14139,
+      "package": "semcrys",
+      "path": "formats.py",
+      "sha256": "169d56c73be6946f4bf2b644c35b16810a4b3b17004ae8174360a3d66810707c"
+    },
+    {
+      "bytes": 2521,
+      "package": "semcrys",
+      "path": "group_auxiliary.py",
+      "sha256": "d6c51c4f1ad88d62bdf23221d086ba323823724f0768fc94f90f139552f14583"
+    },
+    {
+      "bytes": 4432,
+      "package": "semcrys",
+      "path": "group_bundle.py",
+      "sha256": "b3cc88ca5e3bbb5cdf10bc9b16e38a134b971bc7e0329ee4c2c06631dd79d15d"
+    },
+    {
+      "bytes": 33363,
+      "package": "semcrys",
+      "path": "group_legend.py",
+      "sha256": "d763cb61b8b8b06258fc50aa603bab0c3a923c77f3b032912ee457a13e639269"
+    },
+    {
+      "bytes": 28428,
+      "package": "semcrys",
+      "path": "gtk_analysis.py",
+      "sha256": "c408881e5686b5fbdd4cd3e75081e3ea4b858e898d3bbbbd10da62eae2d81308"
+    },
+    {
+      "bytes": 3042,
+      "package": "semcrys",
+      "path": "integrity.py",
+      "sha256": "bc4d5380ab4f9fda171ebb1dd53744a263788318816f9f2cd7580f8efe495a1c"
+    },
+    {
+      "bytes": 13991,
+      "package": "semcrys",
+      "path": "legacy.py",
+      "sha256": "aa0dcb468cdafe8baa9b99b84d71b41165feb8cfd503bad9610ee2c7cabd61ce"
+    },
+    {
+      "bytes": 18260,
+      "package": "semcrys",
+      "path": "library.py",
+      "sha256": "cae5e2533b16bd2fcf18c48bcd297a74451e7ecc2d3d0bf27099843f8db32455"
+    },
+    {
+      "bytes": 5448,
+      "package": "semcrys",
+      "path": "local_assembly.py",
+      "sha256": "91063edd145aa8e7e5733c9e57de1380e0f9a261d7d50c24c5fa549fa2a25657"
+    },
+    {
+      "bytes": 7496,
+      "package": "semcrys",
+      "path": "longitudinal_assembly.py",
+      "sha256": "2961e9b4de07e6bff8c8c1ddc913e7e42c35fe859760818a6238228e88dd9f83"
+    },
+    {
+      "bytes": 127,
+      "package": "semcrys",
+      "path": "meta_auxiliary.py",
+      "sha256": "e23115d702a477e2af1a6851738ab37f70270cbbb05c0eb9d79fa59d266c20cc"
+    },
+    {
+      "bytes": 121,
+      "package": "semcrys",
+      "path": "meta_bundle.py",
+      "sha256": "a0cc3966d69e95230971f9ce148851ee8d917961171f557f83ab2e0701840d22"
+    },
+    {
+      "bytes": 2892,
+      "package": "semcrys",
+      "path": "metalegend.py",
+      "sha256": "51f00d760b2b1df9f309b0fca5bb31ee0ab19266d9d3317bbc78208c4a642064"
+    },
+    {
+      "bytes": 4644,
+      "package": "semcrys",
+      "path": "metalegend_cache.py",
+      "sha256": "212b355de906f2ae2f1004f1797ebaa1465fdeb0f9846311997bea0a0915b850"
+    },
+    {
+      "bytes": 9030,
+      "package": "semcrys",
+      "path": "ordered_import.py",
+      "sha256": "46c9079085d73f9403bb1bcdc474a948752ab49cccfdc7f314c97450ee31dda1"
+    },
+    {
+      "bytes": 1999,
+      "package": "semcrys",
+      "path": "progress.py",
+      "sha256": "23656f99260660da24495e45de3538c8e950d763c581f2679b98b8adbbd2dcb8"
+    },
+    {
+      "bytes": 15001,
+      "package": "semcrys",
+      "path": "protected_artifact.py",
+      "sha256": "2dd2dbda60abb01496af5670f6df77e34b1117b731b9c2ebc0d354dece8e7051"
+    },
+    {
+      "bytes": 4811,
+      "package": "semcrys",
+      "path": "publication_lock.py",
+      "sha256": "b8a4632360de2bf9815ea877a9e1c8459161a9249cf5abae299ac986717ca9e6"
+    },
+    {
+      "bytes": 7876,
+      "package": "semcrys",
+      "path": "publication_resources.py",
+      "sha256": "026081422ac7b95180b128afc6825b5e20c7010ed7d867546b2e95d131c98749"
+    },
+    {
+      "bytes": 4386,
+      "package": "semcrys",
+      "path": "record_pool.py",
+      "sha256": "52eb0331e1de44737dab1212ad7c42853ce6926235b8b8fd0582d78cae560b74"
+    },
+    {
+      "bytes": 10261,
+      "package": "semcrys",
+      "path": "recovery.py",
+      "sha256": "7076cd8c46fe0bebf50651d29a1b421fe6ca538c5cf6657bf37636003e793941"
+    },
+    {
+      "bytes": 18197,
+      "package": "semcrys",
+      "path": "recursive_metalegend.py",
+      "sha256": "cd15b2ca72319cfb6192643d479fec64c3067c82dccafb38672ea2ae775fc79d"
+    },
+    {
+      "bytes": 1858,
+      "package": "semcrys",
+      "path": "release_scope.py",
+      "sha256": "b58e24421479073d3f50783a9158860c11812720b845a1afbc919d18861f7b50"
+    },
+    {
+      "bytes": 24451,
+      "package": "semcrys",
+      "path": "second_pass.py",
+      "sha256": "306f79d0ef7c53da99d9f91179150ce0ff6ee634648e010b615a87c6ddd0e60e"
+    },
+    {
+      "bytes": 33318,
+      "package": "semcrys",
+      "path": "seekable_metalegend.py",
+      "sha256": "309c273506eb9805b3adaf8a2f51e72b31daddde38b0d098b22f499e1dc41ecd"
+    },
+    {
+      "bytes": 68377,
+      "package": "semcrys",
+      "path": "standard_archive.py",
+      "sha256": "9f8bd89814ff63ec673530311a304ff395ccb6a3c65e85dbe596cd63743ae231"
+    },
+    {
+      "bytes": 8300,
+      "package": "semcrys",
+      "path": "synchronization.py",
+      "sha256": "de225f437356033cc0269f526281037d48ca6a77f98a8794caaa31e2a682cfd3"
+    },
+    {
+      "bytes": 4321,
+      "package": "semcrys",
+      "path": "terminal_store.py",
+      "sha256": "33d580c5100f4c3602c2c31fac2d3dc4dd60589d3edb13aebebb9b6da0753bab"
+    },
+    {
+      "bytes": 5970,
+      "package": "semcrys",
+      "path": "transaction.py",
+      "sha256": "277784943fb2e0986b024c89b42367aa8e3cc8bf37e91d9eebad4ad5b5a465dc"
+    },
+    {
+      "bytes": 18972,
+      "package": "semcrys",
+      "path": "transport.py",
+      "sha256": "c4113345e837b54cc98836ca8596e9a9f7e0d4f40587e52c79903967df41ed44"
+    },
+    {
+      "bytes": 3683,
+      "package": "semcrys",
+      "path": "workbench.py",
+      "sha256": "84ceb5c084f92053547a885a0cd4661f960a33fe459145b18ab2102d97c23792"
+    },
+    {
+      "bytes": 213,
+      "package": "streaming_app",
+      "path": "__init__.py",
+      "sha256": "58e682c6d9c419018b8194874886db727a65395e42a6de4d7f2fbc5eb9540e69"
+    },
+    {
+      "bytes": 65656,
+      "package": "streaming_app",
+      "path": "core.py",
+      "sha256": "2a959d3fbb30bcd94ddef83e576afafbb9165e6d153dc279e6e200d7ae57036a"
+    },
+    {
+      "bytes": 14619,
+      "package": "streaming_app",
+      "path": "fold_projection.py",
+      "sha256": "93666121b9e8dd3dbae96a8992fdc1f73895c0fd150427c3488ce43980ddb487"
+    },
+    {
+      "bytes": 3502,
+      "package": "streaming_app",
+      "path": "fold_scanner.py",
+      "sha256": "ae8318a910f620ff94a605a51f762bb0cb2d88dc5c36ec41f22bcf3593f08dbc"
+    },
+    {
+      "bytes": 5051,
+      "package": "streaming_app",
+      "path": "glyph_projection.py",
+      "sha256": "958d0a10b6070c0e450d664af4b8f672bd9019eacdfa9f7c3bbb1195b6e39334"
+    },
+    {
+      "bytes": 4366,
+      "package": "streaming_app",
+      "path": "integer_projection.py",
+      "sha256": "3f92b2b116ac1240243b4041eb3c063213175a8064a07be6dfcad540a2604c44"
+    },
+    {
+      "bytes": 20120,
+      "package": "streaming_app",
+      "path": "legend_context.py",
+      "sha256": "5d3ce531bbfd0095e3e4d99e0bb3da22ec9955a55445c09c911fa26bfee4f0b1"
+    },
+    {
+      "bytes": 5007,
+      "package": "streaming_app",
+      "path": "lookup_backends.py",
+      "sha256": "d795f0978037d41c3de8372d011651c9f0ce8eaa155b6fcf7fb65dcb88f0c034"
+    },
+    {
+      "bytes": 2497,
+      "package": "streaming_app",
+      "path": "transfer.py",
+      "sha256": "cd3e701636c1c3d11a96e0705af4dcdccca86c0145036f8c52ccf7e8c2c4932f"
+    },
+    {
+      "bytes": 222,
+      "package": "streaming_legend",
+      "path": "__init__.py",
+      "sha256": "643875e648e716c9e866055911a69d0d49db39fad8f6d894e047cc37963da39c"
+    },
+    {
+      "bytes": 332,
+      "package": "streaming_legend",
+      "path": "abi.py",
+      "sha256": "cf6bb332e1959ed5f73a2e9d40dcd4daf6d87521274c355917125f269bd21ec4"
+    },
+    {
+      "bytes": 9050,
+      "package": "streaming_legend",
+      "path": "assembly.py",
+      "sha256": "6390ef1f7deef02089b7764e1d2bc36a7c76b45a23733defeeba0624b7dbcf06"
+    },
+    {
+      "bytes": 2879,
+      "package": "streaming_legend",
+      "path": "block_output.py",
+      "sha256": "0ad98ad36bd40efe5983264a223ccbaa5e0d5c5b5dad452c251caca1d531c6cf"
+    },
+    {
+      "bytes": 1951,
+      "package": "streaming_legend",
+      "path": "cache.py",
+      "sha256": "0ac448ddfb7d73568c5621db32d6cdf493dfbf9b7327dea66773db27cf378844"
+    },
+    {
+      "bytes": 24639,
+      "package": "streaming_legend",
+      "path": "core.py",
+      "sha256": "e6aa7bb79c6d93a4b1a8dfb1a30fdb6a7d15e9b703b6ff37e5be5cb050199017"
+    },
+    {
+      "bytes": 22160,
+      "package": "streaming_legend",
+      "path": "crys_v2.py",
+      "sha256": "eea41251122773521da1ca40ee4c62959c51477dda01a223c72883eae5e0fa56"
+    },
+    {
+      "bytes": 7366,
+      "package": "streaming_legend",
+      "path": "fold.py",
+      "sha256": "7d7821f9c4ac94cbdfd47caa65630b8a5dbc569cc94e74dd6bca1ffbdab3670e"
+    },
+    {
+      "bytes": 3069,
+      "package": "streaming_legend",
+      "path": "glyph.py",
+      "sha256": "23fe1d4df2a03f8985833d76b5fe948f0023451e6572ad1999db73a1e0058c99"
+    },
+    {
+      "bytes": 9460,
+      "package": "streaming_legend",
+      "path": "scratch_budget.py",
+      "sha256": "a3c782896c52a6d2379cf89656ea36665780a8a2db2dbf664b34a789f749b1ed"
+    },
+    {
+      "bytes": 15570,
+      "package": "streaming_legend",
+      "path": "scratch_io.py",
+      "sha256": "c51b2d473fe56be14b6227df3d5c182cab7fbeb418f52317ea2e3740824f8639"
+    }
+  ],
+  "payload_root": "0ff4650a5dc43e6f00bc0a4d54e8baffe189081172a868cd9e3989c459d9db55",
+  "schema": "semcrys.payload-manifest.v0.1"
+}

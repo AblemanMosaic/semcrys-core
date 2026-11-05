@@ -1,0 +1,12 @@
+{
+  "candidate_head_root": "23a45811a2d71f08531d7b8ae968d8fb33d3ba0872ae9ca885ed2775143c2006",
+  "claim_ceiling": "BOUNDED_LITE_BYTE_WORD_ASSEMBLY_REFERENCE_CODEC_WITH_ACTUAL_ARTIFACT_ACCOUNTING",
+  "convergence_root": "0874c70931cc6e98813057da57afb29e7007751d4190af3e30dd5194c606a20f",
+  "independent_acceptance": false,
+  "predecessor_archive_sha256": "f950978801723224a4ee3ba4828f3c67eb58ef3783a980923e7d580b31112877",
+  "schema": "semcrys-lite.candidate-head.v0.5",
+  "security_claim": "NONE",
+  "standing": "CANDIDATE_ONLY",
+  "subject_root": "d60f5ebe331943dcc0da57de6ea8585b9690a0492dcf8ee185e2923106de310d",
+  "version": "0.1.0rc5"
+}

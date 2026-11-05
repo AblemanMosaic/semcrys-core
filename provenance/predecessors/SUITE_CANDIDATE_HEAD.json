@@ -1,0 +1,14 @@
+{
+  "candidate_head_root": "0325925bec5232559a8fce448906a60bb2c4c0f7c756431d1c9854fdfb35ad6b",
+  "convergence_root": "e496f796359f1131ccc67ee1f1512cd472b7180650ca2eccd39df23b037a7b1d",
+  "full_application_payload_root": "cdd572f9092a4f92e0aecb58801e4fbee095c780af487a6c9aff4f070ba134f7",
+  "full_candidate_head_root": "98ee18148ee9e7997eaae9ea403f3ce3edfbf605cf6df33890aa12c8456adbc3",
+  "independent_acceptance": false,
+  "lite_candidate_head_root": "23a45811a2d71f08531d7b8ae968d8fb33d3ba0872ae9ca885ed2775143c2006",
+  "non_identity_boundary": "SEPARATE_CONTAINER_AND_LEGEND_ABIS",
+  "schema": "mosaic.semantic-compiler-synchronization.candidate-head.v0.2",
+  "security_claim": "NONE",
+  "shared_event_contract": "shared/EVENT_MODEL_CONTRACT.json",
+  "standing": "CANDIDATE_ONLY",
+  "subject_root": "f490a6581c5831b30d8d9c313bf38272d04ac5a5c5f3e915adbbf6a794cf231e"
+}

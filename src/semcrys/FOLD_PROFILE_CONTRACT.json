@@ -1,0 +1,98 @@
+{
+  "schema": "semcrys.fold-profile-contract.v0.1",
+  "standing": "CANDIDATE_ONLY",
+  "authority_effect": "NONE",
+  "predecessor_projection_root": "d42017d96485912ce220c8651ea9089fd56ccfb7de5a2f87b70027201b49ae45",
+  "sftir_compatibility": {
+    "external_distribution_root": "017367bfcc45221ea1bd404a06ba6e2ee0f44068af905a1af12dda2974fedf21",
+    "referenced_control_sequence": [
+      "SFM:IDENTITY_PRESERVE",
+      "SFM:CONDITION_GUARD",
+      "SFM:SCOPE_BIND"
+    ],
+    "scope": "EXTERNAL_CONTROL_REFERENCE_NOT_NEW_SFTIR_PRIMITIVE_OR_PREDICTIVE_PROOF"
+  },
+  "specification": {
+    "operation_family": "IMMUTABLE_BASE_FOLDED_UNIT_RANK_PROJECTION",
+    "dimensions": [
+      "BASE_IDENTITY",
+      "CALIBRATION_DOMAIN",
+      "CANDIDATE_POOL",
+      "FRONT_CAPACITY",
+      "FRONT_ORDER",
+      "FALLBACK_RESOLUTION",
+      "SIGNAL_PLACEMENT",
+      "OUTER_CODEC",
+      "ACCOUNTING",
+      "REUSE_HORIZON"
+    ]
+  },
+  "cm1": {
+    "implemented_profile": "T:PRESHARED_TOKEN",
+    "external_base_count": 1,
+    "base_schema": "semcrys.legend.binary.v0.2",
+    "base_parent": null,
+    "projection": "PACKED",
+    "front_schema": "semcrys.legend.fold-projection.v0.1",
+    "signal_placement": ["EMBEDDED_CRITICAL_FRNT", "EXTERNAL_CRITICAL_FREF_EXACT_ROOT"],
+    "external_dependency_requirement": "EXACT_BASE_AND_PROJECTION_ARTIFACT; NO_IMPLICIT_LOOKUP_OR_NETWORK",
+    "max_front": 65536,
+    "max_front_expansion_bytes": 16777216,
+    "incompatible": [
+      "GLYPH",
+      "DELTA_STACK",
+      "RAW",
+      "LOCAL_LEGEND"
+    ],
+    "oversize": "LITERAL_CHUNKS"
+  },
+  "cm2": {
+    "capacity": "CALLER_SELECTED_0_TO_65536",
+    "ordering": "CALIBRATION_COUNT_DESC_FIRST_SEEN_ASC",
+    "candidate_policy": "OBSERVED_UNITS_PLUS_LONGEST_SEPARATOR_COMPONENTS_V1",
+    "zero_front": "FUNCTIONAL_CONSTITUENT_FALLBACK_NOT_ASSUMED_WINNER",
+    "global_optimality": false,
+    "scale_horizon_selector": "NOT_YET_INTEGRATED"
+  },
+  "ic": {
+    "schema": {"embedded":"semcrys.instance-constitution.v0.4","external":"semcrys.instance-constitution.v0.5"},
+    "receiver_cost_instance": "semcrys.transfer-instance.v0.1; SEPARATE_FROM_CONTAINER_CODEC_IDENTITY",
+    "bindings": [
+      "source_sha256",
+      "external_legend_roots",
+      "fold_projection",
+      "fold_fallback",
+      "outer_codec",
+      "tokenizer",
+      "max_unit_bytes"
+    ],
+    "fold_fallback": "FULL_PROJECTED_VIEW_CONSTITUENT_LOOKUP_V1"
+  },
+  "ir": {
+    "body_magic": "SFP1",
+    "front_control": "EXACTLY_ONE_OF_CRITICAL_FRNT_OR_CRITICAL_FREF",
+    "inverse": "FRONT_EXPANSIONS_PLUS_ORDER_STATISTIC_BASE_TAIL",
+    "publication": "EXACT_DECODE_AND_CONTEXT_EXIT_GUARDS_BEFORE_REPLACEMENT",
+    "accounting": "EXTERNAL_REQUIRES_COLD_OR_WARM; WARM_REQUIRES_ALL_EXTERNAL_ROOT_DECLARATIONS; COLD_CHARGES_MISSING_ARTIFACTS_ONCE_PER_EXPLICIT_BATCH",
+    "receiver_evidence": "CALLER_DECLARATION_NOT_REMOTE_ATTESTATION",
+    "local_receipts": "EXCLUDED_FROM_MODELED_TRANSPORT; NO_NETWORK_TRANSFER_EXECUTED"
+  },
+  "historical_boundary": {
+    "builder_signal": "MUST_REPRODUCE_FROZEN_016_SIGNAL_ON_EXACT_CALIBRATION",
+    "scanner": "NORMAL_SIZED_UNITS_MATCH; OVERSIZE_IS_EXPLICIT_BOUNDED_EXTENSION",
+    "encoder": "FULL_BASE_LOOKUP_EXPLICIT; HISTORICAL_016_RESTRICTED_LOOKUP_TO_COMBINED_EVALUATION_CANDIDATES",
+    "old_decoder_semantics": "SAME_VIRTUAL_RANK_EXPANSION",
+    "xz_preset": {
+      "historical": 9,
+      "application": 6
+    }
+  },
+  "claims_excluded": [
+    "GCNL_SENSE_IDENTITY",
+    "CANONICAL_MUTATION",
+    "CRYPTOGRAPHIC_CONFIDENTIALITY",
+    "GENERAL_COMPRESSION_SUPERIORITY",
+    "ADMISSION",
+    "RELEASE"
+  ]
+}

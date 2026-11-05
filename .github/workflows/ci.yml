@@ -1,0 +1,91 @@
+name: verification
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  court:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        python: ["3.11", "3.13"]
+    runs-on: ${{ matrix.os }}
+    env:
+      PYTHONDONTWRITEBYTECODE: "1"
+      PYTHONPATH: src
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Unit and differential tests
+        run: python -B -m unittest discover -s tests -v
+      - name: Wikipedia evidence
+        run: python -B tools/verify_wikipedia_evidence.py
+      - name: Integerization evidence
+        run: python -B tools/verify_integerization_performance_evidence.py
+
+  linux-standalone:
+    runs-on: ubuntu-24.04
+    env:
+      PYTHONDONTWRITEBYTECODE: "1"
+      PYTHONPATH: src
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Install pinned standalone build tools
+        run: python -m pip install "pyinstaller==6.22.3" "cryptography==50.0.1"
+      - name: Qualify Linux standalone
+        run: python -B tools/qualify_standalone.py linux
+      - uses: actions/upload-artifact@v4
+        with:
+          name: semcrys-linux-standalone
+          path: |
+            release-inputs/semcrys-0.1.0-linux-x64.tar.gz
+            evidence/LINUX-STANDALONE-COURT.json
+          if-no-files-found: error
+
+  release-envelope:
+    needs: linux-standalone
+    runs-on: windows-latest
+    env:
+      PYTHONDONTWRITEBYTECODE: "1"
+      PYTHONPATH: src
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Install pinned standalone build tools
+        run: python -m pip install "pyinstaller==6.22.3" "cryptography==50.0.1"
+      - uses: actions/download-artifact@v4
+        with:
+          name: semcrys-linux-standalone
+          path: platform-input
+      - name: Stage qualified Linux inputs
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory -Force release-inputs | Out-Null
+          Copy-Item platform-input/release-inputs/semcrys-0.1.0-linux-x64.tar.gz release-inputs/
+          Copy-Item platform-input/evidence/LINUX-STANDALONE-COURT.json evidence/
+      - name: Qualify Windows standalone
+        run: python -B tools/qualify_standalone.py windows
+      - name: Publication court
+        run: python -B tools/run_publication_court.py
+      - name: Build release
+        run: python -B tools/build_release.py
+      - name: Verify packaged release
+        run: python -B tools/verify_release.py dist/RELEASE-MANIFEST.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: semcrys-0.1.0-publication-dist
+          path: dist/
+          if-no-files-found: error

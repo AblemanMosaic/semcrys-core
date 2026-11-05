@@ -1,0 +1,20 @@
+{
+  "schema": "semcrys.seekable-metalegend-contract.v0.1",
+  "standing": "CANDIDATE_ONLY",
+  "public_product_version": "0.1.0",
+  "format_schema": "semcrys.seekable-metalegend.v0.1",
+  "magic": "SCMLEG2\\n",
+  "profile": "SEEKABLE_PREFIX_SUPERFRAMES_V1",
+  "recursion_depth": 1,
+  "directory": "CANONICAL_ROOTED_RELATIVE_OFFSETS",
+  "frames": "INDEPENDENT_XZ_COMPRESSED_AND_COMPRESSED_PLUS_RECIPE_HASH_BOUND",
+  "targeted_lookup": "ONE_DATA_FRAME_PER_LOCAL_INTEGER_ID",
+  "cache_profiles": ["COMPACT", "BALANCED", "THROUGHPUT"],
+  "cache_identity_effect": "NONE_DERIVABLE_ACCELERATION_ONLY",
+  "full_promotion": "EXACT_SOURCE_BYTES_AND_SHA256_REQUIRED",
+  "whole_stream_compatibility": "SCMLEG1_READ_RESTORE_VERIFY_SUPPORTED",
+  "exact_original_legend": true,
+  "semantic_identity_effect": "NONE",
+  "security_claim": "NONE",
+  "authority_effect": "NONE"
+}

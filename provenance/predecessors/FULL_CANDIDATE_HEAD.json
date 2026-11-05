@@ -1,0 +1,14 @@
+{
+  "application_payload_root": "cdd572f9092a4f92e0aecb58801e4fbee095c780af487a6c9aff4f070ba134f7",
+  "base_application_version": "0.1.0rc1",
+  "candidate_head_root": "98ee18148ee9e7997eaae9ea403f3ce3edfbf605cf6df33890aa12c8456adbc3",
+  "claim_ceiling": "READ_ONLY_EVENT_DISCLOSURE_ORDERING_COMPOSITION_AND_ARTIFACT_ACCOUNTING_SURFACES",
+  "convergence_root": "0874c70931cc6e98813057da57afb29e7007751d4190af3e30dd5194c606a20f",
+  "independent_acceptance": false,
+  "payload_root": "41e5191bc1a85aed81f8832d2402bc84238a81ed2e1e62f042d669616b2bf06e",
+  "predecessor_payload_root": "eb9d66b29d0c047ab65a96f1198925b022d0b22be8c6c33ef81208d01a3579e9",
+  "schema": "semcrys.full-synchronization.candidate-head.v0.1",
+  "security_claim": "NONE",
+  "standing": "CANDIDATE_ONLY",
+  "subject_root": "d60f5ebe331943dcc0da57de6ea8585b9690a0492dcf8ee185e2923106de310d"
+}

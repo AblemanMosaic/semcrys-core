@@ -1,0 +1,115 @@
+{
+  "authority_effect": "NONE",
+  "container_bytes_invariant": true,
+  "events": 2000000,
+  "native": {
+    "fold_samples": [
+      0.06512499996460974,
+      0.07284360006451607,
+      0.0690204999409616,
+      0.06910030008293688,
+      0.07018989999778569
+    ],
+    "fold_seconds_median": 0.06910030008293688,
+    "folded_events": 1000000,
+    "mode": "AUTO",
+    "pack_samples": [
+      0.10456999996677041,
+      0.09884350001811981,
+      0.10191889991983771,
+      0.10066550015471876,
+      0.10028659994713962
+    ],
+    "pack_seconds_median": 0.10066550015471876,
+    "packed_sha256": "f4d10bc9395b7dfaef719923802a05cb329fd8800c6867f4ea13a6c92c09f137",
+    "runtime": {
+      "abi_version": 1,
+      "authority_effect": "NONE",
+      "available": true,
+      "binary_sha256": "71f3121d3a91a9537e41474f571631509bb457347724d1015ed590ce6487c142",
+      "build_root": "558d3abcee92ae1c657d14110b7d10d279c1218a074814d7411989766f00984f",
+      "metrics": {
+        "fallback_calls": 0,
+        "fold_calls": 5,
+        "fold_input_events": 10000000,
+        "pack_calls": 5,
+        "pack_values": 10000000,
+        "unpack_calls": 5,
+        "unpack_values": 10000000
+      },
+      "policy": "AUTO",
+      "reason": "HASH_BOUND_NATIVE_KERNEL_LOADED",
+      "schema": "semcrys.native-runtime.v0.1",
+      "selected": true,
+      "threshold_events": 1
+    },
+    "unpack_exact": true,
+    "unpack_samples": [
+      0.08504929998889565,
+      0.10247409995645285,
+      0.10252229985781014,
+      0.10346940020099282,
+      0.10398159991018474
+    ],
+    "unpack_seconds_median": 0.10252229985781014
+  },
+  "reference": {
+    "fold_samples": [
+      0.5506195998750627,
+      0.5576702000107616,
+      0.5657999000977725,
+      0.5682674997951835,
+      0.5865493998862803
+    ],
+    "fold_seconds_median": 0.5657999000977725,
+    "folded_events": 1000000,
+    "mode": "OFF",
+    "pack_samples": [
+      0.4396178999450058,
+      0.439512399956584,
+      0.4384503001347184,
+      0.4438608998898417,
+      0.44866929994896054
+    ],
+    "pack_seconds_median": 0.4396178999450058,
+    "packed_sha256": "f4d10bc9395b7dfaef719923802a05cb329fd8800c6867f4ea13a6c92c09f137",
+    "runtime": {
+      "abi_version": 1,
+      "authority_effect": "NONE",
+      "available": true,
+      "binary_sha256": "71f3121d3a91a9537e41474f571631509bb457347724d1015ed590ce6487c142",
+      "build_root": "558d3abcee92ae1c657d14110b7d10d279c1218a074814d7411989766f00984f",
+      "metrics": {
+        "fallback_calls": 15,
+        "fold_calls": 0,
+        "fold_input_events": 0,
+        "pack_calls": 0,
+        "pack_values": 0,
+        "unpack_calls": 0,
+        "unpack_values": 0
+      },
+      "policy": "OFF",
+      "reason": "DISABLED_BY_POLICY",
+      "schema": "semcrys.native-runtime.v0.1",
+      "selected": false,
+      "threshold_events": 1
+    },
+    "unpack_exact": true,
+    "unpack_samples": [
+      0.4557232998777181,
+      0.48763520014472306,
+      0.4633906001690775,
+      0.45717219985090196,
+      0.45828930009156466
+    ],
+    "unpack_seconds_median": 0.45828930009156466
+  },
+  "repeats": 5,
+  "schema": "semcrys.native-benchmark.v0.1",
+  "speedup": {
+    "assembly_fold": 8.18809613588765,
+    "pack": 4.36711583679941,
+    "unpack": 4.470142600460325
+  },
+  "status": "PASS"
+}

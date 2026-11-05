@@ -1,0 +1,232 @@
+{
+  "accounting": {
+    "audit": "LOCAL_AUDIT_BYTES_SEPARATE_AND_NOT_FREE",
+    "cold": "ACQUISITION_PLUS_TRANSFER",
+    "receiver_state": "CALLER_DECLARED_EXACT_ROOTS_NOT_ATTESTATION",
+    "warm": "TRANSFER_PLUS_UNDECLARED_DEPENDENCIES"
+  },
+  "admission_effect": "NONE",
+  "application_series": "0.1",
+  "application_version": "0.1.0rc1",
+  "authority_effect": "NONE",
+  "command_groups": {
+    "DIRECTORY_PUBLICATION": [
+      "archive encode-selected",
+      "batch-encode",
+      "fold compact",
+      "group-legend pack",
+      "group-legend unpack",
+      "metalegend pack",
+      "metalegend unpack",
+      "unpack"
+    ],
+    "EXPLICIT_RECOVERY": [
+      "recovery directory-quarantine",
+      "recovery rollback"
+    ],
+    "FILE_PUBLICATION": [
+      "archive select",
+      "assembly build",
+      "assembly build-delta",
+      "assembly encode",
+      "assembly encode-longitudinal",
+      "assembly expand",
+      "codec encode-selected",
+      "codec select",
+      "configuration encode-selected",
+      "configuration select",
+      "decode",
+      "encode",
+      "encode-selected",
+      "fold build",
+      "fold extract",
+      "fold prefix",
+      "fold restore-rich",
+      "glyph build",
+      "glyph export",
+      "gtk vocabulary",
+      "legacy import",
+      "legend build",
+      "legend extract",
+      "legend import-ordered-v01",
+      "legend migrate-v01",
+      "library build",
+      "library build-stacks",
+      "metalegend build",
+      "metalegend prepare",
+      "metalegend restore",
+      "pack",
+      "second-pass",
+      "security protect",
+      "security rotate-key",
+      "security unprotect",
+      "select"
+    ],
+    "READ_ONLY": [
+      "archaic plan",
+      "archaic profiles",
+      "assembly inspect",
+      "capabilities",
+      "fold audit",
+      "fold delivery-cost",
+      "formats",
+      "help-json",
+      "gtk analyze",
+      "gtk capabilities",
+      "gtk verify-vocabulary",
+      "inspect",
+      "list",
+      "metalegend inspect",
+      "metalegend lookup",
+      "metalegend verify",
+      "plan",
+      "profiles",
+      "recovery directory-inspect",
+      "recovery inspect",
+      "search",
+      "security inspect",
+      "security verify",
+      "synchronize account",
+      "synchronize compose",
+      "synchronize disclosure",
+      "synchronize ordering",
+      "transport capabilities",
+      "transport frame",
+      "transport negotiate",
+      "transport verify-frame",
+      "verify",
+      "verify-self",
+      "explain-default",
+      "workbench export",
+      "workbench status"
+    ]
+  },
+  "computer_pathway": "PRESHARED_EXACT_LEGENDS_WITH_EXPLICIT_SPARSE_LONGITUDINAL_EXTENSION_WHEN_NEEDED",
+  "documentation_review_date": "2026-08-31",
+  "formats": {
+    "binary_legend": "0.2",
+    "critical_instance_variants": 14,
+    "crys": "0.2",
+    "recursive_metalegend": "0.1",
+    "glyph_registry": "0.1"
+  },
+  "held_mechanisms": [
+    "FORM_WITH_GLYPH_OR_FOLD",
+    "SECOND_PASS_GLYPH_INTEGER_FOLD_OR_ALREADY_COMPOSED",
+    "RECURSIVE_METALEGEND_DEPTH_GREATER_THAN_ONE",
+    "BOUND_GLYPH_GCNL_SEMANTICS",
+    "ASSEMBLY_ANCESTOR_OPERANDS",
+    "SHARED_COMPOSED_SECOND_PASS_PLACEMENT",
+    "LEGACY_MEMBER_ARCHIVES",
+    "DELEGATED_CRYPTOGRAPHIC_EXECUTION",
+    "KEYED_LOCAL_ID_SHUFFLE_ADAPTER",
+    "GTK_SENSE_KEYED_CODEC_REALIZATION",
+    "PUBLIC_ADAPTIVE_PERMUTATION_ADAPTER",
+    "FULL_TRANSPORT_HOMOPHONIC_KEYED_PROJECTION_ADAPTER",
+    "GTK_SENSE_KEYED_CODEC_REALIZATION",
+    "GTK_SENSE_KEYED_CODEC_REALIZATION",
+    "GTK_SENSE_KEYED_CODEC_REALIZATION",
+    "GTK_SENSE_KEYED_CODEC_REALIZATION",
+    "GTK_SENSE_KEYED_CODEC_REALIZATION"
+  ],
+  "independent_acceptance": false,
+  "primary_profiles": [
+    "C:RAW_BYTES",
+    "C:SELF_CONTAINED_TOKEN",
+    "T:PRESHARED_TOKEN",
+    "A:LONGITUDINAL_TOKEN_DELTA"
+  ],
+  "public_publication_authorized": true,
+  "purpose": "Single current scope and qualification boundary; listing is not acceptance",
+  "qualification_basis": {
+    "abi_byte_witnesses": 54,
+    "checkpoint_root": "c948b9b00a4fbc8f80dc8506e569b84d298aa5145c4324ace414e646fd5b4c03",
+    "independent_acceptance": false,
+    "large_record_source_max_bytes": 67108864,
+    "linux_publication_tests": 97,
+    "native_enospc_cases": 4,
+    "scope": "INHERITED_BOUNDED_EVIDENCE_NOT_PROOF_OF_THIS_SUCCESSOR",
+    "windows_tests": {
+      "passed": 893,
+      "skipped": 1
+    }
+  },
+  "release_ready": false,
+  "release_requirements": [
+    {
+      "gate": "EXACT_FORMAT_MATRIX_AND_FRESH_ABI_REVIEW",
+      "id": "stable-container-and-legend-abi",
+      "required": true
+    },
+    {
+      "gate": "BASELINE_RETENTION_ROOTED_SELECTION_COMPLETE_DECLARED_COSTS_AND_REFUSALS",
+      "id": "conservative-configuration-selection",
+      "required": true
+    },
+    {
+      "gate": "DECLARED_ENVELOPE_STREAMING_QUOTAS_PEAKS_AND_RESOURCE_FAILURES",
+      "id": "streaming-and-bounded-resources",
+      "required": true
+    },
+    {
+      "gate": "DECLARED_MIGRATIONS_CRITICAL_FEATURE_REFUSALS_CORRUPTION_AND_CUSTODY",
+      "id": "compatibility-and-corruption",
+      "required": true
+    },
+    {
+      "gate": "ALL_DECLARED_WORKFLOWS_AND_TYPED_UNAVAILABLE_BOUNDARIES",
+      "id": "full-application-profile-integration",
+      "required": true
+    },
+    {
+      "gate": "REPRODUCIBLE_PACKAGE_LICENSE_CURRENT_GUIDES_AND_ISOLATED_INSTALL",
+      "id": "packaging-and-documentation",
+      "required": true
+    },
+    {
+      "gate": "FRESH_REVIEW_AND_INDEPENDENT_WHOLE_APPLICATION_ACCEPTANCE",
+      "id": "release-courts",
+      "required": true
+    },
+    {
+      "gate": "NO_ADMISSION_RELEASE_CANONICAL_MUTATION_OR_UNPROVEN_SECURITY_EFFECT",
+      "id": "candidate-and-security-boundaries",
+      "required": true
+    }
+  ],
+  "schema": "semcrys.release-scope.v0.1",
+  "security_claim": "NONE",
+  "selection": "MEASURE_DECLARED_CANDIDATES_ON_EXACT_INPUT; KEEP_BASELINE; COUNT_REQUIRED_DEPENDENCIES",
+  "standing": "CANDIDATE_ONLY",
+  "technical_release_candidate_source_ready": true,
+  "unproved_properties": [
+    "GLOBAL_COMPRESSION_OPTIMUM",
+    "UNSEEN_WORKLOAD_PREDICTION",
+    "ALL_CONFIGURATIONS_COMPOSE",
+    "ONE_TIB_SCALE_FROM_A_NUMERIC_CAP",
+    "UNIVERSAL_RSS_BOUND",
+    "POWER_LOSS_ATOMICITY",
+    "CROSS_OS_OR_NETWORK_LOCK_INTEROPERABILITY",
+    "CRYPTOGRAPHIC_CONFIDENTIALITY"
+  ],
+  "workflows": {
+    "archaic_profiles": "SELF_CONTAINED_MANUAL; PENPAL_LONGITUDINAL; GUILD_PRESHARED; HYBRID_GUILD_LONGITUDINAL; READ_ONLY_CONTROL_PLAN",
+    "assembly": "TAGGED_OR_COMPACT_FORMS; LOCAL_PRESHARED_LONGITUDINAL; EXPLICIT_RULES; EXPANSION_INVERSE",
+    "batch": "EXACT_CONTEXT_REUSE; DISTINCT_FROM_RECORD_POOLING",
+    "codec_selection": "EXACT_SOURCE COMPLETE_CONTAINER_MEASUREMENT; EVERY AVAILABLE INVERSE VERIFIED; COLD_OR_WARM_DEPENDENCY_ACCOUNTING; NO FUTURE_PREDICTION",
+    "configuration_selection": "EXACT SOURCE X ROOTED VERSIONED LEGEND STACK X CODEC; COLD/WARM; EXACT HORIZON; EVERY EXECUTABLE INVERSE; DETERMINISTIC BYTE TIE; NO FUTURE PREDICTION",
+    "fold": "ONE_TOKEN_BASE; PRESHARED_PACKED; RICH_OR_COMPACT; EMBEDDED_OR_EXACT_EXTERNAL_FRONT",
+    "glyph": "TEMPLATE_REGISTRY; THREE_TOKEN_PROFILES; EMBEDDED_OR_EXACT_EXTERNAL_REGISTRY",
+    "gtk_analysis": "READ-ONLY ROOTED CANDIDATE DOSSIER ANALYSIS; REVIEWED DECISIONS; CLARIFICATION QUEUE; EXACT LEGEND EXPOSURE; EXPLICIT DISCLOSURE-GATED VOCABULARY; NO CORRECTION OR CODEC SENSE REALIZATION",
+    "integer_projection": "THREE_TOKEN_PROFILES; CANONICAL SIT1 DECIMAL_ID_AND_HEX_LITERAL_LINES; EXACT SPV2_AND_SOURCE_INVERSE; NOT_CANONICAL_CSIL",
+    "legacy": "EXPLICIT_SC_TEXT_V1_V2_OR_SCB1_IMPORT; REQUIRED_SOURCE_ROOT; NO_AMBIENT_LEGEND_DISCOVERY",
+    "group_legend": "BODY_ONLY_OR_WHOLE_BUNDLE; META_OR_VERBATIM; EXPLICIT_EXTERNAL_GLYPH_FOLD_AUXILIARIES; LEGACY_METALEGEND_PACK_UNPACK_ALIASES",
+    "metalegend": "ONE_LEVEL ORDERED_LEGEND PREFIX_RECIPES; SEEKABLE ROOTED SUPERFRAMES DEFAULT; WHOLE_STREAM CONTROL; DIRECT LOCAL_ID LOOKUP; VERIFIED CACHE PROMOTION; EXACT PHYSICAL LEGEND INVERSE; NESTING REFUSED",
+    "migration_workbench": "READ-ONLY ROOTED FINAL LEGACY DISPOSITIONS AND RELEASE-GATE STATUS; NO PARITY, AVAILABILITY, RELEASE OR AUTHORITY INFERENCE",
+    "ordinary": "RAW_LOCAL_PRESHARED_LONGITUDINAL; PACKED; FROZEN NONE/LZMA OR EXPLICIT V09 XZ/BZ2 PROFILES",
+    "recovery": "ROOTED_INSPECTION; EXPLICIT_TARGET_AND_JOURNAL_ROOT_FOR_MUTATION",
+    "second_pass": "ORDINARY_OR_FORM_PACKED_INPUT; COMPOSED LEGEND; ORIGINAL CANDIDATE; FROZEN TOP3 OR EXPLICIT CONFIGURABLE TOPK",
+    "standard_archive": "PATH_FIRST SELF_CONTAINED ARCHIVE; FULL ELIGIBLE LOCAL INTEGERIZATION BY DEFAULT; BOUNDED LARGE-FILE CHUNKS; EXACT CHUNK DEDUPLICATION; PARALLEL MEASURED CODEC SELECTION; GROUP_LEGEND POOLING; VERIFIED RESUMABLE CACHE; ROOTED MANIFEST; ATOMIC PUBLICATION; EXACT VERIFY AND SELECTIVE RESTORE; OPTIONAL CALLER-REGISTRY GTI WITHOUT CANONICAL IDENTITY EFFECT",
+    "transport_control": "CALLER-EXPLICIT PEER INTERSECTION; HELD EXACT ORDERED LEGEND CHAIN OR SELF-CONTAINED; REGISTRY REPAIR; PEER/NEGOTIATION/PROFILE/IC ROOTED FRAME; NO NETWORK OR CRYPTO EXECUTION"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "dispatch": "SIGNATURE_BASED",
+  "full": {"container_magic_hex": "435259530d0a1a0a", "decoder": "semcrys", "format": "CRYS-0.2"},
+  "identity_claim": "CORRESPONDENCE_NOT_BYTE_FORMAT_IDENTITY",
+  "native_realization": {"abi": 1, "container_bytes_invariant": true, "fallback": "PURE_PYTHON_REFERENCE"},
+  "lite": {"binary_magic_hex": "53435259534c310a", "decoder": "semcrys_lite", "format": "CRYS-LITE-0.3", "text_envelope": "CANONICAL_JSON"},
+  "migration": "DECODE_EXACT_SOURCE_THEN_REENCODE_EXPLICITLY",
+  "schema": "semcrys.compatibility-matrix.v0.2",
+  "standing": "CANDIDATE_ONLY",
+  "unknown_critical_format": "REFUSE"
+}
+

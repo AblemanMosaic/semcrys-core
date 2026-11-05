@@ -1,0 +1,88 @@
+{
+  "authority_effect": "NONE",
+  "corpus_revision": "013822bbd38b2caf2795d7d25d1fed7bc7f2ff72",
+  "external_primary_sources": [
+    "https://github.com/meta/zstd/blob/dev/README.md#the-case-for-small-data-compression",
+    "https://www.rfc-editor.org/rfc/rfc7932.html#section-8",
+    "https://avadeaux.net/larsson.dogma.net/dcc99.pdf",
+    "https://aclanthology.org/D18-2012/",
+    "https://github.com/google/sentencepiece/blob/master/doc/normalization.md",
+    "https://www.w3.org/submissions/HDT/",
+    "https://www.rdfhdt.org/technical-specification/",
+    "https://arrow.apache.org/docs/format/Columnar.html#dictionary-encoded-layout",
+    "https://parquet.apache.org/docs/file-format/data-pages/encodings/#dictionary-encoding-plain_dictionary--2-and-rle_dictionary--8",
+    "https://wordnet.princeton.edu/",
+    "https://aclanthology.org/P10-1023/",
+    "https://cryptography.io/en/latest/hazmat/primitives/aead/",
+    "https://www.rfc-editor.org/rfc/rfc7457.html#section-2.6"
+  ],
+  "live_doi_resolution": "UNAVAILABLE_THROUGH_RESEARCH_BROWSER; LINKS_CHECKED_AGAINST_CORPUS_METADATA",
+  "papers": [
+    {
+      "accession": "AC-0091",
+      "doi": null,
+      "markdown_path": "papers/current/AC-0091-global-term-key-constitutional-lexical-identity-thro/Global Term Key - Constitutional Lexical Identity Through Disambiguated Semantic Binding -- BD21DD43EB3F.md",
+      "markdown_sha256": "e2ee190947dc73a6b1fe05d3ff5be5519369738cf2194c531c4f8d992b817ff9",
+      "metadata_sha256": "9720604173a7e68dadee1f1105d133c487393f185c85a865865fded36bc0c06f",
+      "standing": "AI_PREPARED_AUTHOR_REVIEW_SUCCESSOR",
+      "title": "Global Term Key: Constitutional Lexical Identity Through Disambiguated Semantic Binding"
+    },
+    {
+      "accession": "AC-0102",
+      "doi": null,
+      "markdown_path": "papers/current/AC-0102-global-term-key-identity-primitives-in-governed-know/Global Term Key - Identity Primitives in Governed Knowledge Systems -- 42774B0BD36D.md",
+      "markdown_sha256": "e5d12d27b96a91ac2217e2fc36747d0a2a66552deae17a359a5edf417e63f1ea",
+      "metadata_sha256": "3dede53704e28521e7cb46677473f73592a0833673d9df59f4bac7c7b28680d9",
+      "standing": "AI_PREPARED_AUTHOR_REVIEW_SUCCESSOR",
+      "title": "Global Term Key: Identity Primitives in Governed Knowledge Systems"
+    },
+    {
+      "accession": "AC-0118",
+      "doi": "https://doi.org/10.5281/zenodo.20330324",
+      "markdown_path": "papers/current/AC-0118-constitutional-legends/Constitutional Legends -- DCE6C85CE001.md",
+      "markdown_sha256": "d6e011eca11bef7fe0f749c6f7d81ac228ca037d6f44e33ba0e345bd9d26ad83",
+      "metadata_sha256": "6eeac29885ccf3d4ebfb9a5e91667b3ecf7f156ded696cc30370519b8c00c5c9",
+      "standing": "AI_PREPARED_AUTHOR_REVIEW_SUCCESSOR",
+      "title": "Constitutional Legends"
+    },
+    {
+      "accession": "AC-0119",
+      "doi": "https://doi.org/10.5281/zenodo.20370117",
+      "markdown_path": "papers/current/AC-0119-semcrys0/SemCrys0 -- F9BCB502A493.md",
+      "markdown_sha256": "38f1959701244b1e4ec2bcaa7751ece11c158a9ecf3deeb578da09c7421b2ad2",
+      "metadata_sha256": "a6cc8de398b5d81304b09f819ea667ba6d5d9916381b01969e3bf67c72fb2a27",
+      "standing": "AI_PREPARED_AUTHOR_REVIEW_SUCCESSOR",
+      "title": "SemCrys0"
+    },
+    {
+      "accession": "AC-0120",
+      "doi": "https://doi.org/10.5281/zenodo.20374559",
+      "markdown_path": "papers/current/AC-0120-semcrys-toward-a-tokenizer-native-semantic-substrate/SemCrys - Toward a Tokenizer-Native Semantic Substrate for Machine Cognition -- 6D2773FF5521.md",
+      "markdown_sha256": "8f3d94581bb51791ecdb4e840ff83363dfa0343404524e31bb73fe54ddaadab7",
+      "metadata_sha256": "2c7bf4b4c321978b281c665ec687635978e3f884360630359370dc977a3ee313",
+      "standing": "AI_PREPARED_AUTHOR_REVIEW_SUCCESSOR",
+      "title": "SemCrys: Toward a Tokenizer-Native Semantic Substrate for Machine Cognition"
+    },
+    {
+      "accession": "AC-0121",
+      "doi": "https://doi.org/10.5281/zenodo.20374735",
+      "markdown_path": "papers/current/AC-0121-semcrys-secure-toward-governed-semantic-transport-an/SemCrys-Secure - Toward Governed Semantic Transport and Authorization-Scoped Semantic In -- D11870127422.md",
+      "markdown_sha256": "b11b7c4c480755cbcc525937527affdf3b07ff0f00a9220891a3159ef0c6e961",
+      "metadata_sha256": "3aa5ed35d0952ad7c8228bbf289b25db6f5cdbdc02b4819dd7c886f54928868d",
+      "standing": "AI_PREPARED_AUTHOR_REVIEW_SUCCESSOR",
+      "title": "SemCrys-Secure: Toward Governed Semantic Transport and Authorization-Scoped Semantic Interpretability for Machine Cognition"
+    },
+    {
+      "accession": "AC-0127",
+      "doi": "https://doi.org/10.5281/zenodo.20532070",
+      "markdown_path": "papers/current/AC-0127-semantic-coordinate-identity-tokenization-scit/Semantic Coordinate Identity Tokenization (SCIT) -- EBAFA306E7BB.md",
+      "markdown_sha256": "9bb6c7938af24451c9d4b796a64c703d8a034ed9ee99e0b884933a5432d7a0c6",
+      "metadata_sha256": "8d2f4b83b8bfc2ae192410238026b02fec5efb82f0efa3f86b71ce971a58d800",
+      "standing": "AI_PREPARED_AUTHOR_REVIEW_SUCCESSOR",
+      "title": "Semantic Coordinate Identity Tokenization (SCIT)"
+    }
+  ],
+  "reviewed_date": "2026-11-02",
+  "schema": "semcrys.documentation-research-sources.v1",
+  "synthesis_standing": "SOURCE_GROUNDED_COMPARISON_NOT_PRIORITY_OR_SECURITY_PROOF"
+}

@@ -1,0 +1,181 @@
+{
+  "checks": [
+    {
+      "command": [
+        "<interpreter>",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests"
+      ],
+      "returncode": 0,
+      "stderr_sha256": "4da74a9eb9406660a86999a57747ffd2a95c38db7da5ae5db13789e98cdc8273",
+      "stderr_tail": "..................\n----------------------------------------------------------------------\nRan 18 tests in <elapsed>\n\nOK\n",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_tail": "",
+      "working_directory": "full"
+    },
+    {
+      "command": [
+        "<interpreter>",
+        "-m",
+        "unittest",
+        "tests.test_synchronization",
+        "-v"
+      ],
+      "returncode": 0,
+      "stderr_sha256": "24cc807d6075b845ef33feacc1434c7d21c95685a46980a4aa7b14457df35a33",
+      "stderr_tail": "... ok\ntest_missing_source_refuses (tests.test_synchronization.Disclosure.test_missing_source_refuses) ... ok\ntest_projection_is_a_proposal_and_is_never_applied (tests.test_synchronization.OrderingProjection.test_projection_is_a_proposal_and_is_never_applied) ... ok\ntest_projection_reports_a_bounded_savings_figure (tests.test_synchronization.OrderingProjection.test_projection_reports_a_bounded_savings_figure) ... ok\ntest_no_surface_mutates_its_inputs (tests.test_synchronization.ReadOnlyInvariant.test_no_surface_mutates_its_inputs) ... ok\ntest_capabilities_surface_does_not_refuse (tests.test_synchronization.ReleaseScopeDrift.test_capabilities_surface_does_not_refuse) ... ok\ntest_parser_command_count_equals_scope_record (tests.test_synchronization.ReleaseScopeDrift.test_parser_command_count_equals_scope_record) ... ok\ntest_stub_declares_its_kind_and_lives_outside_evidence (tests.test_synchronization.SizeStubFixture.test_stub_declares_its_kind_and_lives_outside_evidence) ... ok\ntest_stub_refuses_to_decode (tests.test_synchronization.SizeStubFixture.test_stub_refuses_to_decode) ... ok\n\n----------------------------------------------------------------------\nRan 18 tests in <elapsed>\n\nOK\n",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_tail": "",
+      "working_directory": "full"
+    },
+    {
+      "command": [
+        "<interpreter>",
+        "-m",
+        "semcrys",
+        "verify-self"
+      ],
+      "returncode": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_tail": "",
+      "stdout_sha256": "3709b3c042d87c404414962156eb8b1f4b2066ef4591627268f0b58b25a9c436",
+      "stdout_tail": "{\"application_payload_root\": \"cdd572f9092a4f92e0aecb58801e4fbee095c780af487a6c9aff4f070ba134f7\", \"application_version\": \"0.1.0rc1\", \"files\": 90, \"inventory_complete\": true, \"payload_root\": \"cdd572f9092a4f92e0aecb58801e4fbee095c780af487a6c9aff4f070ba134f7\", \"publisher_authentication\": \"NOT_CLAIMED\", \"schema\": \"semcrys.distribution-verification.v0.1\", \"standing\": \"CANDIDATE_ONLY\", \"status\": \"PASS\"}\n",
+      "working_directory": "full"
+    },
+    {
+      "command": [
+        "<interpreter>",
+        "-m",
+        "semcrys",
+        "capabilities"
+      ],
+      "returncode": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_tail": "",
+      "stdout_sha256": "789e09b78baf15a5804bdfde877717eff52d90801a858e5ee86decacecfc9adb",
+      "stdout_tail": "REALIZATION\", \"integer_projection\": \"THREE_TOKEN_PROFILES; CANONICAL SIT1 DECIMAL_ID_AND_HEX_LITERAL_LINES; EXACT SPV2_AND_SOURCE_INVERSE; NOT_CANONICAL_CSIL\", \"legacy\": \"EXPLICIT_SC_TEXT_V1_V2_OR_SCB1_IMPORT; REQUIRED_SOURCE_ROOT; NO_AMBIENT_LEGEND_DISCOVERY\", \"metalegend\": \"BODY_ONLY_OR_WHOLE_BUNDLE; META_OR_VERBATIM; EXPLICIT_EXTERNAL_GLYPH_FOLD_AUXILIARIES\", \"migration_workbench\": \"READ-ONLY ROOTED FINAL LEGACY DISPOSITIONS AND RELEASE-GATE STATUS; NO PARITY, AVAILABILITY, RELEASE OR AUTHORITY INFERENCE\", \"ordinary\": \"RAW_LOCAL_PRESHARED_LONGITUDINAL; PACKED; FROZEN NONE/LZMA OR EXPLICIT V09 XZ/BZ2 PROFILES\", \"recovery\": \"ROOTED_INSPECTION; EXPLICIT_TARGET_AND_JOURNAL_ROOT_FOR_MUTATION\", \"second_pass\": \"ORDINARY_OR_FORM_PACKED_INPUT; COMPOSED LEGEND; ORIGINAL CANDIDATE; FROZEN TOP3 OR EXPLICIT CONFIGURABLE TOPK\", \"transport_control\": \"CALLER-EXPLICIT PEER INTERSECTION; HELD EXACT ORDERED LEGEND CHAIN OR SELF-CONTAINED; REGISTRY REPAIR; PEER/NEGOTIATION/PROFILE/IC ROOTED FRAME; NO NETWORK OR CRYPTO EXECUTION\"}}, \"schema\": \"semcrys.installed-capability-surface.v0.1\", \"standing\": \"CANDIDATE_ONLY\", \"surface_root\": \"5538da16e2d41821b730c3046aca29a1db19fce35c62f3e478fbfcd9cbf950f1\"}\n",
+      "working_directory": "full"
+    },
+    {
+      "command": [
+        "<interpreter>",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests"
+      ],
+      "returncode": 0,
+      "stderr_sha256": "f83df61101fe1b54465b604068b89d4ae2c2e93af17d9e0880806916ceac3cd5",
+      "stderr_tail": "..................................................................................................................................................................................\n----------------------------------------------------------------------\nRan 178 tests in <elapsed>\n\nOK\n",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_tail": "",
+      "working_directory": "lite/source"
+    },
+    {
+      "command": [
+        "<interpreter>",
+        "-m",
+        "semcrys_lite",
+        "demo"
+      ],
+      "returncode": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_tail": "",
+      "stdout_sha256": "eec3e4c45d632be03848b54f8c3b2f420281c3f21765c4de714fe4c6ce4f24e3",
+      "stdout_tail": "m\":\"NONE\",\"source_bytes\":263,\"standing\":\"CANDIDATE_ONLY\"},\"demonstration_root\":\"deb0365235d1cbc8ab913dea8ec57d90c92e546d375d7af15ca46643fb5cbf46\",\"fixture\":{\"repeat_count\":8,\"source_bytes\":263,\"text_preview\":\"the cat and the dog saw the cat.\",\"tutorial_key\":\"FIXED_NON_SECRET_DEMONSTRATION_FIXTURE_ONLY\"},\"lesson\":[\"BYTE_DIRECT maps each source byte to an integer event.\",\"JSON_DIRECT leaves those events visible so the transform can be audited.\",\"LZMA compresses the same logical event body without changing its meaning.\",\"KEYED_PERMUTATION changes labels but preserves equality and repetition.\",\"BOUNDED_ALIAS limits public repetition and moves recovery data into a sealed companion.\",\"FULL_UNIQUE leaves only event count in the public body and moves ordered reconstruction into the sealed companion.\"],\"questions\":[\"Which equality relationships remain public?\",\"Where did the information needed for exact reconstruction move?\",\"Which bytes are format overhead rather than source representation?\",\"Which result is a measurement and which would require an independent security court?\"],\"schema\":\"semcrys-lite.guided-demonstration.v0.1.candidate\",\"security_claim\":\"NONE\",\"standing\":\"CANDIDATE_ONLY\"}\n",
+      "working_directory": "lite/source"
+    },
+    {
+      "command": [
+        "<interpreter>",
+        "-m",
+        "semcrys",
+        "synchronize",
+        "disclosure",
+        "fixtures/sample.txt",
+        "fixtures/accounting-size-stub.leg"
+      ],
+      "returncode": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_tail": "",
+      "stdout_sha256": "3a4fcb8334b325d2b920f44636e016d6ca1954c607c3f269646c63a6c0541bcd",
+      "stdout_tail": "{\"application_payload_root\": \"cdd572f9092a4f92e0aecb58801e4fbee095c780af487a6c9aff4f070ba134f7\", \"application_version\": \"0.1.0rc1\", \"claim\": \"OBSERVED_REFERENCE_FREQUENCY_ONLY\", \"coverage_fraction\": 1.0, \"covered_events\": 30, \"disclosure_root\": \"fce99c4ca0d6ec6d555bf284d7b3826d1a293e332047f20906f726b75be135a8\", \"distinct_referenced_ids\": 12, \"event_count\": 30, \"legend_entries\": 12, \"legend_sha256\": \"5907f6eea02e0d75de1c8acf2eba09a82d085bac99273dbd15168cc6fd392f56\", \"literal_events\": 0, \"schema\": \"semcrys.full-legend-disclosure.v0.1.candidate\", \"security_claim\": \"NONE\", \"source_sha256\": \"f32b3bf4b931c233168ff169da7f5dcda10d55abdd091da35e4c7be576e13827\", \"standing\": \"CANDIDATE_ONLY\", \"top_reference_counts\": [{\"count\": 12, \"id\": 2}, {\"count\": 3, \"id\": 1}, {\"count\": 3, \"id\": 3}, {\"count\": 3, \"id\": 4}, {\"count\": 2, \"id\": 8}, {\"count\": 1, \"id\": 5}, {\"count\": 1, \"id\": 6}, {\"count\": 1, \"id\": 7}, {\"count\": 1, \"id\": 9}, {\"count\": 1, \"id\": 10}, {\"count\": 1, \"id\": 11}, {\"count\": 1, \"id\": 12}]}\n",
+      "working_directory": "."
+    },
+    {
+      "command": [
+        "<interpreter>",
+        "-m",
+        "semcrys",
+        "synchronize",
+        "ordering",
+        "fixtures/sample.txt",
+        "fixtures/accounting-size-stub.leg"
+      ],
+      "returncode": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_tail": "",
+      "stdout_sha256": "b6d8dc67134d2244cf4a0bb512bae4b1b637c2a73b5926caddfa2618ecb1fc09",
+      "stdout_tail": "\": \"PROPOSAL_NOT_APPLIED\", \"application_version\": \"0.1.0rc1\", \"legend_sha256\": \"5907f6eea02e0d75de1c8acf2eba09a82d085bac99273dbd15168cc6fd392f56\", \"ordering\": \"FREQUENCY_THEN_LEXICAL_BYTES_THEN_OLD_ID\", \"packed_reference_bytes_after\": 30, \"packed_reference_bytes_before\": 30, \"projected_savings_bytes\": 0, \"projection_root\": \"15fbf355fde2fc094fdb68d043739712d8d4d01192836531c60aed5e5146c26f\", \"rows\": [{\"new_id\": 1, \"observed_count\": 12, \"old_id\": 2}, {\"new_id\": 2, \"observed_count\": 3, \"old_id\": 4}, {\"new_id\": 3, \"observed_count\": 3, \"old_id\": 1}, {\"new_id\": 4, \"observed_count\": 3, \"old_id\": 3}, {\"new_id\": 5, \"observed_count\": 2, \"old_id\": 8}, {\"new_id\": 6, \"observed_count\": 1, \"old_id\": 6}, {\"new_id\": 7, \"observed_count\": 1, \"old_id\": 9}, {\"new_id\": 8, \"observed_count\": 1, \"old_id\": 7}, {\"new_id\": 9, \"observed_count\": 1, \"old_id\": 11}, {\"new_id\": 10, \"observed_count\": 1, \"old_id\": 12}, {\"new_id\": 11, \"observed_count\": 1, \"old_id\": 10}, {\"new_id\": 12, \"observed_count\": 1, \"old_id\": 5}], \"schema\": \"semcrys.full-ordering-projection.v0.1.candidate\", \"security_claim\": \"NONE\", \"source_sha256\": \"f32b3bf4b931c233168ff169da7f5dcda10d55abdd091da35e4c7be576e13827\", \"standing\": \"CANDIDATE_ONLY\"}\n",
+      "working_directory": "."
+    },
+    {
+      "command": [
+        "<interpreter>",
+        "-m",
+        "semcrys",
+        "synchronize",
+        "compose",
+        "fixtures/sample.txt",
+        "fixtures/accounting-size-stub.leg",
+        "--minimum-count",
+        "2"
+      ],
+      "returncode": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_tail": "",
+      "stdout_sha256": "51bea23e06e15c8458d72a3c8f7d03f0c2d8a1fe4142f521611ce6aae341c7af",
+      "stdout_tail": "{\"application_payload_root\": \"cdd572f9092a4f92e0aecb58801e4fbee095c780af487a6c9aff4f070ba134f7\", \"application_status\": \"PROPOSAL_NOT_APPLIED\", \"application_version\": \"0.1.0rc1\", \"boundary\": \"PACKED_REFERENCE_COST_ONLY; OUTER_CODEC_EFFECT_NOT_INFERRED\", \"candidate_count\": 0, \"candidates\": [], \"composition_root\": \"68674101837abfb3ca5f4e201fed565b1deb7ed94065b1abb9865e4327c76202\", \"legend_sha256\": \"5907f6eea02e0d75de1c8acf2eba09a82d085bac99273dbd15168cc6fd392f56\", \"minimum_count\": 2, \"schema\": \"semcrys.full-composition-proposal.v0.1.candidate\", \"security_claim\": \"NONE\", \"source_sha256\": \"f32b3bf4b931c233168ff169da7f5dcda10d55abdd091da35e4c7be576e13827\", \"standing\": \"CANDIDATE_ONLY\"}\n",
+      "working_directory": "."
+    },
+    {
+      "command": [
+        "<interpreter>",
+        "-m",
+        "semcrys",
+        "synchronize",
+        "account",
+        "--source",
+        "fixtures/sample.txt",
+        "--container",
+        "fixtures/accounting-size-stub.crys",
+        "--legend",
+        "fixtures/accounting-size-stub.leg"
+      ],
+      "returncode": 0,
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_tail": "",
+      "stdout_sha256": "070c9922ed2e91a06e74163ce5c36fda3dde761643bda4a8b846331010804264",
+      "stdout_tail": "{\"accounting_root\": \"5923613b8aee450e3217da03e1a335ad846b265d5ee458e7448badf506fb790c\", \"accounting_rule\": \"ACTUAL_TRANSPORTED_ARTIFACT_BYTES; NO_COUNTERFACTUAL_COMPRESSION\", \"actual_legend_bytes\": 344, \"application_payload_root\": \"cdd572f9092a4f92e0aecb58801e4fbee095c780af487a6c9aff4f070ba134f7\", \"application_version\": \"0.1.0rc1\", \"curve\": [{\"cold_beats_xz\": false, \"cold_bytes\": 1447, \"document_count\": 1, \"warm_bytes\": 1103, \"xz_source_bytes\": 128}], \"documents\": [{\"container_bytes\": 1103, \"container_sha256\": \"67c1def0d361116ca72085f3b9c0e7a795277b5ee34d137d635b864118e4a40c\", \"source_bytes\": 88, \"source_sha256\": \"f32b3bf4b931c233168ff169da7f5dcda10d55abdd091da35e4c7be576e13827\"}], \"legend_artifacts\": [{\"bytes\": 344, \"path_name\": \"accounting-size-stub.leg\", \"sha256\": \"5907f6eea02e0d75de1c8acf2eba09a82d085bac99273dbd15168cc6fd392f56\"}], \"observed_first_cold_break_even_document\": null, \"schema\": \"semcrys.full-artifact-accounting.v0.1.candidate\", \"security_claim\": \"NONE\", \"standing\": \"CANDIDATE_ONLY\"}\n",
+      "working_directory": "."
+    }
+  ],
+  "environment_not_rooted": {
+    "interpreter_recorded": false,
+    "platform": "Linux",
+    "python_version": "3.12.3"
+  },
+  "independent_acceptance": false,
+  "path_normalization": "INTERPRETER_AND_ABSOLUTE_PATHS_EXCLUDED_FROM_ROOT",
+  "review": 2,
+  "review_root": "fbf10e989d58e0406afab954c0ce3733ed207f8464a043bee092ab6fe7c5485f",
+  "schema": "semcrys.synchronization-clean-review.v0.2",
+  "security_claim": "NONE",
+  "standing": "CANDIDATE_ONLY",
+  "status": "PASS",
+  "subject_root": "f490a6581c5831b30d8d9c313bf38272d04ac5a5c5f3e915adbbf6a794cf231e"
+}

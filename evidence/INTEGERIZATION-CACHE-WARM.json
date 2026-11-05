@@ -1,0 +1,154 @@
+{
+  "authority_effect": "NONE",
+  "claim_boundary": "One exact pinned fixture and configuration on one host; no cross-corpus or global throughput claim.",
+  "compiler_execution_metrics": {
+    "phase_wall_ns": {
+      "COMPILE_FUNNEL": 49822200,
+      "COMPRESS_OUTER": 425621200,
+      "ENCODE_TOKEN_BODY": 3844006200,
+      "LOAD_LEGENDS": 44401200,
+      "POSTWRITE_RECONSTRUCTION": 7386938600,
+      "TOTAL": 12013460900,
+      "WRITE_CONTAINER": 25532100
+    },
+    "schema": "semcrys.execution-metrics.v0.1",
+    "scope": "NONCANONICAL_RUNTIME_OBSERVATION_NOT_CONTAINER_IDENTITY"
+  },
+  "container_bytes": 671046,
+  "container_sha256": "e0d424b3aa7265bcbd4d8a60eb8da5f4655bbae02fc194d669e6eb0630d4a43c",
+  "context_receipt": {
+    "artifact_bytes_changed": false,
+    "effective_configuration": {
+      "instance_constitution_sha256": "6c95fd8d284ec2367a2fb60cb9a575fbaf8ba60af29ce486cc45ac1c1550e27b",
+      "lookup_cache_max_bytes": 8388608,
+      "lookup_cache_max_entries": 32768,
+      "max_legend_bytes": 1073741824,
+      "max_legends": 1024,
+      "operation_sequence": [
+        "ROOT_SNAPSHOT",
+        "VALIDATE_STRUCTURE",
+        "BUILD_UNIQUE_LOOKUP",
+        "HASH_GUARD_REUSE",
+        "VERIFY_RECONSTRUCTION",
+        "HASH_GUARD_BEFORE_PUBLISH"
+      ],
+      "persistent_cache": true,
+      "physical_lookup": {
+        "backend": "AUTO",
+        "hard_rss_limit": false,
+        "mmap_limit_bytes": 268435456,
+        "payload_budget_bytes": 536870912,
+        "scope": "EXPLICIT_LOW_LEVEL_CONTEXT_ONLY",
+        "standing": "CANDIDATE_ONLY",
+        "transported_configuration_changed": false,
+        "unit_mode": "TOKEN_ONLY"
+      },
+      "policy": "EPHEMERAL_PROCESS_OWNED_SNAPSHOTS_FULL_HASH_GUARDS",
+      "schema": "semcrys.verified-context-instance.v0.1",
+      "security_claim": "NONE",
+      "sqlite_cache_budget_kib": 16384,
+      "sqlite_cache_budget_kind": "AGGREGATE_SUGGESTED_PAGE_CACHE_NOT_RSS_LIMIT",
+      "standing": "CANDIDATE_ONLY"
+    },
+    "legend_roots": [
+      "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+    ],
+    "lookup_cache": {
+      "evictions": 0,
+      "max_bytes": 8388608,
+      "max_entries": 32768,
+      "owners": 0,
+      "peak_reserved_bytes": 0,
+      "peak_reserved_entries": 0,
+      "retained_bytes": 0,
+      "retained_entries": 0,
+      "scope": "RETAINED_SERIALIZED_BLOCKS_AND_SPAN_COUNTS_NOT_TOTAL_RSS"
+    },
+    "operation_sequence": [
+      "ROOT_SNAPSHOT",
+      "VALIDATE_STRUCTURE",
+      "BUILD_UNIQUE_LOOKUP",
+      "HASH_GUARD_REUSE",
+      "VERIFY_RECONSTRUCTION",
+      "HASH_GUARD_BEFORE_PUBLISH"
+    ],
+    "persistent_cache": true,
+    "physical_lookup": {
+      "backend": "AUTO",
+      "hard_rss_limit": false,
+      "payload_estimate_bytes": 215697474,
+      "rows": [
+        {
+          "full_root_guards_retained": true,
+          "hard_rss_limit": false,
+          "legend_bytes": 54102082,
+          "mode": "RAM",
+          "offset_bytes": 32000000,
+          "payload_estimate_bytes": 215697474,
+          "sqlite_database_bytes": 97595392,
+          "sqlite_mmap_bytes": 0
+        }
+      ]
+    },
+    "policy": "EPHEMERAL_PROCESS_OWNED_SNAPSHOTS_FULL_HASH_GUARDS",
+    "receipt_sha256": "35b8448e6083b3fbf6ead8a594a43f1f252702df35ec660bac5b229d8c304dc4",
+    "schema": "semcrys.verified-context-receipt.v0.1",
+    "security_claim": "NONE",
+    "sqlite_cache_targets": {
+      "aggregate_kib": 2048,
+      "budget_kib": 16384,
+      "connections": 1,
+      "hard_process_memory_limit": false,
+      "per_connection_kib": 2048
+    },
+    "standing": "CANDIDATE_ONLY",
+    "stats": {
+      "full_validations": 1,
+      "guard_checks": 5,
+      "lookup_builds": 0,
+      "operations": 1,
+      "persistent_lookup_hits": 1,
+      "persistent_lookup_misses": 0,
+      "prepare_seconds": 12.130432500038296,
+      "snapshot_bytes": 54102082
+    }
+  },
+  "evidence_root": "f9eb3cd8f55b65ff0dc170d072156e6ec53407fdd445a43eeba2740794bedbb1",
+  "independent_redecode": false,
+  "lookup_backend": "AUTO",
+  "outer_codec": "LZMA",
+  "phase_metrics": {
+    "context_total_wall_ns": 24730583600,
+    "encode_with_postwrite_proof": {
+      "cpu_ns": 9765625000,
+      "wall_ns": 12403055300
+    },
+    "fixture_expansion": {
+      "cpu_ns": 109375000,
+      "wall_ns": 102164200
+    },
+    "independent_redecode": null,
+    "traced_python_peak_bytes": null,
+    "ultra_preparation": {
+      "cpu_ns": 12187500000,
+      "wall_ns": 12299742400
+    },
+    "ultra_restoration": {
+      "cpu_ns": 1375000000,
+      "wall_ns": 1428731200
+    }
+  },
+  "profile": "T:PRESHARED_TOKEN",
+  "runtime": {
+    "implementation": "CPython",
+    "machine": "AMD64",
+    "python": "3.12.10",
+    "system": "Windows"
+  },
+  "schema": "semcrys.integerization-pipeline-benchmark.v0.1",
+  "source_bytes": 2763849,
+  "source_sha256": "28d61392bfc27ffb1c283beb6dc3dbd78a6d22f2a60e6c76121f6b70cffaaecb",
+  "standing": "SINGLE_HOST_BOUNDED_MEASUREMENT",
+  "tracemalloc": false,
+  "ultra_root": "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+}

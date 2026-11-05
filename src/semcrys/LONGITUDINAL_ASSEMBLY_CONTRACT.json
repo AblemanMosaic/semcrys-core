@@ -1,0 +1,76 @@
+{
+  "schema": "semcrys.longitudinal-assembly-contract.v0.1",
+  "standing": "CANDIDATE_ONLY",
+  "S": {
+    "purpose": "EXPLICIT_EXACT_PARENT_CHAIN_REBASE_AND_LONGITUDINAL_DELTA_FACTORING",
+    "identity": "LOCAL_EVENT_IDS_ARE_NOT_CANONICAL_CSIL"
+  },
+  "CM1": {
+    "input_delta": "TOKEN_BINARY_V02_WITH_EXACT_LAST_SOURCE_PARENT_ROOT",
+    "source_and_target_parents": "COMPLETE_ORDERED_NONEMPTY_CHAINS",
+    "correspondence": "SAME_CHAIN_LENGTH_AND_EACH_MEMBER_EXACT_ORDERED_EXPANDED_VALUES",
+    "cross_chain_duplicates": "REFUSE",
+    "target_delta_parent": "EXACT_LAST_TARGET_PARENT_ROOT",
+    "parent_mutation": false,
+    "max_parent_members": 1023,
+    "max_combined_legend_bytes": 1073741824,
+    "max_source_bytes": 67108864,
+    "max_rule_bytes": 16777216,
+    "program_operands": "LOCAL_DELTA_REFERENCES_OR_INLINE_BASE_ONLY; NOT_ANCESTOR_EVENT_REFERENCES",
+    "abi": "EXISTING_TAGGED_V01_AND_COMPACT_V02_NO_NEW_OPCODE"
+  },
+  "CM2": {
+    "record_policy": [
+      "ALL",
+      "SHORTER"
+    ],
+    "encoding": [
+      "TAGGED",
+      "COMPACT"
+    ],
+    "selection": [
+      "MIN_CONTAINER",
+      "ASSEMBLY"
+    ],
+    "default_selection": "MIN_CONTAINER",
+    "cost": "TWO_COMPLETE_CONTAINERS_WITH_IDENTICAL_EXTERNAL_PARENTS; TIE_ORDINARY",
+    "future_delta_economics": "NOT_PREDICTED"
+  },
+  "IC": {
+    "rebase_operations": [
+      "SNAPSHOT_INPUTS",
+      "VERIFY_SOURCE_AND_TARGET_CHAINS",
+      "PROVE_ORDERED_PARENT_EQUIVALENCE",
+      "FACTOR_DELTA",
+      "VERIFY_EXPANSION_AND_NEW_PARENT_BINDING",
+      "PUBLISH_NEW_ARTIFACT"
+    ],
+    "longitudinal_operations": [
+      "SNAPSHOT_SOURCE_RULES_PARENTS",
+      "COMPILE_INSTANCE",
+      "BUILD_ORDINARY_LONGITUDINAL_CONTAINER",
+      "FACTOR_EMBEDDED_DELTA",
+      "REBIND_CONFIGURATION",
+      "VERIFY_BOTH_INVERSES",
+      "COMPARE_COMPLETE_CONTAINERS",
+      "PUBLISH_SELECTED_CONTAINER"
+    ]
+  },
+  "IR": {
+    "decoder_requires": "EXACT_DECLARED_PARENT_CHAIN_AND_EMBEDDED_SELECTED_DELTA",
+    "next_letter": "EXPLICIT_LEGEND_EXTRACT_AND_CALLER_SUPPLIED_APPEND; NEVER_AUTO_ADOPTION",
+    "rule_pack_required_for_decode": false,
+    "body_ids_unchanged": true,
+    "audit": "RULE_PACK_AND_REBASE_RECEIPT_SEPARATE",
+    "prior_letter_reconstruction": "RETAINS_ORIGINAL_OLD_CHAIN_NOT_SILENTLY_REPOINTED"
+  },
+  "not_proved": [
+    "CRYPTOGRAPHIC_CONFIDENTIALITY",
+    "SECOND_PASS",
+    "BATCH_METALEGENDS",
+    "CROSS_ANCESTOR_FORM_REFERENCES",
+    "UNBOUNDED_CHAIN_OR_DISK",
+    "GLOBAL_COST_OPTIMALITY",
+    "RELEASE"
+  ]
+}

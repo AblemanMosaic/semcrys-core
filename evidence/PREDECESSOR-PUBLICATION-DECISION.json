@@ -1,0 +1,17 @@
+{
+  "authority_effect": "HUMAN_PUBLICATION_DECISION_RECORDED",
+  "decision": "AUTHORIZED_FOR_GITHUB_PUBLICATION",
+  "decision_date": "2026-11-02",
+  "decision_root": "f83668aeb22eb837cc633925e627f3b72cdb47f4624f2623a86aacf2eaee0bfb",
+  "formal_external_certification": "NOT_CLAIMED",
+  "independent_reproduction": "PASS",
+  "publication_target": "PUBLIC_GITHUB_REPOSITORY_AND_V0.1.0_RELEASE",
+  "schema": "semcrys.publication-decision.v0.1",
+  "scope": [
+    "SOURCE_REPOSITORY",
+    "V0.1.0_RELEASE_ASSETS",
+    "ULTRA_RELEASE_ASSET",
+    "REVIEWER_EVIDENCE"
+  ],
+  "version": "0.1.0"
+}

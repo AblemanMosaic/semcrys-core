@@ -1,0 +1,36 @@
+{
+  "authority_effect": "NONE",
+  "builds": [
+    {
+      "bytes": 38733842,
+      "label": "A",
+      "sha256": "34e0b8c657f6d9f5e52de28b0bbfe9f5178834085de648bcd074fe0c53af02a2"
+    },
+    {
+      "bytes": 38733842,
+      "label": "B",
+      "sha256": "34e0b8c657f6d9f5e52de28b0bbfe9f5178834085de648bcd074fe0c53af02a2"
+    }
+  ],
+  "byte_reproducible": true,
+  "court_root": "5a31aa85077b846b7670badecca31d2d7b1b97b649c0158921ded2e3e3e393ff",
+  "glibc_floor": null,
+  "manifest_root": "0e0192bfb08de41b8c8e10fe7ba996918988515c50090aa5f95b8f04d49d91c8",
+  "native_acceleration": {
+    "bundled": true,
+    "fallback": "PURE_PYTHON_REFERENCE"
+  },
+  "platform": "windows_x86_64",
+  "runtime_root": "7bed4c7f3e4cf85322a017ffdf7c355bd26ef67ac434beb1f3f5e500717cb233",
+  "runtime_smoke": "PACK_VERIFY_UNPACK_PASS",
+  "schema": "semcrys.windows-standalone-court.v0.2",
+  "security_claim": "BOUNDED_IMPLEMENTED_PROFILE_NO_PROTOCOL_SECURITY_PROOF",
+  "standing": "INTERNAL_SELF_QUALIFICATION",
+  "status": "PASS",
+  "toolchain": {
+    "machine": "AMD64",
+    "python": "3.12.10",
+    "source_root": "5c9b3edc2079c105c87b59582d1e6e2cffcc23c3961fc0371106f0bff73488f8"
+  },
+  "version": "0.1.0"
+}

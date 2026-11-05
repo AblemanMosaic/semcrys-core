@@ -1,0 +1,85 @@
+{
+  "claims": {
+    "authority_effect": "NONE",
+    "exact_original_legend": true,
+    "global_compression_optimality": false,
+    "opaque_recompression_only": false,
+    "security_claim": "NONE",
+    "semantic_identity_effect": "NONE"
+  },
+  "compression": {
+    "prior_control_improvement_bytes": 125618,
+    "prior_control_improvement_percent": 0.547597,
+    "raw_reduction_bytes": 31287852,
+    "raw_reduction_percent": 57.831142
+  },
+  "court_root": "4ea87d93d790f524e22de484e482fa9edba8a4fcf5172b7526167394bcf44641",
+  "custody_accounting": {
+    "cold_missing_asset_bytes": 22814230,
+    "logical_legend_may_be_materialized_ephemerally": true,
+    "logical_legend_required_to_be_retained": false,
+    "warm_incremental_asset_bytes_when_exact_asset_held": 0
+  },
+  "logical_legend": {
+    "bytes": 54102082,
+    "entry_count": 4000000,
+    "sha256": "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+  },
+  "prior_opaque_control": {
+    "bytes": 22939848,
+    "exact_inverse": true,
+    "format": "CRYS_RAW_BYTES_LZMA",
+    "inverse_timing": {
+      "cpu_ns": 1218750000,
+      "wall_ns": 1290365800
+    },
+    "sha256": "859f1160b2c61620fc582d6d420294d91d6d68106f67e97ac14930e69bbb4e71"
+  },
+  "recursive_metalegend": {
+    "blocks": 977,
+    "build_timing": {
+      "cpu_ns": 93734375000,
+      "wall_ns": 94271634400
+    },
+    "bytes": 22814230,
+    "candidate_presets": [
+      9,
+      2147483657
+    ],
+    "first_exact_inverse": {
+      "cpu_ns": 27890625000,
+      "exact_original_legend": true,
+      "metalegend_sha256": "46520d2120754cbb7244e2e9318ac51508966bda5a777833d66eab000540355c",
+      "operation": "RESTORE",
+      "schema": "semcrys.recursive-metalegend-result.v0.1",
+      "source_legend_bytes": 54102082,
+      "source_legend_sha256": "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4",
+      "standing": "CANDIDATE_ONLY",
+      "status": "PASS",
+      "wall_ns": 28019673500
+    },
+    "format": "RECURSIVE_PREFIX_RECIPE_V1",
+    "recipe_bytes": 52733217,
+    "recipe_sha256": "bdbbd6a2f7a29577583722480febe303a33ee6614b3e877501760bf40cef1c8d",
+    "second_no_retention_inverse": {
+      "cpu_ns": 27921875000,
+      "exact_original_legend": true,
+      "metalegend_sha256": "46520d2120754cbb7244e2e9318ac51508966bda5a777833d66eab000540355c",
+      "operation": "VERIFY",
+      "schema": "semcrys.recursive-metalegend-result.v0.1",
+      "source_legend_bytes": 54102082,
+      "source_legend_sha256": "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4",
+      "standing": "CANDIDATE_ONLY",
+      "status": "PASS",
+      "verified_without_retained_original_legend": true,
+      "wall_ns": 28000953600
+    },
+    "selected_preset": 2147483657,
+    "sha256": "46520d2120754cbb7244e2e9318ac51508966bda5a777833d66eab000540355c",
+    "shared_prefix_bytes": 5369718
+  },
+  "schema": "semcrys.ultra-metalegend-court.v0.1",
+  "standing": "CANDIDATE_ONLY",
+  "status": "PASS",
+  "timing_boundary": "First and second replay timings are process measurements. OS filesystem cache state was not flushed or asserted, so they are not labeled hardware-cold and hardware-warm."
+}

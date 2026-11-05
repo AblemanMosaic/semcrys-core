@@ -1,0 +1,27 @@
+{
+  "schema":"semcrys.metalegend-auxiliary-contract.v0.1",
+  "standing":"CANDIDATE_ONLY",
+  "S":"Preserve explicit external glyph registries and folded projections with their exact source containers",
+  "CM1":{
+    "archive_schema":"semcrys.metalegend-instance.v0.2",
+    "bundle_schema":"semcrys.metalegend-bundle-instance.v0.2",
+    "manifest_schema":"semcrys.restored-artifacts.v0.2",
+    "auxiliary_kinds":["GLYPH","FOLD"],
+    "maximum_auxiliaries":64,
+    "maximum_auxiliary_bytes":67108864,
+    "resolution":"EXACT_KIND_AND_ROOT_FROM_SOURCE_CONFIGURATION",
+    "unused_or_duplicate_inputs":"REFUSE",
+    "restoration":"EXACT_ARTIFACT_BYTES_THEN_REAL_SOURCE_DECODER",
+    "auxiliary_pooling":"VERBATIM_SPANS_NOT_LEGEND_RECORDS",
+    "recursive_archives":"REFUSE"
+  },
+  "CM2":"Existing exact delivery-cost selector, counting auxiliary bytes inside the archived inventory",
+  "IC":"Ordered source, legend and typed auxiliary roots; bounded resources; exact contract root",
+  "IR":"Snapshot, verify dependencies, archive exact bytes, restore, decode every source, publish new directory",
+  "legacy_emission":"NO_AUXILIARIES_RETAINS_V01_CONFIGURATION_AND_BYTE_LAYOUT",
+  "pre_shared_pool":"Optional exact existing pool; no mutation or silent dependency transfer outside selected archive",
+  "canonical_identity_effect":"NONE",
+  "security_claim":"NONE",
+  "authority_effect":"NONE",
+  "release_ready":false
+}

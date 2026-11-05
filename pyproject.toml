@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "semcrys-core"
+version = "0.1.0"
+description = "SemCrys compiler, integerization, legend, metalegend, and secure profiles"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {file = "LICENSE"}
+authors = [{name = "Ableman Mosaic"}]
+dependencies = []
+
+[project.optional-dependencies]
+secure = ["cryptography>=42"]
+
+[project.scripts]
+semcrys-core = "semcrys_core.cli:main"
+semcrys = "semcrys.cli:main"
+semcrys-lite = "semcrys_lite.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+semcrys = ["*.json", "LICENSE", "NOTICE"]
+semcrys_native = ["_bin/*/*"]
+

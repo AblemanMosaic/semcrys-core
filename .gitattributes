@@ -1,0 +1,9 @@
+* text=auto eol=lf
+
+*.crys binary
+*.dll binary
+*.gly binary
+*.leg binary
+*.pyz binary
+*.whl binary
+*.zip binary

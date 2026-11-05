@@ -1,0 +1,90 @@
+{
+  "schema": "semcrys.security-projection-contract.v0.1",
+  "standing": "CANDIDATE_ONLY",
+  "axes": {
+    "compression": "PROFITABILITY_AND_DELIVERED_BYTES",
+    "semantic_depth": "PROFITABLE_OR_FULL_INTEGERIZATION",
+    "disclosure_projection": "VISIBLE_PERMUTED_BOUNDED_HOMOPHONIC_OR_FULL_UNIQUE"
+  },
+  "profiles": {
+    "standard": {
+      "occurrence_mode": "REPETITION_VISIBLE",
+      "padding": "NONE",
+      "position": "PRESERVE_ORDER"
+    },
+    "homophonic": {
+      "occurrence_mode": "FREQUENCY_BALANCED_HOMOPHONIC",
+      "padding": "NONE",
+      "position": "PRESERVE_ORDER",
+      "default_alias_limit": 8
+    },
+    "homophonic-positional": {
+      "occurrence_mode": "FREQUENCY_BALANCED_HOMOPHONIC",
+      "padding": "NONE",
+      "position": "KEYED_FEISTEL_PERMUTATION",
+      "default_alias_limit": 8
+    },
+    "maximum-concealment": {
+      "occurrence_mode": "FULL_UNIQUE_MESSAGE_LEGEND",
+      "padding": "COUNT_AND_SIZE_BUCKET",
+      "position": "SEQUENCE_SEALED_NO_PUBLIC_ORDER"
+    },
+    "private-balanced": {
+      "occurrence_mode": "FREQUENCY_BALANCED_HOMOPHONIC",
+      "padding": "COUNT_AND_SIZE_BUCKET",
+      "position": "KEYED_FEISTEL_INTERSPERSED_WHEN_COUNT_EXPANDS",
+      "default_alias_limit": 8
+    },
+    "private-maximum": {
+      "occurrence_mode": "FULL_UNIQUE_MESSAGE_LEGEND",
+      "padding": "COUNT_AND_SIZE_BUCKET",
+      "position": "SEQUENCE_SEALED_NO_PUBLIC_ORDER"
+    }
+  },
+  "protected_artifact_roles": [
+    "GROUP_LEGEND_ARCHIVE",
+    "SEMANTIC_INDEX",
+    "BESPOKE_LEGEND",
+    "RECURSIVE_METALEGEND",
+    "GENERIC_ARTIFACT"
+  ],
+  "cryptography": {
+    "aead": "AES-256-GCM",
+    "kdf": "HKDF-SHA256",
+    "padding_position_permutation": "SALT_BOUND_HMAC_SHA256_FEISTEL_8_ROUND_NO_SECURITY_PROOF",
+    "dependency": "cryptography>=42",
+    "homegrown_cipher": false
+  },
+  "resource_limits": {
+    "lite_max_padded_events": 8388608,
+    "lite_max_padded_moving_plaintext_bytes": 536870912,
+    "protected_artifact_max_padded_plaintext_bytes": 536870912,
+    "oversized_policy": "TYPED_REFUSAL"
+  },
+  "invariants": [
+    "SEMANTIC_AND_LEGEND_IDENTITIES_NEVER_MUTATE",
+    "PUBLIC_ALIASES_ARE_TRANSPORT_IDENTITIES_ONLY",
+    "TRUE_COUNTS_AND_INVERSE_MAPPINGS_ARE_AUTHENTICATED_PROTECTED_STATE",
+    "EXACT_SOURCE_LENGTH_DIGEST_AND_UNPADDED_PROTECTED_LENGTH_ARE_NOT_PUBLIC",
+    "PUBLIC_PROTECTED_MODE_RECEIPTS_REDACT_EXACT_SOURCE_METRICS",
+    "ALIAS_SCHEDULE_FILLER_POSITION_AEAD_AND_IDENTIFIER_KEYS_ARE_PURPOSE_SEPARATED",
+    "ALIAS_NAMESPACES_AND_PADDING_FILLER_ARE_FRESH_PER_ENCODING",
+    "PADDING_FILLER_IS_INTERSPERSED_NOT_A_DETERMINISTIC_TAIL",
+    "POSITION_PROJECTION_IS_INDEPENDENT_OF_LENGTH_PADDING",
+    "POSITION_PROJECTION_IS_EXACTLY_INVERTIBLE_FROM_PROTECTED_STATE",
+    "KEY_BYTES_NEVER_ENTER_RECEIPTS_OR_CONTAINERS",
+    "LOSS_OF_KEY_OR_PROTECTED_STATE_CAN_PREVENT_RECOVERY",
+    "PROTECTION_IS_EXPLICIT_AND_NEVER_INFERRED_FROM_COMPRESSION"
+  ],
+  "known_exposure": [
+    "POSITION_AND_COOCCURRENCE_WHEN_POSITION_PROJECTION_IS_DISABLED",
+    "EXACT_EVENT_COUNT_WHEN_COUNT_PADDING_IS_DISABLED",
+    "SELECTED_COUNT_AND_SIZE_CLASS",
+    "ENVELOPE_SPECIFIC_KEY_IDENTIFIER",
+    "FILENAMES_AND_ENDPOINTS",
+    "TIMING_AND_ACCESS_PATTERNS"
+  ],
+  "semantic_identity_effect": "NONE",
+  "authority_effect": "NONE",
+  "security_claim": "NONE"
+}

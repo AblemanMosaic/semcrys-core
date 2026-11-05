@@ -1,0 +1,113 @@
+{
+  "admission_effect": "NONE",
+  "application": "SemCrys Core",
+  "authority_effect": "NONE",
+  "components": {
+    "compiler_full": "0.1.0rc1",
+    "facade": "0.1.0",
+    "native_buffer_kernel": "abi-2-optional",
+    "reference_lite": "0.1.0rc5",
+    "semantic_integerization": "0.1.candidate",
+    "ultra_family": "release-bound-external-asset"
+  },
+  "formats": {
+    "full_crys": "0.2",
+    "full_legend": "0.2",
+    "glyph": "0.1",
+    "lite_crys": "0.3",
+    "semantic_integer_stream": "0.1.candidate",
+    "standard_archive": "0.3"
+  },
+  "formal_external_certification": "NOT_CLAIMED",
+  "independent_reproduction": "PENDING_SUCCESSOR_EXACT_ARTIFACT_REPLAY",
+  "prior_publication_decision_root": "f83668aeb22eb837cc633925e627f3b72cdb47f4624f2623a86aacf2eaee0bfb",
+  "publication_authorized": true,
+  "publication_decision_root": "a382ed9334f46a18dd957a90c5801741d048e48d0ff51fd34cdb0ca11fbf4ea0",
+  "release_state": "PUBLICATION_AUTHORIZED",
+  "runtime_dependencies": {
+    "base": [],
+    "native_profile": [],
+    "secure_profile": ["cryptography>=42"]
+  },
+  "standard_archive": {
+    "adaptive_composition_default": true,
+    "composition_ablation": "--composition off",
+    "composition_admission": "STRICTLY_SMALLER_COMPLETE_SEGMENT_PLUS_MANIFEST_BYTES",
+    "composition_cache": "HASH_BOUND_AND_INVERSE_VERIFIED_BEFORE_REUSE",
+    "composition_scope": "BOUNDED_LOCAL_AND_CROSS_DOCUMENT_UNIQUE_UTF8_PAYLOADS",
+    "exact_chunk_deduplication_precedes_composition": true,
+    "legacy_read_compatibility": ["standard-archive-v0.2"],
+    "normative_model": "docs/SEMCRYS-COMPRESSION-MODEL.md",
+    "semantic_identity_effect": "NONE_TRANSPORT_IDS_ARE_NOT_CSIL",
+    "version": "0.3"
+  },
+  "standalone_delivery": {
+    "external_python_installation": false,
+    "bundled_runtime_inventory": "BUNDLED-RUNTIME.json",
+    "third_party_notices": "THIRD-PARTY-NOTICES.txt",
+    "platforms": {
+      "windows_x86_64": {
+        "native_acceleration": "ABI_2_BUNDLED"
+      },
+      "linux_x86_64": {
+        "native_acceleration": "PURE_PYTHON_REFERENCE",
+        "glibc_floor": "ARTIFACT_DECLARED"
+      }
+    }
+  },
+  "native_acceleration": {
+    "benchmark": "evidence/NATIVE-BENCHMARK-ABI2.json",
+    "benchmark_root": "ae4371b8e4b9751d3e9d2c603a8d86148a538ef4dda89d3c55073e88c777941d",
+    "container_bytes_invariant": true,
+    "fallback": "PURE_PYTHON_REFERENCE",
+    "full_compiler_integration": "BUFFERED_SYMBOL_RUNS_AT_OR_ABOVE_512_VALUES",
+    "operations": ["PACK_U63_VARINT", "UNPACK_U63_VARINT", "PARSE_PACKED_TOKEN_EVENTS", "FOLD_ASSEMBLY_PAIRS"],
+    "policy": ["AUTO", "OFF", "REQUIRED"],
+    "short_run_behavior": "PURE_PYTHON_WITHOUT_NATIVE_BOUNDARY_CROSSING"
+  },
+  "integerization_performance_qualification": {
+    "evidence_count": 9,
+    "evidence_directory": "evidence",
+    "exact_container_identity_preserved": true,
+    "scope": "PINNED_SINGLE_HOST_PHASE_SEPARATED_MEASUREMENTS",
+    "verifier": "tools/verify_integerization_performance_evidence.py"
+  },
+  "schema": "semcrys.core-release-contract.v0.2",
+  "security_claim": "BOUNDED_IMPLEMENTED_PROFILE_NO_PROTOCOL_SECURITY_PROOF",
+  "security_projection": {
+    "contract": "src/semcrys/SECURITY_PROJECTION_CONTRACT.json",
+    "court": "evidence/SECURITY-PROJECTION-COURT.json",
+    "court_root": "7aff9181a022078492a2e28c7cf497c83d6efb2e51b53251498227d5465ce27a",
+    "frequency_balanced_homophonic": "IMPLEMENTED_LITE",
+    "independent_position_projection": "IMPLEMENTED_LITE_KEYED_FEISTEL",
+    "metadata_padding": "IMPLEMENTED_LITE_COUNT_AND_SEALED_STATE",
+    "profiles": ["homophonic", "homophonic-positional", "maximum-concealment"],
+    "protected_artifact_envelope": "IMPLEMENTED_FULL_GROUP_INDEX_LEGEND_METALEGEND_ROLES",
+    "independent_cryptanalysis": false,
+    "semantic_identity_effect": "NONE",
+    "security_claim": "NONE"
+  },
+  "standing": "CANDIDATE_ONLY",
+  "verification_status": "SELF_VERIFYING_EXTERNAL_REPLAY_PENDING",
+  "ultra": {
+    "asset_bytes": 23632901,
+    "asset_format": "SEEKABLE_METALEGEND_V1",
+    "asset_name": "ULTRA_FAMILY.mleg",
+    "asset_sha256": "e39a0067bd1285f521ece7b401edd827e2cca851a10fed2cec5df2fcdfd93e9a",
+    "qualification_court": "evidence/ULTRA-SEEKABLE-METALEGEND-COURT.json",
+    "qualification_court_root": "7f3b7addf5e54bea91b09b801e7604db63d6c19c07a27ae4f79ebfc6f5990bee",
+    "logical_legend_bytes": 54102082,
+    "logical_legend_sha256": "4e837160f1d0f3ccf1d568e01592286dbe0d982f862f0191db1d570f7b36d6b4"
+  },
+  "version": "0.1.0",
+  "wikipedia_qualification": {
+    "configuration_court_root": "9b9d46b421a9dd82e3a377ad044622e596bd38cc9455762806a0de7a2908f54f",
+    "corpus_redistributed": false,
+    "evidence": "evidence/WIKIPEDIA-BENCHMARK.json",
+    "evidence_root": "c665d8a11130b6f39f2696ae03d7ed96e2916a030fb32e7db9586e6f86227775",
+    "fixture_manifest": "benchmarks/wikipedia/SOURCE-MANIFEST.json",
+    "fixture_manifest_sha256": "606e84870acf8ac066300c56290be8639cde0d7fe084066f6e5d1fdf7ebd0017",
+    "scope": "PINNED_100_PAGE_ENUMERATED_CONFIGURATION_QUALIFICATION"
+  }
+}
+
